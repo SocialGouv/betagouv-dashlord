@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 19:52:43",
+	"@generated": "Sun, 15 May 2022 08:53:40",
 	"site":[ 
 		{
 			"@name": "https://civilsdeladefense.fabnum.fr",
@@ -141,12 +141,12 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FBqcjN6xnbse79Jt3HWObQRJsDqJfrXgm7A"
+							"evidence": "2FwiDyWUXDXmg748dwvewUWl8WJEqH4W2v59eWGkLFcAy5kVXRS0wfpCKC2HP8TmJUzfqvKhKQM9Ggl1gPbdi9Yr4e4TwEOXoY55DUAcbolQHJ"
 						}
 					],
 					"count": "1",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFDPjr3z\uFFFDv\uFFFD{\uFFFDI\uFFFDq\uFFFD9\uFFFD\\x0011&\uFFFD\uFFFD%\uFFFD\u05C2n\uFFFD</p>",
+					"otherinfo": "<p>\uFFFD\\\"\\x000f%\uFFFD\\5\u60FE<w\\x000b\uFFFD\uFFFDE\uFFFD\uFFFDbD\uFFFD~\\x0016\uFFFD\uFFFD}ya\uFFFD,W\\x0000\u02D9\\x0015]\\x0014\uFFFD\uFFFD\uFFFDB(-\uFFFD?\uFFFD\uFFFD%L\u07EA\uFFFD)\\x0003=\\x001a\tu\uFFFD\uFFFD\u074B\uFFFD+\uFFFD\uFFFD\\x0013\uFFFDC\uFFFD\uFFFD\uFFFDy\r@\\x001cn\uFFFDP\\x001c</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
