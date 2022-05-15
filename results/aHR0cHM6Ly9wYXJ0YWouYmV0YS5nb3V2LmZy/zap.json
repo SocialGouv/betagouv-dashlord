@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 17:00:48",
+	"@generated": "Sun, 15 May 2022 06:03:31",
 	"site":[ 
 		{
 			"@name": "https://partaj.beta.gouv.fr",
@@ -515,28 +515,28 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "GtfbiquHUebTT6pVIVxcwArAzd6nGCyMEs366MLn9CEUR6SDjGMfsMCkm2KGkpso"
+							"evidence": "C8k0OINl8xna43P9Xt7TCWuHfqPrrEnLdpToBMH81OA7tYByMad33orVaSlIidJf"
 						},
 						{
 							"uri": "https://partaj.beta.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "KWZMl484BDGxq6x1oZZPdxBPKPCru5ujw9Spt7tyNE2fwz3C8f7HR3wFKxIcj9MT"
+							"evidence": "ny2ae31eOtJ0CZ4PCzzf1CoANrW3poCeGYvk0KSVy3PpEEB93E3ptsgma0GQkE3J"
 						},
 						{
 							"uri": "https://partaj.beta.gouv.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "GtfbiquHUebTT6pVIVxcwArAzd6nGCyMEs366MLn9CEUR6SDjGMfsMCkm2KGkpso"
+							"evidence": "ny2ae31eOtJ0CZ4PCzzf1CoANrW3poCeGYvk0KSVy3PpEEB93E3ptsgma0GQkE3J"
 						},
 						{
 							"uri": "https://partaj.beta.gouv.fr/legal/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "GtfbiquHUebTT6pVIVxcwArAzd6nGCyMEs366MLn9CEUR6SDjGMfsMCkm2KGkpso"
+							"evidence": "ny2ae31eOtJ0CZ4PCzzf1CoANrW3poCeGYvk0KSVy3PpEEB93E3ptsgma0GQkE3J"
 						},
 						{
 							"uri": "https://partaj.beta.gouv.fr/static/css/styles.b0392110033c.css",
@@ -557,16 +557,16 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "GtfbiquHUebTT6pVIVxcwArAzd6nGCyMEs366MLn9CEUR6SDjGMfsMCkm2KGkpso"
+							"evidence": "ny2ae31eOtJ0CZ4PCzzf1CoANrW3poCeGYvk0KSVy3PpEEB93E3ptsgma0GQkE3J"
 						}
 					],
 					"count": "7",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\\x001a\uFFFD\u06CA\uFFFD\uFFFDQ\uFFFD\uFFFDO\uFFFDU!\\\\\uFFFD</p><p>\uFFFD\uFFFD\u07A7\\x0018,\uFFFD\\x0012\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD!\\x0014G\uFFFD\uFFFD\uFFFDc\\x001f\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFD(</p>",
+					"otherinfo": "<p>\\x000b\uFFFD48\uFFFDe\uFFFD\\x0019\uFFFD\uFFFDs\uFFFD^\uFFFD\uFFFD\tk\uFFFD~\uFFFD\uFFFDI\uFFFDv\uFFFD\uFFFD\\x0004\uFFFD\uFFFD\uFFFD\uFFFD;\uFFFD\uFFFDr1\uFFFDw\u078A\uFFFDi)H\uFFFD\uFFFD_</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10027",
