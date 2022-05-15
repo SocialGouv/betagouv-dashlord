@@ -1,4 +1,2 @@
-# Nmap 7.91 scan initiated Wed May 11 19:29:04 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.snu.gouv.fr
-Host: 185.75.143.93 (men-tandem-lb-vip.dedie.ate.info)	Status: Up
-Host: 185.75.143.93 (men-tandem-lb-vip.dedie.ate.info)	Ports: 80/open/tcp//tcpwrapped///, 443/open/tcp//tcpwrapped///	Ignored State: filtered (998)
-# Nmap done at Wed May 11 19:41:02 2022 -- 1 IP address (1 host up) scanned in 718.32 seconds
+# Nmap 7.91 scan initiated Sun May 15 08:22:55 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.snu.gouv.fr
+# Nmap done at Sun May 15 08:22:58 2022 -- 1 IP address (0 hosts up) scanned in 3.54 seconds

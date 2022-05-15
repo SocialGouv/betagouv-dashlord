@@ -22,7 +22,7 @@
     },
     {
       "type": "xiti",
-      "url": "https://logs1409.xiti.com/hit.xiti?s=609231&idclient=c0e307cc-40a0-4601-a873-4e7b3e1d93f9&vc=true&vm=optin&ts=1652297159609&page_url=https://www.snu.gouv.fr/&vtag=5.28.1&ptag=js&r=800x600x24x24&re=800x600&hl=19x25x59&lng=en-US&idp=1925591161490&jv=0&p=homepage::accueil&s2=&x1=[https://www.snu.gouv.fr/]&x2=[]&ref=",
+      "url": "https://logs1409.xiti.com/hit.xiti?s=609231&idclient=16470695-18bb-4992-8219-10e504d49a59&vc=true&vm=optin&ts=1652602808389&page_url=https://www.snu.gouv.fr/&vtag=5.28.1&ptag=js&r=800x600x24x24&re=800x600&hl=8x20x8&lng=en-US&idp=0820085975285&jv=0&p=homepage::accueil&s2=&x1=[https://www.snu.gouv.fr/]&x2=[]&ref=",
       "details": {
         "id": "xiti",
         "message": "Use hosted Matomo instance"
@@ -30,7 +30,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/www-widgetapi.vflset/www-widgetapi.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/www-widgetapi.vflset/www-widgetapi.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -53,16 +53,8 @@
       }
     },
     {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/www-player.css",
+      "url": "https://www.youtube.com/s/player/00e475bf/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -70,7 +62,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/www-embed-player.vflset/www-embed-player.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/www-embed-player.vflset/www-embed-player.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -78,7 +70,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/player_ias.vflset/en_US/base.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/player_ias.vflset/en_US/base.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -86,23 +78,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/fetch-polyfill.vflset/fetch-polyfill.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/www-player.css",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/www-embed-player.vflset/www-embed-player.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/fetch-polyfill.vflset/fetch-polyfill.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -117,8 +93,16 @@
       }
     },
     {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/player_ias.vflset/en_US/base.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -126,7 +110,23 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/fetch-polyfill.vflset/fetch-polyfill.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/www-embed-player.vflset/www-embed-player.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/00e475bf/player_ias.vflset/en_US/base.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/00e475bf/fetch-polyfill.vflset/fetch-polyfill.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -181,59 +181,19 @@
       }
     },
     {
-      "type": "unknown",
-      "url": "https://redirector.googlevideo.com/initplayback?source=youtube&orc=1&oeis=1&ip=20.225.238.79&c=WEB_EMBEDDED_PLAYER&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&ofpcc=1&msp=1&odeak=1&odepv=1&osfc=1&alr=yes&id=58890"
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/player_ias.vflset/en_US/embed.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
       "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+      "url": "https://www.google.com/js/th/J-JqwDdrHMrAGx52GI7A_c8zl3LVl5ImfaYMzf75s1I.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
       }
     },
     {
-      "type": "unknown",
-      "url": "https://redirector.googlevideo.com/initplayback?source=youtube&orc=1&oeis=1&ip=20.225.238.79&c=WEB_EMBEDDED_PLAYER&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&ofpcc=1&msp=1&odeak=1&odepv=1&osfc=1&alr=yes&id=52351"
-    },
-    {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/player_ias.vflset/en_US/embed.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/player_ias.vflset/en_US/embed.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "google analytics",
-      "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
-      "details": {
-        "id": "google analytics",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google analytics",
-      "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
-      "details": {
-        "id": "google analytics",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
       }
     },
     {
@@ -253,12 +213,8 @@
       }
     },
     {
-      "type": "unknown",
-      "url": "https://r3---sn-q4flrnlz.googlevideo.com/initplayback?source=youtube&orc=1&oeis=1&ip=20.225.238.79&c=WEB_EMBEDDED_PLAYER&oad=3200&ovd=3200&oaad=0&oavd=0&ocs=700&oewis=1&oputc=1&ofpcc=1&msp=1&odeak=1&odepv=1&osfc=1&ms=au&id=ac4fbc7def713c3a&ack=1&cpn=cnPOTAD4lJZfk6qR&opr=1&por=1&pvi=337,336,335,315,308,303,302,313,271,248,247,244,243,242&pai=251,250&rn=1"
-    },
-    {
       "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -266,23 +222,7 @@
     },
     {
       "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -290,11 +230,59 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/api/stats/qoe?fmt=248&afmt=251&cpn=cnPOTAD4lJZfk6qR&el=embedded&ns=yt&fexp=23748147%2C23858057%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24080738%2C24082661%2C24135310%2C24154084%2C24169501%2C24196551%2C24199709%2C24202341%2C24208720%2C24211647&cl=447340363&seq=1&docid=rE-8fe9xPDo&ei=yA18Yq28GejSlu8P486s6Ac&event=streamingstats&plid=AAXewWlP27fAdlEE&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2F%3Fmodestbranding%3D1%26autoplay%3D0%26controls%3D0%26showinfo%3D0%26rel%3D0%26enablejsapi%3D1%26version%3D3%26playerapiid%3Diframe_customElement%26origin%3Dhttps%253A%252F%252Fwww.snu.gouv.fr%26allowfullscreen%3Dtrue%26wmode%3Dtransparent%26iv_load_policy%3D3%26cc_load_policy%3D0%26playsinline%3D0%26html5%3D1%26widgetid%3D2&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220508.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.035:B,0.127:S,0.278:S,0.278:S&ctmp=sxhr:s.1;a.1,decompression:t.259;ds.1&cmt=0.035:0.000,0.127:0.000,0.278:0.000&afs=0.278:251::i&vfs=0.278:248:399::r&view=0.278:1707:960&bwe=0.278:3837540&bat=0.278:1:1&vis=0.278:0&bh=0.278:0.000",
+      "url": "https://www.youtube.com/s/player/00e475bf/player_ias.vflset/en_US/embed.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
       }
+    },
+    {
+      "type": "google analytics",
+      "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+      "details": {
+        "id": "google analytics",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google analytics",
+      "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+      "details": {
+        "id": "google analytics",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8&prettyPrint=false",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/generate_204?n92XPQ",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/api/stats/qoe?fmt=397&afmt=251&cpn=d-R4nG8A59N6lnYO&el=embedded&ns=yt&fexp=23940248%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24080738%2C24082661%2C24135310%2C24169501%2C24174605%2C24177046%2C24192427%2C24196549%2C24208720&cl=448088478&seq=1&docid=rE-8fe9xPDo&ei=ubeAYrzkCpqY2_gPv5OcEA&event=streamingstats&plid=AAXfCJNluCG5kGTM&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2F%3Fmodestbranding%3D1%26autoplay%3D0%26controls%3D0%26showinfo%3D0%26rel%3D0%26enablejsapi%3D1%26version%3D3%26playerapiid%3Diframe_customElement%26origin%3Dhttps%253A%252F%252Fwww.snu.gouv.fr%26allowfullscreen%3Dtrue%26wmode%3Dtransparent%26iv_load_policy%3D3%26cc_load_policy%3D0%26playsinline%3D0%26html5%3D1%26widgetid%3D2&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220511.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.015:B,0.185:S,0.205:S,0.205:S&cmt=0.015:0.000,0.185:0.000,0.205:0.000&afs=0.204:251::i&vfs=0.205:397:399::r&view=0.205:1707:960&bwe=0.205:130000&bat=0.205:1:1&vis=0.205:0&bh=0.205:0.000",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://rr3---sn-vgqsrnsy.googlevideo.com/videoplayback?expire=1652624409&ei=ubeAYrzkCpqY2_gPv5OcEA&ip=20.236.141.177&id=o-ACwPvQ4qtQdgZC1zNTUlwh7nFqS0cES0tA-_Z8AyGra_&itag=397&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399&source=youtube&requiressl=yes&mh=Kq&mm=31%2C26&mn=sn-vgqsrnsy%2Csn-p5qddn7k&ms=au%2Conr&mv=u&mvi=3&pl=24&pcm2=yes&spc=4ocVC4w9Cl5qAM0g0OAkV0TKhANt&vprv=1&mime=video%2Fmp4&ns=ENT3HO1_FgNS4QHPV5WJ1Y8G&gir=yes&clen=1751145&dur=33.280&lmt=1611405870898918&mt=1652602485&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB_EMBEDDED_PLAYER&txp=5531432&n=-C6XwR6VQiQrOw&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cpcm2%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AG3C_xAwRQIgQh7MT9S6HHJyxoUzplb5WcWQ3zdOg9HO8AnGY6_KTskCIQDgYBwy0IDx2ir6Ejsqqnig1JN8kEPDMqM0rPLUb3NMkA%3D%3D&alr=yes&sig=AOq0QJ8wRgIhALDX4iYEfubHPlThHrczpZTgXtYs9GCSKGt28vpvI26HAiEAx1u62UwfB2d-I-4P0An3Trnjiaeu-VId6DKTgRAuB9I%3D&cpn=d-R4nG8A59N6lnYO&cver=1.20220511.00.00&range=0-130528&rn=1&rbuf=0"
+    },
+    {
+      "type": "unknown",
+      "url": "https://rr3---sn-vgqsrnsy.googlevideo.com/videoplayback?expire=1652624409&ei=ubeAYrzkCpqY2_gPv5OcEA&ip=20.236.141.177&id=o-ACwPvQ4qtQdgZC1zNTUlwh7nFqS0cES0tA-_Z8AyGra_&itag=251&source=youtube&requiressl=yes&mh=Kq&mm=31%2C26&mn=sn-vgqsrnsy%2Csn-p5qddn7k&ms=au%2Conr&mv=u&mvi=3&pl=24&pcm2=yes&spc=4ocVC4w9Cl5qAM0g0OAkV0TKhANt&vprv=1&mime=audio%2Fwebm&ns=ENT3HO1_FgNS4QHPV5WJ1Y8G&gir=yes&clen=472837&dur=33.301&lmt=1611400129063837&mt=1652602485&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB_EMBEDDED_PLAYER&txp=5531432&n=-C6XwR6VQiQrOw&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cpcm2%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AG3C_xAwRgIhALQC0M3pLfny32ZlCxJdmlcAUjymimEyl1dMfNZ5qpA3AiEAxGE-9feReItWFnsTx0iP1zHZIRMIl8gZRdaNd-lvoMY%3D&alr=yes&sig=AOq0QJ8wRQIhAPhiYfYI8q2R5WS6ulF3laSfOEpDFzdTdfeHZENc4OfOAiA0orkby-c00-fYpFCmhEn74JMTKHKrwrlUWiFepfGhjg%3D%3D&cpn=d-R4nG8A59N6lnYO&cver=1.20220511.00.00&range=0-65868&rn=2&rbuf=0"
     },
     {
       "type": "youtube",
@@ -306,7 +294,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/player_ias.vflset/en_US/endscreen.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/player_ias.vflset/en_US/endscreen.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -322,11 +310,47 @@
     },
     {
       "type": "unknown",
-      "url": "https://rr1---sn-q4flrnel.googlevideo.com/videoplayback?expire=1652318760&ei=yA18Yq28GejSlu8P486s6Ac&ip=20.225.238.79&id=o-AMvi5EucVDd9iQsSn-Fv0GOTmW_xPu67FAxZ1aOKTX7W&itag=248&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399&source=youtube&requiressl=yes&mh=Kq&mm=31%2C26&mn=sn-q4flrnel%2Csn-vgqsrnsy&ms=au%2Conr&mv=m&mvi=1&pl=16&initcwndbps=341250&spc=4ocVC86RGrJso7-8v7BcLhWF31Th&vprv=1&mime=video%2Fwebm&ns=6UXTjQSHqDwPZA4KM4d6VckG&gir=yes&clen=7021157&dur=33.280&lmt=1611400437644081&mt=1652296848&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=WEB_EMBEDDED_PLAYER&txp=5535432&n=DUcCcRbv8G4I5g&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAPh0G7ANhzjO9wNkkhQ-owC5JywmrdCVt_ogHvnCzx1GAiEAokXR75QMOMdaJNcanl4rF0x1mQuKCR_ycFVbSwKTtVY%3D&alr=yes&sig=AOq0QJ8wRQIhAM6r4c5CzAhs2Kz09PMCM4FzYu7hcNsETa4sh99eG-FqAiBkXWv9CfH_i9BOpS7ULrSIdRJF1Kcy0TuNAhjGZhbCUw%3D%3D&cpn=cnPOTAD4lJZfk6qR&cver=1.20220508.00.00&range=700561-1617445&rn=2&rbuf=3360&pot=Gp4BCnHSK_gwJwRO3Qw_98_pm_4fQY5FDlhB9LaCoFbx_tB3vOYwFGOwl-1JEk2NhWahYHNU52oaXWT_Ket4rtxw5v8ZLgkuJvg2BKQ3y_oJzeUyjerlwaUkj7ik0Dqi7FR4NsYfnX9g7h5MtsH7hT3oN3QlbxIpATwYQQ6x7SIXemMYM6rZLDRWxg7Fpco_FjCJ7fdZr3Ou45pyDRpKyws="
+      "url": "https://rr3---sn-vgqsrnsy.googlevideo.com/videoplayback?expire=1652624409&ei=ubeAYrzkCpqY2_gPv5OcEA&ip=20.236.141.177&id=o-ACwPvQ4qtQdgZC1zNTUlwh7nFqS0cES0tA-_Z8AyGra_&itag=397&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399&source=youtube&requiressl=yes&mh=Kq&mm=31%2C26&mn=sn-vgqsrnsy%2Csn-p5qddn7k&ms=au%2Conr&mv=u&mvi=3&pl=24&pcm2=yes&spc=4ocVC4w9Cl5qAM0g0OAkV0TKhANt&vprv=1&mime=video%2Fmp4&ns=ENT3HO1_FgNS4QHPV5WJ1Y8G&gir=yes&clen=1751145&dur=33.280&lmt=1611405870898918&mt=1652602485&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB_EMBEDDED_PLAYER&txp=5531432&n=-C6XwR6VQiQrOw&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cpcm2%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AG3C_xAwRQIgQh7MT9S6HHJyxoUzplb5WcWQ3zdOg9HO8AnGY6_KTskCIQDgYBwy0IDx2ir6Ejsqqnig1JN8kEPDMqM0rPLUb3NMkA%3D%3D&alr=yes&sig=AOq0QJ8wRgIhALDX4iYEfubHPlThHrczpZTgXtYs9GCSKGt28vpvI26HAiEAx1u62UwfB2d-I-4P0An3Trnjiaeu-VId6DKTgRAuB9I%3D&cpn=d-R4nG8A59N6lnYO&cver=1.20220511.00.00&range=0-815&rn=3&rbuf=0"
     },
     {
       "type": "unknown",
-      "url": "https://rr1---sn-q4flrnel.googlevideo.com/videoplayback?expire=1652318760&ei=yA18Yq28GejSlu8P486s6Ac&ip=20.225.238.79&id=o-AMvi5EucVDd9iQsSn-Fv0GOTmW_xPu67FAxZ1aOKTX7W&itag=248&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399&source=youtube&requiressl=yes&mh=Kq&mm=31%2C26&mn=sn-q4flrnel%2Csn-vgqsrnsy&ms=au%2Conr&mv=m&mvi=1&pl=16&initcwndbps=341250&spc=4ocVC86RGrJso7-8v7BcLhWF31Th&vprv=1&mime=video%2Fwebm&ns=6UXTjQSHqDwPZA4KM4d6VckG&gir=yes&clen=7021157&dur=33.280&lmt=1611400437644081&mt=1652296848&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=WEB_EMBEDDED_PLAYER&txp=5535432&n=DUcCcRbv8G4I5g&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAPh0G7ANhzjO9wNkkhQ-owC5JywmrdCVt_ogHvnCzx1GAiEAokXR75QMOMdaJNcanl4rF0x1mQuKCR_ycFVbSwKTtVY%3D&alr=yes&sig=AOq0QJ8wRQIhAM6r4c5CzAhs2Kz09PMCM4FzYu7hcNsETa4sh99eG-FqAiBkXWv9CfH_i9BOpS7ULrSIdRJF1Kcy0TuNAhjGZhbCUw%3D%3D&cpn=cnPOTAD4lJZfk6qR&cver=1.20220508.00.00&range=1617446-2955374&rn=3&rbuf=6836&pot=Gp4BCnHSK_gwJwRO3Qw_98_pm_4fQY5FDlhB9LaCoFbx_tB3vOYwFGOwl-1JEk2NhWahYHNU52oaXWT_Ket4rtxw5v8ZLgkuJvg2BKQ3y_oJzeUyjerlwaUkj7ik0Dqi7FR4NsYfnX9g7h5MtsH7hT3oN3QlbxIpATwYQQ6x7SIXemMYM6rZLDRWxg7Fpco_FjCJ7fdZr3Ou45pyDRpKyws="
+      "url": "https://rr3---sn-vgqsrnsy.googlevideo.com/videoplayback?expire=1652624409&ei=ubeAYrzkCpqY2_gPv5OcEA&ip=20.236.141.177&id=o-ACwPvQ4qtQdgZC1zNTUlwh7nFqS0cES0tA-_Z8AyGra_&itag=251&source=youtube&requiressl=yes&mh=Kq&mm=31%2C26&mn=sn-vgqsrnsy%2Csn-p5qddn7k&ms=au%2Conr&mv=u&mvi=3&pl=24&pcm2=yes&spc=4ocVC4w9Cl5qAM0g0OAkV0TKhANt&vprv=1&mime=audio%2Fwebm&ns=ENT3HO1_FgNS4QHPV5WJ1Y8G&gir=yes&clen=472837&dur=33.301&lmt=1611400129063837&mt=1652602485&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB_EMBEDDED_PLAYER&txp=5531432&n=-C6XwR6VQiQrOw&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cpcm2%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AG3C_xAwRgIhALQC0M3pLfny32ZlCxJdmlcAUjymimEyl1dMfNZ5qpA3AiEAxGE-9feReItWFnsTx0iP1zHZIRMIl8gZRdaNd-lvoMY%3D&alr=yes&sig=AOq0QJ8wRQIhAPhiYfYI8q2R5WS6ulF3laSfOEpDFzdTdfeHZENc4OfOAiA0orkby-c00-fYpFCmhEn74JMTKHKrwrlUWiFepfGhjg%3D%3D&cpn=d-R4nG8A59N6lnYO&cver=1.20220511.00.00&range=0-332&rn=4&rbuf=0"
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://rr3---sn-vgqsrnsy.googlevideo.com/videoplayback?expire=1652624409&ei=ubeAYrzkCpqY2_gPv5OcEA&ip=20.236.141.177&id=o-ACwPvQ4qtQdgZC1zNTUlwh7nFqS0cES0tA-_Z8AyGra_&itag=251&source=youtube&requiressl=yes&mh=Kq&mm=31%2C26&mn=sn-vgqsrnsy%2Csn-p5qddn7k&ms=au%2Conr&mv=u&mvi=3&pl=24&pcm2=yes&spc=4ocVC4w9Cl5qAM0g0OAkV0TKhANt&vprv=1&mime=audio%2Fwebm&ns=ENT3HO1_FgNS4QHPV5WJ1Y8G&gir=yes&clen=472837&dur=33.301&lmt=1611400129063837&mt=1652602485&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB_EMBEDDED_PLAYER&txp=5531432&n=-C6XwR6VQiQrOw&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cpcm2%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AG3C_xAwRgIhALQC0M3pLfny32ZlCxJdmlcAUjymimEyl1dMfNZ5qpA3AiEAxGE-9feReItWFnsTx0iP1zHZIRMIl8gZRdaNd-lvoMY%3D&alr=yes&sig=AOq0QJ8wRQIhAPhiYfYI8q2R5WS6ulF3laSfOEpDFzdTdfeHZENc4OfOAiA0orkby-c00-fYpFCmhEn74JMTKHKrwrlUWiFepfGhjg%3D%3D&cpn=d-R4nG8A59N6lnYO&cver=1.20220511.00.00&range=333-65868&rn=5&rbuf=0"
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
     },
     {
       "type": "unknown",
@@ -334,7 +358,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=2DC52QB2wSvlQvkk&ver=2&cmt=0&fs=0&rt=0&euri=https%3A%2F%2Fwww.snu.gouv.fr%2F&lact=647&cl=447340363&mos=0&volume=80&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220508.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&epm=1&hl=en_US&cr=US&len=134&fexp=23748147%2C23858057%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24080738%2C24082661%2C24135310%2C24154084%2C24169501%2C24196551%2C24199709%2C24202341%2C24208720%2C24211647&muted=0&docid=WZ6wDHD5Drg",
+      "url": "https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=vZg1Lt9YRSGrBlfu&ver=2&cmt=0&fs=0&rt=0&euri=https%3A%2F%2Fwww.snu.gouv.fr%2F&lact=817&cl=448088478&mos=0&volume=80&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220511.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&epm=1&hl=en_US&cr=US&len=134&fexp=23940248%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24080738%2C24082661%2C24135310%2C24169501%2C24174605%2C24177046%2C24192427%2C24196549%2C24208720&muted=0&docid=WZ6wDHD5Drg",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -342,7 +366,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=cnPOTAD4lJZfk6qR&ver=2&cmt=1&fmt=248&fs=0&rt=0.533&euri=https%3A%2F%2Fwww.snu.gouv.fr%2F&lact=762&cl=447340363&mos=1&volume=50&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220508.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&epm=0&splay=1&hl=en_US&cr=US&len=33.301&fexp=23748147%2C23858057%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24080738%2C24082661%2C24135310%2C24154084%2C24169501%2C24196551%2C24199709%2C24202341%2C24208720%2C24211647&afmt=251&muted=1&docid=rE-8fe9xPDo&ei=yA18Yq28GejSlu8P486s6Ac&plid=AAXewWlP27fAdlEE&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2F%3Fmodestbranding%3D1%26autoplay%3D0%26controls%3D0%26showinfo%3D0%26rel%3D0%26enablejsapi%3D1%26version%3D3%26playerapiid%3Diframe_customElement%26origin%3Dhttps%253A%252F%252Fwww.snu.gouv.fr%26allowfullscreen%3Dtrue%26wmode%3Dtransparent%26iv_load_policy%3D3%26cc_load_policy%3D0%26playsinline%3D0%26html5%3D1%26widgetid%3D2&of=M_BGk1q4BVsoIK_W11mQgQ&vm=CAQQARgCOjJBS1JhaHdDVFRYc1I3SmcxbEZ1RGNvb3NCdHd4bUEyNW9TZzhDczZCQjdIOEZON3EyZ2JfQVBta0tESzdjRHdyVktFZ2tQX000dE9zNHFLbnFDVEduTjA3eFFxWklJNHl4Sk0yQnlTX2xwZHJtemVnMmRKeVpfZXFzbm16aDJldjZXcGpYS0xSTWwyVnl1cGNkM1E",
+      "url": "https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=d-R4nG8A59N6lnYO&ver=2&cmt=1&fmt=397&fs=0&rt=0.564&euri=https%3A%2F%2Fwww.snu.gouv.fr%2F&lact=745&cl=448088478&mos=1&volume=50&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220511.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&epm=0&splay=1&hl=en_US&cr=US&len=33.301&fexp=23940248%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24080738%2C24082661%2C24135310%2C24169501%2C24174605%2C24177046%2C24192427%2C24196549%2C24208720&afmt=251&muted=1&docid=rE-8fe9xPDo&ei=ubeAYrzkCpqY2_gPv5OcEA&plid=AAXfCJNluCG5kGTM&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2F%3Fmodestbranding%3D1%26autoplay%3D0%26controls%3D0%26showinfo%3D0%26rel%3D0%26enablejsapi%3D1%26version%3D3%26playerapiid%3Diframe_customElement%26origin%3Dhttps%253A%252F%252Fwww.snu.gouv.fr%26allowfullscreen%3Dtrue%26wmode%3Dtransparent%26iv_load_policy%3D3%26cc_load_policy%3D0%26playsinline%3D0%26html5%3D1%26widgetid%3D2&of=M_BGk1q4BVsoIK_W11mQgQ&vm=CAQQARgCOjJBS1JhaHdCU2RjTGxvWTBPeV91M3FhLWRMX1ViRk9FY1JBRjRUa3hPb2pJYWI2Y1pid2JeQVBta0tESktjSUpWY3VMNkRrdXNmUkppTGRMQXM0cWRWMWFEUHlNUjVMOWE0dFdraTd0YWVvZWtYd3dmMUF2RHdVU1FmR0RIeEs3Z21qVWlDcjlaUzRQTERKVVZtdw",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -350,7 +374,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/api/stats/qoe?fmt=248&afmt=251&cpn=cnPOTAD4lJZfk6qR&el=embedded&ns=yt&fexp=23748147%2C23858057%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24080738%2C24082661%2C24135310%2C24154084%2C24169501%2C24196551%2C24199709%2C24202341%2C24208720%2C24211647&cl=447340363&seq=2&docid=rE-8fe9xPDo&ei=yA18Yq28GejSlu8P486s6Ac&event=streamingstats&plid=AAXewWlP27fAdlEE&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2F%3Fmodestbranding%3D1%26autoplay%3D0%26controls%3D0%26showinfo%3D0%26rel%3D0%26enablejsapi%3D1%26version%3D3%26playerapiid%3Diframe_customElement%26origin%3Dhttps%253A%252F%252Fwww.snu.gouv.fr%26allowfullscreen%3Dtrue%26wmode%3Dtransparent%26iv_load_policy%3D3%26cc_load_policy%3D0%26playsinline%3D0%26html5%3D1%26widgetid%3D2&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220508.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&ctmp=streaming:ac.1&vps=0.536:S,0.536:S&user_intent=0&bwm=0.536:1275978:0.114&bwe=0.536:3837540&bat=0.536:1:1&cmt=0.536:1.000&bh=0.536:6.360&df=0.536:0",
+      "url": "https://www.youtube.com/api/stats/qoe?fmt=397&afmt=251&cpn=d-R4nG8A59N6lnYO&el=embedded&ns=yt&fexp=23940248%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24080738%2C24082661%2C24135310%2C24169501%2C24174605%2C24177046%2C24192427%2C24196549%2C24208720&cl=448088478&seq=2&docid=rE-8fe9xPDo&ei=ubeAYrzkCpqY2_gPv5OcEA&event=streamingstats&plid=AAXfCJNluCG5kGTM&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2F%3Fmodestbranding%3D1%26autoplay%3D0%26controls%3D0%26showinfo%3D0%26rel%3D0%26enablejsapi%3D1%26version%3D3%26playerapiid%3Diframe_customElement%26origin%3Dhttps%253A%252F%252Fwww.snu.gouv.fr%26allowfullscreen%3Dtrue%26wmode%3Dtransparent%26iv_load_policy%3D3%26cc_load_policy%3D0%26playsinline%3D0%26html5%3D1%26widgetid%3D2&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220511.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.566:S,0.566:S&user_intent=0&bwm=0.566:5823:0.271&bwe=0.566:130000&bat=0.566:1:1&cmt=0.566:1.000&bh=0.566:0.000",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -360,10 +384,10 @@
   "cookies": [
     {
       "name": "atauthority",
-      "value": "%7B%22name%22%3A%22atauthority%22%2C%22val%22%3A%7B%22authority_name%22%3A%22cnil%22%2C%22visitor_mode%22%3A%22exempt%22%7D%2C%22options%22%3A%7B%22end%22%3A%222023-06-12T19%3A26%3A00.458Z%22%2C%22path%22%3A%22%2F%22%7D%7D",
+      "value": "%7B%22name%22%3A%22atauthority%22%2C%22val%22%3A%7B%22authority_name%22%3A%22cnil%22%2C%22visitor_mode%22%3A%22exempt%22%7D%2C%22options%22%3A%7B%22end%22%3A%222023-06-16T08%3A20%3A09.312Z%22%2C%22path%22%3A%22%2F%22%7D%7D",
       "domain": "www.snu.gouv.fr",
       "path": "/",
-      "expires": 1686597960,
+      "expires": 1686903609,
       "size": 233,
       "httpOnly": false,
       "secure": false,
@@ -374,10 +398,10 @@
     },
     {
       "name": "atuserid",
-      "value": "%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%22c0e307cc-40a0-4601-a873-4e7b3e1d93f9%22%2C%22options%22%3A%7B%22end%22%3A%222023-06-12T19%3A25%3A59.484Z%22%2C%22path%22%3A%22%2F%22%7D%7D",
+      "value": "%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2216470695-18bb-4992-8219-10e504d49a59%22%2C%22options%22%3A%7B%22end%22%3A%222023-06-16T08%3A20%3A08.256Z%22%2C%22path%22%3A%22%2F%22%7D%7D",
       "domain": "www.snu.gouv.fr",
       "path": "/",
-      "expires": 1686597959,
+      "expires": 1686903608,
       "size": 194,
       "httpOnly": false,
       "secure": false,
@@ -389,7 +413,7 @@
   ],
   "headers": {
     "server": "nginx",
-    "date": "Wed, 11 May 2022 19:25:58 GMT",
+    "date": "Sun, 15 May 2022 08:20:07 GMT",
     "content-type": "text/html; charset=UTF-8",
     "content-length": "12006",
     "expires": "Sun, 19 Nov 1978 05:00:00 GMT",
@@ -408,8 +432,8 @@
     "x-cache-ttl": "900.000",
     "cache-tags": "HIT",
     "x-cache": "HIT",
-    "x-cache-age": "598",
-    "x-cache-hits": "31",
+    "x-cache-age": "821",
+    "x-cache-hits": "25",
     "accept-ranges": "bytes",
     "strict-transport-security": "max-age=31536000; includeSubdomains"
   },
@@ -557,7 +581,7 @@
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "142.250.113.93",
+      "ip": "172.217.1.142",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -719,7 +743,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "142.251.45.34",
+      "ip": "142.251.32.130",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -773,7 +797,7 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "142.251.35.198",
+      "ip": "142.251.40.70",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -827,7 +851,7 @@
     },
     {
       "hostname": "jnn-pa.googleapis.com",
-      "ip": "142.251.40.74",
+      "ip": "142.250.138.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -880,8 +904,8 @@
       }
     },
     {
-      "hostname": "redirector.googlevideo.com",
-      "ip": "142.250.115.113",
+      "hostname": "www.google.com",
+      "ip": "142.251.116.105",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -935,7 +959,7 @@
     },
     {
       "hostname": "yt3.ggpht.com",
-      "ip": "142.251.116.132",
+      "ip": "142.251.40.65",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1042,62 +1066,8 @@
       }
     },
     {
-      "hostname": "r3---sn-q4flrnlz.googlevideo.com",
-      "ip": "74.125.3.136",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "rr1---sn-q4flrnel.googlevideo.com",
-      "ip": "209.85.165.230",
+      "hostname": "rr3---sn-vgqsrnsy.googlevideo.com",
+      "ip": "173.194.55.8",
       "geoip": {
         "continent": {
           "code": "NA",
