@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 18:16:19",
+	"@generated": "Sun, 15 May 2022 07:13:07",
 	"site":[ 
 		{
 			"@name": "https://secretariat.incubateur.net",
@@ -607,15 +607,22 @@
 							"param": "",
 							"attack": "",
 							"evidence": "67108864"
+						},
+						{
+							"uri": "https://secretariat.incubateur.net/static/favicon/favicon-16x16.png",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "49472437"
 						}
 					],
-					"count": "24",
+					"count": "25",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>010101010, which evaluates to: 1970-04-27 21:50:10</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "37"
+					"sourceid": "46"
 				},
 				{
 					"pluginid": "10021",
@@ -656,14 +663,14 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://secretariat.incubateur.net/public/js/Home.js?1.0.0",
+							"uri": "https://secretariat.incubateur.net/onboarding",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
 							"evidence": ""
 						},
 						{
-							"uri": "https://secretariat.incubateur.net/public/js/shared.js",
+							"uri": "https://secretariat.incubateur.net/public/js/Home.js?1.0.0",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -742,14 +749,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "3A9b8ofMmgOnAaMu1cunMmnegMGTQvoQBh"
+							"evidence": "3A5fIw2mjL2kpBLru05b6XEsbFn4VPI1OC"
 						},
 						{
 							"uri": "https://secretariat.incubateur.net/login",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "f6a-fGrdabfeqNdSjnoN9EGB5lkVxxQ"
+							"evidence": "107e-Pgjy0hy7IYmtP3u3CdFORaTUjXM"
 						},
 						{
 							"uri": "https://secretariat.incubateur.net/login?next=/robots.txt",
@@ -766,6 +773,13 @@
 							"evidence": "fa3-TIH4n6vcgLpWvrJGgaU6zH5dje0"
 						},
 						{
+							"uri": "https://secretariat.incubateur.net/onboarding",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAA5klEQVQ4jc3QMUuCURTG8V8tNQRGY45BS01OfQHH8EMEbUJ9iQga+yAFKo42BI3RYkRQkxKuCba9DZ6LF3nT3DxwuNzn+Z9zzz2sU3TwgrMFzHkw7TLzG0VkD/3QxnjFY+aPyxq8ZcCy/ExFm3HuYWvJF/PYwX4uXK/wespb2MjGPwzjHu+o4ST8JzwH04i6DxykCSZRfPGP8S+D/cnFUYiVuHdKCpO2G+yI2RIf4kyLLEoaFHNMLzePTb9xtXh6cBPs0bxRxxfucIoqtiOrpstrBVP/q3sFTXQxjJcmGITWNNvTmsQvxG9Kly7hW/kAAAAASUVORK5CYII="
+						},
+						{
 							"uri": "https://secretariat.incubateur.net/public/js/Home.js?1.0.0",
 							"method": "GET",
 							"param": "",
@@ -777,14 +791,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "3ASVMSK2ujyV8z6ESo80YKRM4zv6y00SL1"
+							"evidence": "3AdpifT762GZierms9lDc5psBfR9auSr--"
 						},
 						{
 							"uri": "https://secretariat.incubateur.net/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "3A9b8ofMmgOnAaMu1cunMmnegMGTQvoQBh"
+							"evidence": "3AdpifT762GZierms9lDc5psBfR9auSr--"
 						},
 						{
 							"uri": "https://secretariat.incubateur.net/static/css/main.css",
@@ -798,21 +812,14 @@
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "3A9b8ofMmgOnAaMu1cunMmnegMGTQvoQBh"
+							"evidence": "3AdpifT762GZierms9lDc5psBfR9auSr--"
 						},
 						{
 							"uri": "https://secretariat.incubateur.net/login?next=/robots.txt",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "3A9b8ofMmgOnAaMu1cunMmnegMGTQvoQBh"
-						},
-						{
-							"uri": "https://secretariat.incubateur.net/login?next=/sitemap.xml",
-							"method": "POST",
-							"param": "",
-							"attack": "",
-							"evidence": "3A9b8ofMmgOnAaMu1cunMmnegMGTQvoQBh"
+							"evidence": "3AdpifT762GZierms9lDc5psBfR9auSr--"
 						}
 					],
 					"count": "12",
@@ -908,7 +915,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "37"
+					"sourceid": "46"
 				},
 				{
 					"pluginid": "10049",
