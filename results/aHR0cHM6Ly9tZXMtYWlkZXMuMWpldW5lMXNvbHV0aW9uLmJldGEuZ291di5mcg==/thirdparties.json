@@ -1,15 +1,46 @@
 {
   "trackers": [],
-  "cookies": [],
+  "cookies": [
+    {
+      "name": "_pk_ses.165.3c0a",
+      "value": "1",
+      "domain": "mes-aides.1jeune1solution.beta.gouv.fr",
+      "path": "/",
+      "expires": 1652593577,
+      "size": 17,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_pk_id.165.3c0a",
+      "value": "318ac24e3e447efa.1652591778.",
+      "domain": "mes-aides.1jeune1solution.beta.gouv.fr",
+      "path": "/",
+      "expires": 1686546978,
+      "size": 43,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
   "headers": {
     "server": "nginx/1.14.2",
-    "date": "Wed, 11 May 2022 16:06:21 GMT",
+    "date": "Sun, 15 May 2022 05:16:16 GMT",
     "content-type": "text/html",
-    "last-modified": "Wed, 11 May 2022 15:56:46 GMT",
+    "last-modified": "Fri, 13 May 2022 12:47:18 GMT",
     "transfer-encoding": "chunked",
     "connection": "keep-alive",
     "vary": "Accept-Encoding",
-    "etag": "W/\"627bdcbe-a6c\"",
+    "etag": "W/\"627e5356-a6c\"",
     "content-encoding": "gzip"
   },
   "endpoints": [
