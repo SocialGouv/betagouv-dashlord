@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 14:36:24",
+	"@generated": "Sun, 15 May 2022 03:49:23",
 	"site":[ 
 		{
 			"@name": "https://communaute.inclusion.beta.gouv.fr",
@@ -8,6 +8,32 @@
 			"@port": "443",
 			"@ssl": "true",
 			"alerts": [ 
+				{
+					"pluginid": "10062",
+					"alertRef": "10062",
+					"alert": "PII Disclosure",
+					"name": "PII Disclosure",
+					"riskcode": "3",
+					"confidence": "3",
+					"riskdesc": "High (High)",
+					"desc": "<p>The response contains Personally Identifiable Information, such as CC number, SSN and similar sensitive data.</p>",
+					"instances":[ 
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "500408258167"
+						}
+					],
+					"count": "1",
+					"solution": "",
+					"otherinfo": "<p>Credit Card Type detected: Maestro</p><p>Bank Identification Number: 500408</p><p>Brand: MAESTRO</p><p>Category: </p><p>Issuer: </p>",
+					"reference": "",
+					"cweid": "359",
+					"wascid": "13",
+					"sourceid": "1206"
+				},
 				{
 					"pluginid": "10202",
 					"alertRef": "10202",
@@ -211,6 +237,27 @@
 							"evidence": ""
 						},
 						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenement/les-bons-clics-classe-virtuelle-concevoir-des-activites-pedagogiques-de-a-a-z/2022-05-16/",
+							"method": "GET",
+							"param": "X-Frame-Options",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenement/les-bons-clics-classe-virtuelle-concevoir-des-activites-pedagogiques-de-a-a-z/tout/",
+							"method": "GET",
+							"param": "X-Frame-Options",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenement/les-bons-clics-webinaire-accompagner-sur-les-demarches-en-ligne-2/tout/",
+							"method": "GET",
+							"param": "X-Frame-Options",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/",
 							"method": "GET",
 							"param": "X-Frame-Options",
@@ -239,7 +286,7 @@
 							"evidence": ""
 						}
 					],
-					"count": "8",
+					"count": "11",
 					"solution": "<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p><p>If you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's \"frame-ancestors\" directive.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
@@ -333,20 +380,48 @@
 							"evidence": "Set-Cookie: wordpress_test_cookie"
 						},
 						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?action=lostpassword",
+							"method": "GET",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "Set-Cookie: wordpress_test_cookie"
+						},
+						{
 							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "wordpress_test_cookie",
 							"attack": "",
 							"evidence": "Set-Cookie: wordpress_test_cookie"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?redirect_to=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2Fwp-admin%2F&wp_lang=fr_FR",
+							"method": "GET",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "Set-Cookie: wordpress_test_cookie"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?redirect_to=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2Fwp-admin%2F&wp_lang=fr_FR",
+							"method": "GET",
+							"param": "wp_lang",
+							"attack": "",
+							"evidence": "Set-Cookie: wp_lang"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php",
+							"method": "POST",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "Set-Cookie: wordpress_test_cookie"
 						}
 					],
-					"count": "2",
+					"count": "6",
 					"solution": "<p>Ensure that the HttpOnly flag is set for all cookies.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "285"
+					"sourceid": "301"
 				},
 				{
 					"pluginid": "10054",
@@ -366,20 +441,62 @@
 							"evidence": "Set-Cookie: wordpress_test_cookie"
 						},
 						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?action=lostpassword",
+							"method": "GET",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "Set-Cookie: wordpress_test_cookie"
+						},
+						{
 							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "wordpress_test_cookie",
 							"attack": "",
 							"evidence": "Set-Cookie: wordpress_test_cookie"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?redirect_to=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2Fwp-admin%2F&wp_lang=fr_FR",
+							"method": "GET",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "Set-Cookie: wordpress_test_cookie"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?redirect_to=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2Fwp-admin%2F&wp_lang=fr_FR",
+							"method": "GET",
+							"param": "wp_lang",
+							"attack": "",
+							"evidence": "Set-Cookie: wp_lang"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php",
+							"method": "POST",
+							"param": "wordpress_logged_in_ccad43834db3f4a022f8efa05aece7d6",
+							"attack": "",
+							"evidence": "Set-Cookie: wordpress_logged_in_ccad43834db3f4a022f8efa05aece7d6"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php",
+							"method": "POST",
+							"param": "wordpress_sec_ccad43834db3f4a022f8efa05aece7d6",
+							"attack": "",
+							"evidence": "Set-Cookie: wordpress_sec_ccad43834db3f4a022f8efa05aece7d6"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php",
+							"method": "POST",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "Set-Cookie: wordpress_test_cookie"
 						}
 					],
-					"count": "2",
+					"count": "8",
 					"solution": "<p>Ensure that the SameSite attribute is set to either 'lax' or ideally 'strict' for all cookies.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "285"
+					"sourceid": "301"
 				},
 				{
 					"pluginid": "10017",
@@ -414,6 +531,13 @@
 						},
 						{
 							"uri": "https://communaute.inclusion.beta.gouv.fr/communautes/",
+							"method": "GET",
+							"param": "https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@1.9.3/tarteaucitron.js",
+							"attack": "",
+							"evidence": "<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@1.9.3/tarteaucitron.js\"></script>"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenement/les-bons-clics-classe-virtuelle-concevoir-des-activites-pedagogiques-de-a-a-z/tout/",
 							"method": "GET",
 							"param": "https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@1.9.3/tarteaucitron.js",
 							"attack": "",
@@ -462,13 +586,46 @@
 							"evidence": "<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@1.9.3/tarteaucitron.js\"></script>"
 						}
 					],
-					"count": "10",
+					"count": "11",
 					"solution": "<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p>",
 					"otherinfo": "",
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
 					"sourceid": "1"
+				},
+				{
+					"pluginid": "10110",
+					"alertRef": "10110",
+					"alert": "Dangerous JS Functions",
+					"name": "Dangerous JS Functions",
+					"riskcode": "1",
+					"confidence": "1",
+					"riskdesc": "Low (Low)",
+					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
+					"instances":[ 
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-content/plugins/piotnet-addons-for-elementor-pro/assets/js/minify/extension.min.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-includes/js/jquery/jquery.min.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Eval"
+						}
+					],
+					"count": "2",
+					"solution": "<p>See the references for security advice on the use of these functions.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://angular.io/guide/security</p>",
+					"cweid": "749",
+					"wascid": "-1",
+					"sourceid": "1071"
 				},
 				{
 					"pluginid": "10063",
@@ -685,9 +842,254 @@
 							"param": "",
 							"attack": "",
 							"evidence": "02010100"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/adabot-le-tchatbot-dorientation-pour-decouvrir-les-metiers-du-numerique/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652586516"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/comment-passer-un-entretien-a-distance/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652586520"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1651572000"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1651573800"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1651577400"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1651581000"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1651586400"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1651589100"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1651591800"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1651656600"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1651667400"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1651831200"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1651834800"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652054400"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652175000"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652191200"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652196600"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652200200"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652486399"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652693400"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652704200"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652797800"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652801400"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1653400800"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1653402600"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1653991200"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1653996600"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1654005600"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1654008300"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/?ical=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1654009200"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/lentrepreneuriat-un-outil-dinsertion-professionnelle-pour-les-personnes-eloignees-de-lemploi/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652586521"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/mescompetences-outil-de-support-a-laccompagnement-pour-la-reinsertion-professionnelle/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652586515"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/parametrer-des-alertes-pour-mieux-gerer-son-budget/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652586518"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/stats/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1875169692"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/suns-dynamiser-son-entreprise-grace-au-digital/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652586518"
 						}
 					],
-					"count": "2",
+					"count": "37",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>02010100, which evaluates to: 1970-01-24 06:21:40</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
@@ -830,6 +1232,13 @@
 							"evidence": "fr/wp-content/uploads/2021/09/Marianne-Bold"
 						},
 						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenement/les-bons-clics-classe-virtuelle-concevoir-des-activites-pedagogiques-de-a-a-z/tout/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "2Fles-bons-clics-classe-virtuelle-concevoir-des-activites-pedagogiques-de-a-a-z"
+						},
+						{
 							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/",
 							"method": "GET",
 							"param": "",
@@ -872,13 +1281,65 @@
 							"evidence": "fr/wp-content/uploads/2021/09/Marianne-Bold"
 						}
 					],
-					"count": "10",
+					"count": "11",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
 					"otherinfo": "<p>~\uFFFD\uFFFD\uFFFD(\uFFFD\u05E7\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD_\uFFFD\uFFFD\uFFFD\\x001a\uFFFD&\uFFFD\uFFFD\uF062W</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
 					"sourceid": "1"
+				},
+				{
+					"pluginid": "90011",
+					"alertRef": "90011",
+					"alert": "Charset Mismatch ",
+					"name": "Charset Mismatch ",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>This check identifies responses where the HTTP Content-Type header declares a charset different from the charset defined by the body of the HTML or XML. When there's a charset mismatch between the HTTP header and content body Web browsers can be forced into an undesirable content-sniffing mode to determine the content's correct character set.</p><p></p><p>An attacker could manipulate content on the page to be interpreted in an encoding of their choice. For example, if an attacker can control content at the beginning of the page, they could inject script using UTF-7 encoded text and manipulate some browsers into interpreting that text.</p>",
+					"instances":[ 
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-json/oembed/1.0/embed?format=xml&url=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2F",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						}
+					],
+					"count": "1",
+					"solution": "<p>Force UTF-8 for all text content in both the HTTP header and meta tags in HTML or encoding declarations in XML.</p>",
+					"otherinfo": "<p>There was a charset mismatch between the HTTP Header and the XML encoding declaration: [UTF-8] and [null] do not match.</p>",
+					"reference": "<p>http://code.google.com/p/browsersec/wiki/Part2#Character_set_handling_and_detection</p>",
+					"cweid": "436",
+					"wascid": "15",
+					"sourceid": "951"
+				},
+				{
+					"pluginid": "10029",
+					"alertRef": "10029",
+					"alert": "Cookie Poisoning",
+					"name": "Cookie Poisoning",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where cookie parameters might be controlled. This is called a cookie poisoning attack, and becomes exploitable when an attacker can manipulate the cookie in various ways. In some cases this will not be exploitable, however, allowing URL parameters to set cookie values is generally considered a bug.</p>",
+					"instances":[ 
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?redirect_to=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2Fwp-admin%2F&wp_lang=fr_FR",
+							"method": "GET",
+							"param": "wp_lang",
+							"attack": "",
+							"evidence": ""
+						}
+					],
+					"count": "1",
+					"solution": "<p>Do not allow user input to control cookie names and values. If some query string parameters must be set in cookie values, be sure to filter out semicolon's that can serve as name/value pair delimiters.</p>",
+					"otherinfo": "<p>An attacker may be able to poison cookie values through URL parameters.  Try injecting a semicolon to see if you can add cookie values (e.g. name=controlledValue;name=anotherValue;).</p><p></p><p>This was identified at:</p><p></p><p>https://communaute.inclusion.beta.gouv.fr/wp-login.php?redirect_to=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2Fwp-admin%2F&wp_lang=fr_FR</p><p></p><p>User-input was found in the following cookie:</p><p>wp_lang=fr_FR; path=/; secure</p><p></p><p>The user input was:</p><p>wp_lang=fr_FR</p>",
+					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-cookie</p>",
+					"cweid": "20",
+					"wascid": "20",
+					"sourceid": "1253"
 				},
 				{
 					"pluginid": "10027",
@@ -980,6 +1441,13 @@
 							"evidence": "<a href=\"#\" class=\"bb-toggle-panel\"><i class=\"bb-icon-menu-left\"></i></a>"
 						},
 						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenement/les-bons-clics-classe-virtuelle-concevoir-des-activites-pedagogiques-de-a-a-z/tout/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a href=\"#\" class=\"bb-toggle-panel\"><i class=\"bb-icon-menu-left\"></i></a>"
+						},
+						{
 							"uri": "https://communaute.inclusion.beta.gouv.fr/evenements/",
 							"method": "GET",
 							"param": "",
@@ -1022,7 +1490,7 @@
 							"evidence": "<noscript><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css\" /></noscript>"
 						}
 					],
-					"count": "10",
+					"count": "11",
 					"solution": "<p>This is an informational alert and so no changes are required.</p>",
 					"otherinfo": "<p>Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</p>",
 					"reference": "",
@@ -1062,13 +1530,6 @@
 							"evidence": "no-store"
 						},
 						{
-							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store"
-						},
-						{
 							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "",
@@ -1076,7 +1537,7 @@
 							"evidence": "no-store"
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).   </p>",
 					"otherinfo": "",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
@@ -1117,6 +1578,13 @@
 						},
 						{
 							"uri": "https://communaute.inclusion.beta.gouv.fr/communautes/",
+							"method": "GET",
+							"param": "Cache-Control",
+							"attack": "",
+							"evidence": "max-age=0"
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/evenement/les-bons-clics-classe-virtuelle-concevoir-des-activites-pedagogiques-de-a-a-z/tout/",
 							"method": "GET",
 							"param": "Cache-Control",
 							"attack": "",
@@ -1165,7 +1633,7 @@
 							"evidence": "max-age=0"
 						}
 					],
-					"count": "10",
+					"count": "11",
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p>",
@@ -1224,6 +1692,13 @@
 							"evidence": "max-age=0"
 						},
 						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/aide/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "max-age=0"
+						},
+						{
 							"uri": "https://communaute.inclusion.beta.gouv.fr/communautes/",
 							"method": "GET",
 							"param": "",
@@ -1245,7 +1720,7 @@
 							"evidence": "max-age=0"
 						}
 					],
-					"count": "5",
+					"count": "6",
 					"solution": "",
 					"otherinfo": "",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
@@ -1263,6 +1738,27 @@
 					"riskdesc": "Informational (Low)",
 					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
 					"instances":[ 
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?action=lostpassword",
+							"method": "GET",
+							"param": "action",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?action=lostpassword",
+							"method": "GET",
+							"param": "action",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?action=lostpassword",
+							"method": "GET",
+							"param": "action",
+							"attack": "",
+							"evidence": ""
+						},
 						{
 							"uri": "https://communaute.inclusion.beta.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
@@ -1327,13 +1823,13 @@
 							"evidence": ""
 						}
 					],
-					"count": "9",
+					"count": "12",
 					"solution": "<p>Validate all input and sanitize output it before writing to any HTML attributes.</p>",
-					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>https://communaute.inclusion.beta.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2Fwp-admin%2F</p><p></p><p>appears to include user input in: </p><p></p><p>a(n) [a] tag [href] attribute </p><p></p><p>The user input found was:</p><p>redirect_to=https://communaute.inclusion.beta.gouv.fr/wp-admin/</p><p></p><p>The user-controlled value was:</p><p>https://communaute.inclusion.beta.gouv.fr</p>",
+					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>https://communaute.inclusion.beta.gouv.fr/wp-login.php?action=lostpassword</p><p></p><p>appears to include user input in: </p><p></p><p>a(n) [form] tag [id] attribute </p><p></p><p>The user input found was:</p><p>action=lostpassword</p><p></p><p>The user-controlled value was:</p><p>lostpasswordform</p>",
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "228"
+					"sourceid": "1239"
 				}
 			]
 		}

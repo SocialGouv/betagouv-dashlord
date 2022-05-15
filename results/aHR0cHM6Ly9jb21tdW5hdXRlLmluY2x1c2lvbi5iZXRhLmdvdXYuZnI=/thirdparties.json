@@ -42,34 +42,10 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/www-widgetapi.vflset/www-widgetapi.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/www-widgetapi.vflset/www-widgetapi.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "jsdelivr",
-      "url": "https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@1.9.3/css/tarteaucitron.min.css?v=20210509",
-      "details": {
-        "id": "jsdelivr",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "jsdelivr",
-      "url": "https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@1.9.3/lang/tarteaucitron.en.min.js?v=20210509",
-      "details": {
-        "id": "jsdelivr",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "jsdelivr",
-      "url": "https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@1.9.3/tarteaucitron.services.min.js?v=20210509",
-      "details": {
-        "id": "jsdelivr",
-        "message": "Host files locally"
       }
     },
     {
@@ -82,7 +58,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/www-player.css",
+      "url": "https://www.youtube.com/s/player/00e475bf/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -90,7 +66,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/www-embed-player.vflset/www-embed-player.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/www-embed-player.vflset/www-embed-player.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -98,7 +74,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/player_ias.vflset/en_US/base.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/player_ias.vflset/en_US/base.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -106,7 +82,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/fetch-polyfill.vflset/fetch-polyfill.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/fetch-polyfill.vflset/fetch-polyfill.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -162,7 +138,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/Uf3kbbiDCuMtnOktWKCSk5sAhRB6ieHFn8V4PF9koD4.js",
+      "url": "https://www.google.com/js/th/pnS8W8CLkwK18al8dwuWUw6UNwvOiNhGGw5Co3IGe3M.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -170,7 +146,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/player_ias.vflset/en_US/embed.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/player_ias.vflset/en_US/embed.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -194,7 +170,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?U3AILg",
+      "url": "https://www.youtube.com/generate_204?gqSglQ",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -202,7 +178,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/api/stats/qoe?fmt=243&afmt=250&cpn=DXDK4JLAGyN23eMe&el=embedded&ns=yt&fexp=23748147%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24027700%2C24058861%2C24080738%2C24082661%2C24135310%2C24169501%2C24177170%2C24192427%2C24199710%2C24202949%2C24208720%2C24211647&cl=447340363&seq=1&docid=21mzHA2s5C4&ei=98p7YufvD8n48gSwyZmIDQ&event=streamingstats&plid=AAXevW3Eq6CDFUjJ&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2F21mzHA2s5C4%3Fcontrols%3D1%26rel%3D0%26playsinline%3D1%26modestbranding%3D1%26autoplay%3D1%26enablejsapi%3D1%26origin%3Dhttps%253A%252F%252Fcommunaute.inclusion.beta.gouv.fr%26widgetid%3D1&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220508.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.014:B,0.311:B,0.311:B&cmt=0.014:0.000,0.311:0.000&afs=0.310:250::i&vfs=0.311:243:243::r&view=0.311:420:236&bwe=0.311:130000&bat=0.311:1:1&vis=0.311:0&bh=0.311:0.000",
+      "url": "https://www.youtube.com/api/stats/qoe?fmt=243&afmt=250&cpn=6eRMWb9fHL8wjOLb&el=embedded&ns=yt&fexp=23858057%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24080738%2C24082662%2C24134435%2C24135310%2C24169501%2C24175560%2C24208721%2C24208991&cl=448088478&seq=1&docid=21mzHA2s5C4&ei=rniAYpjvOZOflu8Pr9OzEA&event=streamingstats&plid=AAXfBNF77uWIjt0n&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2F21mzHA2s5C4%3Fcontrols%3D1%26rel%3D0%26playsinline%3D1%26modestbranding%3D1%26autoplay%3D1%26enablejsapi%3D1%26origin%3Dhttps%253A%252F%252Fcommunaute.inclusion.beta.gouv.fr%26widgetid%3D1&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220511.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.014:B,0.260:B,0.260:B&cmt=0.014:0.000,0.260:0.000&afs=0.260:250::i&vfs=0.260:243:243::r&view=0.260:420:236&bwe=0.260:130000&bat=0.260:1:1&vis=0.260:0&bh=0.260:0.000",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -210,15 +186,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://rr4---sn-5ualdnll.googlevideo.com/videoplayback?expire=1652301655&ei=98p7YufvD8n48gSwyZmIDQ&ip=20.102.87.38&id=o-AEQOkv6KdLwcz9fQC7JKjW5wCjTEFfpwiJYKhSM-k0C2&itag=243&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=Tq&mm=31%2C29&mn=sn-5ualdnll%2Csn-5uaeznks&ms=au%2Crdu&mv=u&mvi=4&pl=23&spc=4ocVC1y7QhK4q86Vu_DBtM2qTQGa&vprv=1&mime=video%2Fwebm&ns=_12pNfYdvwiQIeqfJxtsZgUG&gir=yes&clen=588212&dur=97.100&lmt=1651757868843874&mt=1652279708&fvip=5&keepalive=yes&fexp=24001373%2C24007246&beids=24027534&c=WEB_EMBEDDED_PLAYER&txp=5319224&n=c-Eheq4BvqCSkw&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgGJH94iPdd0TgkHuEP0JBXPUNEHtdcWVutgtpyRuo5yACIQCHVDDaJLVIe63Kh0JVeqQXn1N6TByuKAkvDo23p3HUug%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AG3C_xAwRQIhAOwGxyBGrzXZKFOUeyVt8Wc4DOkluLBhJrvfITHIEo1HAiAI8AhuK-qmzDzk7efsFkeLH0XGLtNtE-lPvsLcTZT8lg%3D%3D&alr=yes&cpn=DXDK4JLAGyN23eMe&cver=1.20220508.00.00&range=0-66067&rn=1&rbuf=0"
+      "url": "https://rr2---sn-q4flrnez.googlevideo.com/videoplayback?expire=1652608270&ei=rniAYpjvOZOflu8Pr9OzEA&ip=20.225.187.210&id=o-AFt5HTpZJpRm1oy5i9OUG5hNBJi7tfRSQkXl3EGPnxY-&itag=243&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=Tq&mm=31%2C26&mn=sn-q4flrnez%2Csn-vgqsknze&ms=au%2Conr&mv=m&mvi=2&pl=16&initcwndbps=1291250&spc=4ocVC6LMZLCVBdtOXlhZ6fQJewS8&vprv=1&mime=video%2Fwebm&ns=vQl2pZkvlGaGD4qJItpGYP8G&gir=yes&clen=588212&dur=97.100&lmt=1651757868843874&mt=1652586294&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB_EMBEDDED_PLAYER&txp=5319224&n=iKPLs6jizEzM6A&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgXGSjuj9bEh5VxbNimJWi0Q0x6uOxsR-8C154LnlPYfgCICzUAk5v2ORBqQohsksbclpmHgmgb8zaDh6FkBcbAcdu&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAPlwV9VU0q-uQkY-u4kslM5CCebBmJEWihz8ew6qXMMLAiAorkhZCD_DcwDkWBxfH1KNe757G5gbVhn0WZ9xLsvVew%3D%3D&alr=yes&cpn=6eRMWb9fHL8wjOLb&cver=1.20220511.00.00&range=0-66067&rn=1&rbuf=0"
     },
     {
       "type": "unknown",
-      "url": "https://rr4---sn-5ualdnll.googlevideo.com/videoplayback?expire=1652301655&ei=98p7YufvD8n48gSwyZmIDQ&ip=20.102.87.38&id=o-AEQOkv6KdLwcz9fQC7JKjW5wCjTEFfpwiJYKhSM-k0C2&itag=250&source=youtube&requiressl=yes&mh=Tq&mm=31%2C29&mn=sn-5ualdnll%2Csn-5uaeznks&ms=au%2Crdu&mv=u&mvi=4&pl=23&spc=4ocVC1y7QhK4q86Vu_DBtM2qTQGa&vprv=1&mime=audio%2Fwebm&ns=_12pNfYdvwiQIeqfJxtsZgUG&gir=yes&clen=44240&dur=97.141&lmt=1651757777872201&mt=1652279708&fvip=5&keepalive=yes&fexp=24001373%2C24007246&beids=24027534&c=WEB_EMBEDDED_PLAYER&txp=5318224&n=c-Eheq4BvqCSkw&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAJ2DRXDpFBCtFuZ0AybRma2Qa1o7alzf7CPFz7oVTWd4AiEAzwxGcw08b6dEV56kj9qcQVcWYW4zoDFquHIoFxAJ_g0%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AG3C_xAwRQIhAOwGxyBGrzXZKFOUeyVt8Wc4DOkluLBhJrvfITHIEo1HAiAI8AhuK-qmzDzk7efsFkeLH0XGLtNtE-lPvsLcTZT8lg%3D%3D&alr=yes&cpn=DXDK4JLAGyN23eMe&cver=1.20220508.00.00&range=0-44239&rn=2&rbuf=0"
+      "url": "https://rr2---sn-q4flrnez.googlevideo.com/videoplayback?expire=1652608270&ei=rniAYpjvOZOflu8Pr9OzEA&ip=20.225.187.210&id=o-AFt5HTpZJpRm1oy5i9OUG5hNBJi7tfRSQkXl3EGPnxY-&itag=250&source=youtube&requiressl=yes&mh=Tq&mm=31%2C26&mn=sn-q4flrnez%2Csn-vgqsknze&ms=au%2Conr&mv=m&mvi=2&pl=16&initcwndbps=1291250&spc=4ocVC6LMZLCVBdtOXlhZ6fQJewS8&vprv=1&mime=audio%2Fwebm&ns=vQl2pZkvlGaGD4qJItpGYP8G&gir=yes&clen=44240&dur=97.141&lmt=1651757777872201&mt=1652586294&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB_EMBEDDED_PLAYER&txp=5318224&n=iKPLs6jizEzM6A&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIhAIxQrAdqgyGopKALNK2RBjBu81itrYsHT752uffhTvjeAh86GFuiZWn6j967939_J-_yJ2kfm0R-uBLE86NTcdHy&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAPlwV9VU0q-uQkY-u4kslM5CCebBmJEWihz8ew6qXMMLAiAorkhZCD_DcwDkWBxfH1KNe757G5gbVhn0WZ9xLsvVew%3D%3D&alr=yes&cpn=6eRMWb9fHL8wjOLb&cver=1.20220511.00.00&range=0-44239&rn=2&rbuf=0"
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/player_ias.vflset/en_US/remote.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/player_ias.vflset/en_US/remote.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -226,7 +202,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/player_ias.vflset/en_US/endscreen.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/player_ias.vflset/en_US/endscreen.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -234,7 +210,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/53aba266/player_ias.vflset/en_US/annotations_module.js",
+      "url": "https://www.youtube.com/s/player/00e475bf/player_ias.vflset/en_US/annotations_module.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -257,28 +233,28 @@
       }
     },
     {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
       "type": "unknown",
-      "url": "https://rr4---sn-5ualdnll.googlevideo.com/videoplayback?expire=1652301655&ei=98p7YufvD8n48gSwyZmIDQ&ip=20.102.87.38&id=o-AEQOkv6KdLwcz9fQC7JKjW5wCjTEFfpwiJYKhSM-k0C2&itag=243&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=Tq&mm=31%2C29&mn=sn-5ualdnll%2Csn-5uaeznks&ms=au%2Crdu&mv=u&mvi=4&pl=23&spc=4ocVC1y7QhK4q86Vu_DBtM2qTQGa&vprv=1&mime=video%2Fwebm&ns=_12pNfYdvwiQIeqfJxtsZgUG&gir=yes&clen=588212&dur=97.100&lmt=1651757868843874&mt=1652279708&fvip=5&keepalive=yes&fexp=24001373%2C24007246&beids=24027534&c=WEB_EMBEDDED_PLAYER&txp=5319224&n=c-Eheq4BvqCSkw&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgGJH94iPdd0TgkHuEP0JBXPUNEHtdcWVutgtpyRuo5yACIQCHVDDaJLVIe63Kh0JVeqQXn1N6TByuKAkvDo23p3HUug%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AG3C_xAwRQIhAOwGxyBGrzXZKFOUeyVt8Wc4DOkluLBhJrvfITHIEo1HAiAI8AhuK-qmzDzk7efsFkeLH0XGLtNtE-lPvsLcTZT8lg%3D%3D&alr=yes&cpn=DXDK4JLAGyN23eMe&cver=1.20220508.00.00&range=66068-156183&rn=3&rbuf=8589"
+      "url": "https://rr2---sn-q4flrnez.googlevideo.com/videoplayback?expire=1652608270&ei=rniAYpjvOZOflu8Pr9OzEA&ip=20.225.187.210&id=o-AFt5HTpZJpRm1oy5i9OUG5hNBJi7tfRSQkXl3EGPnxY-&itag=243&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=Tq&mm=31%2C26&mn=sn-q4flrnez%2Csn-vgqsknze&ms=au%2Conr&mv=m&mvi=2&pl=16&initcwndbps=1291250&spc=4ocVC6LMZLCVBdtOXlhZ6fQJewS8&vprv=1&mime=video%2Fwebm&ns=vQl2pZkvlGaGD4qJItpGYP8G&gir=yes&clen=588212&dur=97.100&lmt=1651757868843874&mt=1652586294&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB_EMBEDDED_PLAYER&txp=5319224&n=iKPLs6jizEzM6A&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgXGSjuj9bEh5VxbNimJWi0Q0x6uOxsR-8C154LnlPYfgCICzUAk5v2ORBqQohsksbclpmHgmgb8zaDh6FkBcbAcdu&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAPlwV9VU0q-uQkY-u4kslM5CCebBmJEWihz8ew6qXMMLAiAorkhZCD_DcwDkWBxfH1KNe757G5gbVhn0WZ9xLsvVew%3D%3D&alr=yes&cpn=6eRMWb9fHL8wjOLb&cver=1.20220511.00.00&range=66068-156183&rn=3&rbuf=8589"
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/api/stats/playback?ns=yt&el=embedded&cpn=DXDK4JLAGyN23eMe&ver=2&cmt=0.021&fmt=243&fs=0&rt=0.588&euri=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2F&lact=630&cl=447340363&mos=1&volume=100&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220508.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&autoplay=1&epm=1&splay=1&hl=en_US&cr=US&len=98&fexp=23748147%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24027700%2C24058861%2C24080738%2C24082661%2C24135310%2C24169501%2C24177170%2C24192427%2C24199710%2C24202949%2C24208720%2C24211647&rtn=9&afmt=250&size=420%3A236&inview=0&muted=1&docid=21mzHA2s5C4&ei=98p7YufvD8n48gSwyZmIDQ&plid=AAXevW3Eq6CDFUjJ&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2F21mzHA2s5C4%3Fcontrols%3D1%26rel%3D0%26playsinline%3D1%26modestbranding%3D1%26autoplay%3D1%26enablejsapi%3D1%26origin%3Dhttps%253A%252F%252Fcommunaute.inclusion.beta.gouv.fr%26widgetid%3D1&of=wbAUJoLFDaeeOSJrHXH1sg&vm=CAEQABgEOjJBS1JhaHdDQ2JsOWh1bUV5VlhxV3B0NnVUTUd3c19yazNoeDVsWVZsUjBlSERUOWpPZ2JUQVBta0tESTIwWjF2b1VJb25ZdlZSb2tucXFMODhJWmpYcXRtRzhYX3pjcEJxYVVOR3c1U2RTWVpJaE9pX2YwZ2ZJQlo2d2luLUNheXp4Y0c2M1BY",
+      "url": "https://www.youtube.com/api/stats/playback?ns=yt&el=embedded&cpn=6eRMWb9fHL8wjOLb&ver=2&cmt=0.018&fmt=243&fs=0&rt=0.55&euri=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2F&lact=588&cl=448088478&mos=1&volume=100&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220511.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&autoplay=1&epm=1&splay=1&hl=en_US&cr=US&len=98&fexp=23858057%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24080738%2C24082662%2C24134435%2C24135310%2C24169501%2C24175560%2C24208721%2C24208991&rtn=5&afmt=250&size=420%3A236&inview=0&muted=1&docid=21mzHA2s5C4&ei=rniAYpjvOZOflu8Pr9OzEA&plid=AAXfBNF77uWIjt0n&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2F21mzHA2s5C4%3Fcontrols%3D1%26rel%3D0%26playsinline%3D1%26modestbranding%3D1%26autoplay%3D1%26enablejsapi%3D1%26origin%3Dhttps%253A%252F%252Fcommunaute.inclusion.beta.gouv.fr%26widgetid%3D1&of=wbAUJoLFDaeeOSJrHXH1sg&vm=CAEQABgEOjJBS1JhaHdDVXZMWmlmUXBJUUhER2V1eEhIRXVzdkdYXzhMZWZ0Skt4WlIwQ2dtd0VJUWJQQVBta0tESWhMU3dBSVd3VHNCNS00eUZJcEIyMC1LU05raWRoTTkzWjlaSGdvajJpUHN3OXhSSGhYUXRKcGJRUFJLRm9PT3ZFMi1JMl82aDI",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -286,7 +262,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/ptracking?html5=1&video_id=21mzHA2s5C4&cpn=DXDK4JLAGyN23eMe&ei=98p7YufvD8n48gSwyZmIDQ&ptk=youtube_none&pltype=contentugc",
+      "url": "https://www.youtube.com/ptracking?html5=1&video_id=21mzHA2s5C4&cpn=6eRMWb9fHL8wjOLb&ei=rniAYpjvOZOflu8Pr9OzEA&ptk=youtube_none&pltype=contentugc",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -299,6 +275,62 @@
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
       }
+    },
+    {
+      "type": "jsdelivr",
+      "url": "https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@1.9.3/css/tarteaucitron.min.css?v=20210509",
+      "details": {
+        "id": "jsdelivr",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "jsdelivr",
+      "url": "https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@1.9.3/lang/tarteaucitron.en.min.js?v=20210509",
+      "details": {
+        "id": "jsdelivr",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://www.gravatar.com/avatar/d4a6b4bb26568f3a993f036c4e7c41e9?s=20&r=g&d=mm"
+    },
+    {
+      "type": "jsdelivr",
+      "url": "https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@1.9.3/tarteaucitron.services.min.js?v=20210509",
+      "details": {
+        "id": "jsdelivr",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/api/stats/watchtime?ns=yt&el=embedded&cpn=6eRMWb9fHL8wjOLb&ver=2&cmt=4.472&fmt=243&fs=0&rt=5.001&euri=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2F&lact=5039&cl=448088478&state=playing&volume=100%2C100&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220511.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&autoplay=1&splay=1&hl=en_US&cr=US&len=98&rtn=15&afmt=250&idpj=-6&ldpj=-38&rti=5&size=420%3A236&inview=0&st=0%2C0.115&et=0.018%2C4.472&muted=1%2C1&docid=21mzHA2s5C4&ei=rniAYpjvOZOflu8Pr9OzEA&plid=AAXfBNF77uWIjt0n&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2F21mzHA2s5C4%3Fcontrols%3D1%26rel%3D0%26playsinline%3D1%26modestbranding%3D1%26autoplay%3D1%26enablejsapi%3D1%26origin%3Dhttps%253A%252F%252Fcommunaute.inclusion.beta.gouv.fr%26widgetid%3D1&of=wbAUJoLFDaeeOSJrHXH1sg&vm=CAEQABgEOjJBS1JhaHdDVXZMWmlmUXBJUUhER2V1eEhIRXVzdkdYXzhMZWZ0Skt4WlIwQ2dtd0VJUWJQQVBta0tESWhMU3dBSVd3VHNCNS00eUZJcEIyMC1LU05raWRoTTkzWjlaSGdvajJpUHN3OXhSSGhYUXRKcGJRUFJLRm9PT3ZFMi1JMl82aDI",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=6eRMWb9fHL8wjOLb&ver=2&cmt=4.548&fmt=243&fs=0&rt=5.079&euri=https%3A%2F%2Fcommunaute.inclusion.beta.gouv.fr%2F&lact=5117&cl=448088478&mos=1&volume=100&cbr=HeadlessChrome&cbrver=91.0.4469.0&c=WEB_EMBEDDED_PLAYER&cver=1.20220511.00.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&autoplay=1&epm=1&splay=1&hl=en_US&cr=US&len=98&fexp=23858057%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24080738%2C24082662%2C24134435%2C24135310%2C24169501%2C24175560%2C24208721%2C24208991&afmt=250&muted=1&docid=21mzHA2s5C4&ei=rniAYpjvOZOflu8Pr9OzEA&plid=AAXfBNF77uWIjt0n&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2F21mzHA2s5C4%3Fcontrols%3D1%26rel%3D0%26playsinline%3D1%26modestbranding%3D1%26autoplay%3D1%26enablejsapi%3D1%26origin%3Dhttps%253A%252F%252Fcommunaute.inclusion.beta.gouv.fr%26widgetid%3D1&of=wbAUJoLFDaeeOSJrHXH1sg&vm=CAEQABgEOjJBS1JhaHdDVXZMWmlmUXBJUUhER2V1eEhIRXVzdkdYXzhMZWZ0Skt4WlIwQ2dtd0VJUWJQQVBta0tESWhMU3dBSVd3VHNCNS00eUZJcEIyMC1LU05raWRoTTkzWjlaSGdvajJpUHN3OXhSSGhYUXRKcGJRUFJLRm9PT3ZFMi1JMl82aDI",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://rr2---sn-q4flrnez.googlevideo.com/videoplayback?expire=1652608270&ei=rniAYpjvOZOflu8Pr9OzEA&ip=20.225.187.210&id=o-AFt5HTpZJpRm1oy5i9OUG5hNBJi7tfRSQkXl3EGPnxY-&itag=243&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=Tq&mm=31%2C26&mn=sn-q4flrnez%2Csn-vgqsknze&ms=au%2Conr&mv=m&mvi=2&pl=16&initcwndbps=1291250&spc=4ocVC6LMZLCVBdtOXlhZ6fQJewS8&vprv=1&mime=video%2Fwebm&ns=vQl2pZkvlGaGD4qJItpGYP8G&gir=yes&clen=588212&dur=97.100&lmt=1651757868843874&mt=1652586294&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB_EMBEDDED_PLAYER&txp=5319224&n=iKPLs6jizEzM6A&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgXGSjuj9bEh5VxbNimJWi0Q0x6uOxsR-8C154LnlPYfgCICzUAk5v2ORBqQohsksbclpmHgmgb8zaDh6FkBcbAcdu&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAPlwV9VU0q-uQkY-u4kslM5CCebBmJEWihz8ew6qXMMLAiAorkhZCD_DcwDkWBxfH1KNe757G5gbVhn0WZ9xLsvVew%3D%3D&alr=yes&cpn=6eRMWb9fHL8wjOLb&cver=1.20220511.00.00&range=156184-301320&rn=4&rbuf=15683&pot=Gp4BCnFIsdEZjnoPxsu13FxpBJpDQjoKmaYGbFCiKLIIbhrLijo06BdpIZTMdNDSY155TyXq-ZWb8jehq7lEq2vsyFFk2Txe8ya1jfwVh93vicSNDfOZItSKdclEQvfvw7VSrTv1Ix7rUr7_RJb85kuE4F987BIpATwYQQ418nfrpFjVUwMux_VfsDqxuvg3bIoaUvy5AV3uv05f2JGMhos="
     }
   ],
   "cookies": [
@@ -307,7 +339,7 @@
       "value": "1",
       "domain": "communaute.inclusion.beta.gouv.fr",
       "path": "/",
-      "expires": 1652281854,
+      "expires": 1652588470,
       "size": 17,
       "httpOnly": false,
       "secure": false,
@@ -319,10 +351,10 @@
     },
     {
       "name": "_pk_id.206.a786",
-      "value": "bd29144deb522871.1652280055.",
+      "value": "6a48f9ed918ac574.1652586671.",
       "domain": "communaute.inclusion.beta.gouv.fr",
       "path": "/",
-      "expires": 1686235255,
+      "expires": 1686541871,
       "size": 43,
       "httpOnly": false,
       "secure": false,
@@ -334,19 +366,19 @@
     }
   ],
   "headers": {
-    "date": "Wed, 11 May 2022 14:40:44 GMT",
+    "date": "Sun, 15 May 2022 03:51:04 GMT",
     "server": "Apache",
     "link": "<https://communaute.inclusion.beta.gouv.fr/wp-json/>; rel=\"https://api.w.org/\", <https://communaute.inclusion.beta.gouv.fr/wp-json/wp/v2/pages/480>; rel=\"alternate\"; type=\"application/json\", <https://communaute.inclusion.beta.gouv.fr/>; rel=shortlink",
     "x-tec-api-version": "v1",
     "x-tec-api-root": "https://communaute.inclusion.beta.gouv.fr/wp-json/tribe/events/v1/",
     "x-tec-api-origin": "https://communaute.inclusion.beta.gouv.fr",
     "cache-control": "max-age=0",
-    "expires": "Wed, 11 May 2022 14:40:44 GMT",
+    "expires": "Sun, 15 May 2022 03:51:04 GMT",
     "vary": "Accept-Encoding",
     "content-encoding": "gzip",
     "transfer-encoding": "chunked",
     "content-type": "text/html; charset=UTF-8",
-    "sozu-id": "01G2SS1AG3CEEP9AMYCCPCQ6ER"
+    "sozu-id": "01G32XEKYKC50GRQ3NK714FCS7"
   },
   "endpoints": [
     {
@@ -407,7 +439,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.62.95",
+      "ip": "142.250.138.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -461,12 +493,12 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "104.16.86.20",
+      "ip": "104.16.87.20",
       "geoip": null
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "142.251.33.206",
+      "ip": "142.251.45.78",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -520,7 +552,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.164.131",
+      "ip": "142.251.33.35",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -574,7 +606,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "172.253.115.155",
+      "ip": "142.251.33.2",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -628,7 +660,7 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "172.253.115.149",
+      "ip": "142.251.40.70",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -682,7 +714,7 @@
     },
     {
       "hostname": "jnn-pa.googleapis.com",
-      "ip": "142.250.188.202",
+      "ip": "142.250.138.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -736,7 +768,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "172.253.115.104",
+      "ip": "142.251.33.4",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -790,7 +822,7 @@
     },
     {
       "hostname": "yt3.ggpht.com",
-      "ip": "172.253.62.132",
+      "ip": "142.251.46.129",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -843,8 +875,8 @@
       }
     },
     {
-      "hostname": "rr4---sn-5ualdnll.googlevideo.com",
-      "ip": "74.125.6.201",
+      "hostname": "rr2---sn-q4flrnez.googlevideo.com",
+      "ip": "173.194.191.199",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -898,7 +930,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.250.73.227",
+      "ip": "142.250.138.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -948,6 +980,93 @@
             "zh-CN": "美国"
           }
         }
+      }
+    },
+    {
+      "hostname": "www.gravatar.com",
+      "ip": "192.0.73.2",
+      "geoip": {
+        "city": {
+          "geoname_id": 5391959,
+          "names": {
+            "de": "San Francisco",
+            "en": "San Francisco",
+            "es": "San Francisco",
+            "fr": "San Francisco",
+            "ja": "サンフランシスコ",
+            "pt-BR": "São Francisco",
+            "ru": "Сан-Франциско",
+            "zh-CN": "旧金山"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 37.7506,
+          "longitude": -122.4121,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
+        },
+        "postal": {
+          "code": "94110"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
       }
     }
   ]
