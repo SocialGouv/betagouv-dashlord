@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 14:08:00",
+	"@generated": "Sun, 15 May 2022 03:23:43",
 	"site":[ 
 		{
 			"@name": "https://cartobio.org",
@@ -231,7 +231,7 @@
 					"reference": "<p>https://vulncat.fortify.com/en/detail?id=desc.config.dotnet.html5_overly_permissive_cors_policy</p>",
 					"cweid": "264",
 					"wascid": "14",
-					"sourceid": "134"
+					"sourceid": "133"
 				},
 				{
 					"pluginid": "10020",
@@ -733,7 +733,7 @@
 					"reference": "<p>http://tools.ietf.org/html/rfc6797#section-8.1</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "278"
+					"sourceid": "275"
 				},
 				{
 					"pluginid": "10096",
@@ -1134,7 +1134,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "46"
+					"sourceid": "47"
 				},
 				{
 					"pluginid": "10109",
@@ -1182,13 +1182,6 @@
 							"evidence": "<script src=\"/js/chunk-vendors.4937e24a.js\"></script>"
 						},
 						{
-							"uri": "https://cartobio.org/georem-stats/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script src=\"/js/chunk-vendors.4937e24a.js\"></script>"
-						},
-						{
 							"uri": "https://cartobio.org/georem/",
 							"method": "GET",
 							"param": "",
@@ -1208,6 +1201,13 @@
 							"param": "",
 							"attack": "",
 							"evidence": "<a>"
+						},
+						{
+							"uri": "https://cartobio.org/plugins/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=\"/js/chunk-vendors.4937e24a.js\"></script>"
 						},
 						{
 							"uri": "https://cartobio.org/robots.txt",
@@ -1401,7 +1401,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "26"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "10049",
