@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 12:57:26",
+	"@generated": "Sun, 15 May 2022 02:12:34",
 	"site":[ 
 		{
 			"@name": "https://acceslibre.beta.gouv.fr",
@@ -211,7 +211,7 @@
 					"desc": "<p>Web browser data loading may be possible, due to a Cross Origin Resource Sharing (CORS) misconfiguration on the web server</p>",
 					"instances":[ 
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.773a94baeafe.js",
+							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.285b593bd0a8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -609,7 +609,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.773a94baeafe.js",
+							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.285b593bd0a8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -738,6 +738,13 @@
 							"evidence": "31449600"
 						},
 						{
+							"uri": "https://acceslibre.beta.gouv.fr/communes/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "69908164"
+						},
+						{
 							"uri": "https://acceslibre.beta.gouv.fr/compte/login/?next=/",
 							"method": "GET",
 							"param": "",
@@ -771,13 +778,6 @@
 							"param": "",
 							"attack": "",
 							"evidence": "70710678"
-						},
-						{
-							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.9f1f4c5c74a4.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "73406870"
 						}
 					],
 					"count": "7",
@@ -799,7 +799,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.773a94baeafe.js",
+							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.285b593bd0a8.js",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -927,7 +927,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "z9eHt96Y90kXWCnUdv2cZORohbhr9M2yqC2AjVHLUhJkOS3fTS5RM2Wpx2BeS4sd"
+							"evidence": "pqE087UgCtDfawThrZogVpaxn2fSxPCIVhXRctfRxopnXLqFOBELpNPu3uPXXkCa"
 						},
 						{
 							"uri": "https://acceslibre.beta.gouv.fr/challenge/ddt/2022/03/",
@@ -948,7 +948,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "z9eHt96Y90kXWCnUdv2cZORohbhr9M2yqC2AjVHLUhJkOS3fTS5RM2Wpx2BeS4sd"
+							"evidence": "pqE087UgCtDfawThrZogVpaxn2fSxPCIVhXRctfRxopnXLqFOBELpNPu3uPXXkCa"
 						},
 						{
 							"uri": "https://acceslibre.beta.gouv.fr/conditions-generales-d-utilisation",
@@ -962,7 +962,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "z9eHt96Y90kXWCnUdv2cZORohbhr9M2yqC2AjVHLUhJkOS3fTS5RM2Wpx2BeS4sd"
+							"evidence": "pqE087UgCtDfawThrZogVpaxn2fSxPCIVhXRctfRxopnXLqFOBELpNPu3uPXXkCa"
 						},
 						{
 							"uri": "https://acceslibre.beta.gouv.fr/partenaires",
@@ -998,84 +998,84 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/app/10-bar-sur-aube/a/banques-caisses-depargne/erp/caisse-depargne-81/",
+							"uri": "https://acceslibre.beta.gouv.fr/app/41-la-chaussee-saint-victor/a/bricolage-amenagement/erp/berthault-lacroute/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "TODO"
 						},
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/app/74-epagny-metz-tessy/a/chaussures/erp/elfes-in-shoes/",
+							"uri": "https://acceslibre.beta.gouv.fr/app/41-la-chaussee-saint-victor/a/supermarche/erp/carrefour-market-36/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "TODO"
 						},
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/app/74-epagny-metz-tessy/a/cycle-vente-et-entretien/erp/mondovelo-3/",
+							"uri": "https://acceslibre.beta.gouv.fr/app/41-vineuil/a/concessionnaire-automobile/erp/vineuil-automobile/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "TODO"
 						},
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.773a94baeafe.js",
+							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.285b593bd0a8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "admin"
 						},
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.773a94baeafe.js",
+							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.285b593bd0a8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "bug"
 						},
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.773a94baeafe.js",
+							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.285b593bd0a8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "db"
 						},
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.773a94baeafe.js",
+							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.285b593bd0a8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "from"
 						},
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.773a94baeafe.js",
+							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.285b593bd0a8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "query"
 						},
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.773a94baeafe.js",
+							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.285b593bd0a8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "select"
 						},
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.773a94baeafe.js",
+							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.285b593bd0a8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "user"
 						},
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.773a94baeafe.js",
+							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.285b593bd0a8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "username"
 						},
 						{
-							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.773a94baeafe.js",
+							"uri": "https://acceslibre.beta.gouv.fr/static/dist/main.285b593bd0a8.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1088,7 +1088,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "492"
+					"sourceid": "475"
 				},
 				{
 					"pluginid": "10109",
@@ -1224,7 +1224,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "36"
+					"sourceid": "35"
 				},
 				{
 					"pluginid": "10015",
@@ -1498,7 +1498,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "183"
+					"sourceid": "173"
 				}
 			]
 		}
