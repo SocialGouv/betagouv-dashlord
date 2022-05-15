@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 22:58:16",
+	"@generated": "Sun, 15 May 2022 11:51:31",
 	"site":[ 
 		{
 			"@name": "https://collectif-objets.beta.gouv.fr",
@@ -258,14 +258,14 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://collectif-objets.beta.gouv.fr/assets/application-0e9ec8c51d01eb299bec736349db5643cc7e3829cc1c27585b3ea5b0865b1297.css",
+							"uri": "https://collectif-objets.beta.gouv.fr/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": ""
 						},
 						{
-							"uri": "https://collectif-objets.beta.gouv.fr/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js",
+							"uri": "https://collectif-objets.beta.gouv.fr/assets/application-c69839a55ed41ad3c8e11725d1b44e8ca6ead5e55d661c0bd2182129d6e23a15.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -340,13 +340,6 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server - Unix</p>",
 					"instances":[ 
 						{
-							"uri": "https://collectif-objets.beta.gouv.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "45807799"
-						},
-						{
 							"uri": "https://collectif-objets.beta.gouv.fr/dsfr_1_5_1/dsfr/dsfr.min.css",
 							"method": "GET",
 							"param": "",
@@ -368,13 +361,13 @@
 							"evidence": "23929292"
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
-					"otherinfo": "<p>45807799, which evaluates to: 1971-06-15 04:23:19</p>",
+					"otherinfo": "<p>23000091, which evaluates to: 1970-09-24 04:54:51</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "92"
 				},
 				{
 					"pluginid": "10021",
@@ -387,14 +380,14 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"uri": "https://collectif-objets.beta.gouv.fr/assets/application-0e9ec8c51d01eb299bec736349db5643cc7e3829cc1c27585b3ea5b0865b1297.css",
+							"uri": "https://collectif-objets.beta.gouv.fr/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
 							"evidence": ""
 						},
 						{
-							"uri": "https://collectif-objets.beta.gouv.fr/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js",
+							"uri": "https://collectif-objets.beta.gouv.fr/assets/application-c69839a55ed41ad3c8e11725d1b44e8ca6ead5e55d661c0bd2182129d6e23a15.css",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -477,7 +470,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "83"
+					"sourceid": "85"
 				},
 				{
 					"pluginid": "10094",
@@ -494,28 +487,28 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2Bix9q40mhZE9xgup94rvqVhERBRCZA2aMIVI11rzXcjXIGg0NxST3WJb8AxPzXWvdZv5MhhpqD1HAosxYaX26FFNhQ17RKgKGya8ZabaN1BzXvpaK9tXSXUm2sVnZRjW7RzZeBCYrHDg5ldeFw1EggoF32qr07syzLW"
+							"evidence": "2BpT6MQmgjDYQMRRnaAJjzPhSgUva7R"
 						},
 						{
 							"uri": "https://collectif-objets.beta.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "0iuFDs8bnqWpX8mfDbnTb1lZKPdAQHS4JT7"
+							"evidence": "2FACCHcowPMraK37K3ppiAwVxn50Anf0Alq1RkQ4Jk915PA1FJNyNjB9BIIMcVJFgOqVlhkUC9Ragu83449d3SPjmtHkgBgz6svuNEoh1rdnWvwt41ibO2wxKZHimMCrerriBM4nQFIvMp596XNNH9l94cB8paQsyKrjhU60iDutwr5"
 						},
 						{
 							"uri": "https://collectif-objets.beta.gouv.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "5398El9MYJH1pgZhRXgEBzeeZeDkPwYQaiY"
+							"evidence": "2FZd0TJnXDaocHpwTGPpwgvjYenPO13ThniZqenNUH0bep0qwIT8BtszjtQV"
 						},
 						{
 							"uri": "https://collectif-objets.beta.gouv.fr/comment-ca-marche",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "jmuifhxLZTdowRbemvTSCjs1ww9JwTNVbEChOot5FNAV7GwnJBLcorzRWpuRmVIdrv1eSsXQWDzHYagMkA2g1g"
+							"evidence": "E5hIO2F0MhwVejoEcdtioVLWR3ivaymuzlF"
 						},
 						{
 							"uri": "https://collectif-objets.beta.gouv.fr/dsfr_1_5_1/dsfr/dsfr.min.css",
@@ -543,40 +536,40 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FZAAvAC2966U5JLYE06731LCAFrsgJKylGySeePjUt1bIEAC2Ygqu5eQXiYEK5csPOcwLx4cIp"
+							"evidence": "2Fr58Zf045fUjZZm4zShldQ9WtwFGEihz4CptjGvGyIype61C9bIR1NPIAmVG8qCedySzcAK57DpC97o1iDLcHtKKiizCQlL6zdLqWi8jpJ0oiLlMTggcYWI3BQQtsVB25S20m3ckyDeYCFgmUo"
 						},
 						{
 							"uri": "https://collectif-objets.beta.gouv.fr/objets",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2F9tBemoIDVUYAK2hJLh9PVA7UYq93nmequK"
+							"evidence": "2BpLosdG30tXP5lvuTKeuPF3oJPt8D3L2gDclXCpHZa6DdgZHJZTUq022f"
 						},
 						{
 							"uri": "https://collectif-objets.beta.gouv.fr/stats",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FWP6eGd92hsWv6olbQXrFD6btPL66zE"
+							"evidence": "2FSZ4u0TqU99GGqcOKqGs8nY6CXba7RMKULcmbX9DP7rqSh"
 						},
 						{
 							"uri": "https://collectif-objets.beta.gouv.fr/users/sign_in",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FFgDGgBZTV49aGEQdNvVWJ9O3izuxxvplEZWv"
+							"evidence": "2FfStsJPsmsFOLbpliQbmcqKfxloXwETyoDQ4SAYX43Uaj"
 						},
 						{
 							"uri": "https://collectif-objets.beta.gouv.fr/users/magic_links",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "2FpHcOSo9yprCFm3Bzssk798lahUgZMqL52CDDmfCJsmun7ftXJ6QKYI1vuPfv4c47QydngaU2XBvUCqcsy7Pe3VjVkgR7g2DK"
+							"evidence": "2F66hTOKRt0nQ7IqFCxgjoGTSWnYmKNZbuMmtzCXdTFEYJfGJeHDuZtf"
 						}
 					],
 					"count": "12",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\\x0018\uFFFD\uFFFD\uFFFD4\uFFFD\\x0016D\uFFFD\\x0018.\uFFFD\uFFFD+\uFFFD\uFFFDa\\x0011\\x0010Q\t\uFFFD6h\uFFFD\\x0015#]k\uFFFDw#\\\uFFFD\uFFFD\uFFFD\uFFFDROu\uFFFDo\uFFFD1?5\u05BD\uFFFDo\uFFFD\uFFFDa\uFFFD\uFFFD\uFFFD\\x001c</p><p>,\u0146\uFFFD\u06E1E6\\x00145\uFFFD\\x0012\uFFFD(l\uFFFD\uFFFDh\uFFFDA\uFFFD{\uFFFDh\uFFFDm]%\u051Bk\\x0015\uFFFD\uFFFDc[\uFFFDse\uFFFDBb\uFFFD\u00C3\uFFFD]x\\5\\x0012\\x0008(\\x0017}\uFFFD\uFFFDN\uFFFD\uFFFD2\uFFFD</p>",
+					"otherinfo": "<p>\uFFFD\\x001aS\uFFFD\uFFFD&\uFFFD0\uFFFD@\uFFFDQ\uFFFD\uFFFD\t\uFFFD3\uFFFDJ\\x0005/k\uFFFD</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -613,7 +606,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1804"
+					"sourceid": "1805"
 				},
 				{
 					"pluginid": "10027",
@@ -968,14 +961,14 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users.  If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"uri": "https://collectif-objets.beta.gouv.fr/assets/application-0e9ec8c51d01eb299bec736349db5643cc7e3829cc1c27585b3ea5b0865b1297.css",
+							"uri": "https://collectif-objets.beta.gouv.fr/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": ""
 						},
 						{
-							"uri": "https://collectif-objets.beta.gouv.fr/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js",
+							"uri": "https://collectif-objets.beta.gouv.fr/assets/application-c69839a55ed41ad3c8e11725d1b44e8ca6ead5e55d661c0bd2182129d6e23a15.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1002,7 +995,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "83"
+					"sourceid": "85"
 				},
 				{
 					"pluginid": "10031",
@@ -1049,7 +1042,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "6090"
+					"sourceid": "3694"
 				}
 			]
 		}
