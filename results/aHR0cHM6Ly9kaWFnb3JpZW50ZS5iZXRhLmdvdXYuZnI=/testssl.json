@@ -381,7 +381,7 @@
               "ip"           : "diagoriente.beta.gouv.fr/141.94.175.156",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "35 >= 30 days"
+              "finding"      : "31 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -584,7 +584,7 @@
               "ip"           : "diagoriente.beta.gouv.fr/141.94.175.156",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1652281772"
+              "finding"      : "1652588397"
           }
 ,         {
               "id"           : "HSTS",
@@ -771,7 +771,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://censys.io/ipv4?q=C541B4DEAD999425B00145D69AA3CC73161932B8F15B6C284E651BCEEF4E2634"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=C541B4DEAD999425B00145D69AA3CC73161932B8F15B6C284E651BCEEF4E2634"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1161,6 +1161,6 @@
               "ip"           : "diagoriente.beta.gouv.fr/141.94.175.156",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "166"
+              "finding"      : "101"
           }
 ]

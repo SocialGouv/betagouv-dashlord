@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 15:06:52",
+	"@generated": "Sun, 15 May 2022 04:17:41",
 	"site":[ 
 		{
 			"@name": "https://diagoriente.beta.gouv.fr",
@@ -32,7 +32,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "172"
+					"sourceid": "171"
 				},
 				{
 					"pluginid": "10055",
@@ -59,7 +59,7 @@
 							"evidence": "frame-ancestors https://diagoriente.beta.gouv.fr/ app.diagoriente.beta.gouv.fr diagoriente.beta.gouv.fr"
 						},
 						{
-							"uri": "https://diagoriente.beta.gouv.fr/ressources",
+							"uri": "https://diagoriente.beta.gouv.fr/statistiques",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -99,7 +99,7 @@
 							"evidence": "frame-ancestors https://diagoriente.beta.gouv.fr/ app.diagoriente.beta.gouv.fr diagoriente.beta.gouv.fr"
 						},
 						{
-							"uri": "https://diagoriente.beta.gouv.fr/ressources",
+							"uri": "https://diagoriente.beta.gouv.fr/statistiques",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -139,7 +139,7 @@
 							"evidence": "frame-ancestors https://diagoriente.beta.gouv.fr/ app.diagoriente.beta.gouv.fr diagoriente.beta.gouv.fr"
 						},
 						{
-							"uri": "https://diagoriente.beta.gouv.fr/ressources",
+							"uri": "https://diagoriente.beta.gouv.fr/statistiques",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -261,7 +261,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://diagoriente.beta.gouv.fr/_next/static/chunks/framework-01395af778c6fb71.js",
+							"uri": "https://diagoriente.beta.gouv.fr/_next/static/chunks/main-29e888f0ea1ea064.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -536,7 +536,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "171"
+					"sourceid": "172"
 				},
 				{
 					"pluginid": "10021",
@@ -846,7 +846,7 @@
 					],
 					"count": "11",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{\"totalUser\":90742,\"currentUser\":30465,\"__APOLLO_STATE_\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{\"totalUser\":91289,\"currentUser\":30837,\"__APOLLO_STATE_\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
@@ -937,7 +937,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<noscript data-n-css=\"\"></noscript>"
+							"evidence": "<a class=\"chakra-link css-f4h6uy\"><strong>d\u00E9marche</strong></a>"
 						}
 					],
 					"count": "11",
