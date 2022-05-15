@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 15:26:43",
+	"@generated": "Sun, 15 May 2022 04:33:59",
 	"site":[ 
 		{
 			"@name": "https://eva.beta.gouv.fr",
@@ -162,6 +162,13 @@
 							"evidence": ""
 						},
 						{
+							"uri": "https://eva.beta.gouv.fr/en-savoir-plus-sur-les-referentiels-devaluation/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://eva.beta.gouv.fr/faq/",
 							"method": "GET",
 							"param": "",
@@ -177,13 +184,6 @@
 						},
 						{
 							"uri": "https://eva.beta.gouv.fr/mission-etude-sur-les-parcours-de-prise-en-charge-de-lillettrisme-revelee-en-evaluation-pour-le-public-jeune/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://eva.beta.gouv.fr/nos-experts-scientifiques-vous-invitent-dans-les-coulisses-deva/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -621,7 +621,7 @@
 							"evidence": "Eval"
 						},
 						{
-							"uri": "https://eva.beta.gouv.fr/pro/assets/active_admin-c9f9481babad8fff8ebddf78879b357b3e905cfc51460cffa008d625853b91d7.js",
+							"uri": "https://eva.beta.gouv.fr/pro/assets/active_admin-18f12ca4d1c53a7d4cfe97f7cdfc1afc4131a1555c0d4a0a26b7ab358c4c48c2.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -675,6 +675,13 @@
 							"evidence": ""
 						},
 						{
+							"uri": "https://eva.beta.gouv.fr/en-savoir-plus-sur-les-referentiels-devaluation/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://eva.beta.gouv.fr/faq/",
 							"method": "GET",
 							"param": "",
@@ -690,13 +697,6 @@
 						},
 						{
 							"uri": "https://eva.beta.gouv.fr/mission-etude-sur-les-parcours-de-prise-en-charge-de-lillettrisme-revelee-en-evaluation-pour-le-public-jeune/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://eva.beta.gouv.fr/nos-experts-scientifiques-vous-invitent-dans-les-coulisses-deva/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -847,7 +847,7 @@
 					"reference": "<p>http://blogs.msdn.com/b/varunm/archive/2013/04/23/remove-unwanted-http-response-headers.aspx</p><p>http://www.troyhunt.com/2012/02/shhh-dont-let-your-response-headers.html</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "138"
+					"sourceid": "123"
 				},
 				{
 					"pluginid": "10035",
@@ -974,38 +974,45 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1652282728"
+							"evidence": "1652589128"
 						},
 						{
 							"uri": "https://eva.beta.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1652282729"
+							"evidence": "1652589129"
 						},
 						{
-							"uri": "https://eva.beta.gouv.fr/",
+							"uri": "https://eva.beta.gouv.fr/qui-sommes-nous/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "1651096928"
 						},
 						{
-							"uri": "https://eva.beta.gouv.fr/",
+							"uri": "https://eva.beta.gouv.fr/qui-sommes-nous/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "1651097368"
 						},
 						{
-							"uri": "https://eva.beta.gouv.fr/",
+							"uri": "https://eva.beta.gouv.fr/qui-sommes-nous/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1652282731"
+							"evidence": "1651122068"
+						},
+						{
+							"uri": "https://eva.beta.gouv.fr/qui-sommes-nous/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1652589130"
 						}
 					],
-					"count": "7",
+					"count": "8",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>1651096928, which evaluates to: 2022-04-27 22:02:08</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
@@ -1134,13 +1141,6 @@
 							"evidence": "fr/wp-content/uploads/2021/05/1200px-Republique-francaise-logo"
 						},
 						{
-							"uri": "https://eva.beta.gouv.fr/articles/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "fr/wp-content/uploads/2021/05/1200px-Republique-francaise-logo"
-						},
-						{
 							"uri": "https://eva.beta.gouv.fr/en-savoir-plus-sur-les-referentiels-devaluation/",
 							"method": "GET",
 							"param": "",
@@ -1173,17 +1173,24 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FIosXvLLyDfeSm3tK9Tfb3TRtgXFw"
+							"evidence": "2B4kjMqEI2TGqlGIb7CtxNd08mYChjeNmK0SYD7jAzBnQqYZdB5YFegkTzm"
 						},
 						{
 							"uri": "https://eva.beta.gouv.fr/pro/structures",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BRz03pYjn7wOPbappMClc8WzRDEbPxgUFye6w5HqqI6VGysfOGHZ16EO0fewaQe65NFlGuBlTsFXJn9oUTNDMGG3uZBYF"
+							"evidence": "2B1XnCq1zKJDcaVypATAorABdVcGvpV6GSi6uKyB6tX1dW7nSImzxwrq"
 						},
 						{
 							"uri": "https://eva.beta.gouv.fr/qui-sommes-nous/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "fr/wp-content/uploads/2021/05/1200px-Republique-francaise-logo"
+						},
+						{
+							"uri": "https://eva.beta.gouv.fr/statistiques/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1481,7 +1488,7 @@
 							"evidence": "<a>b)\",\"g\");return\"b\"!==e.exec(\"b\").groups.a||\"bc\"!==\"b\".replace(e,\"$"
 						},
 						{
-							"uri": "https://eva.beta.gouv.fr/pro/assets/active_admin-c9f9481babad8fff8ebddf78879b357b3e905cfc51460cffa008d625853b91d7.js",
+							"uri": "https://eva.beta.gouv.fr/pro/assets/active_admin-18f12ca4d1c53a7d4cfe97f7cdfc1afc4131a1555c0d4a0a26b7ab358c4c48c2.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1509,6 +1516,20 @@
 							"evidence": "<a id='\"+S+\"'></a>"
 						},
 						{
+							"uri": "https://eva.beta.gouv.fr/wp-json/wp/v2/categories/6",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script type=\\\"application\\/ld+json\\\" class=\\\"yoast-schema-graph\\\">"
+						},
+						{
+							"uri": "https://eva.beta.gouv.fr/wp-json/wp/v2/categories/7",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script type=\\\"application\\/ld+json\\\" class=\\\"yoast-schema-graph\\\">"
+						},
+						{
 							"uri": "https://eva.beta.gouv.fr/wp-json/wp/v2/pages/1235",
 							"method": "GET",
 							"param": "",
@@ -1523,39 +1544,13 @@
 							"evidence": "<script type=\\\"application\\/ld+json\\\" class=\\\"yoast-schema-graph\\\">"
 						}
 					],
-					"count": "8",
+					"count": "10",
 					"solution": "<p>This is an informational alert and so no changes are required.</p>",
 					"otherinfo": "<p>No links have been found while there are scripts, which is an indication that this is a modern web application.</p>",
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "737"
-				},
-				{
-					"pluginid": "10049",
-					"alertRef": "10049",
-					"alert": "Non-Storable Content",
-					"name": "Non-Storable Content",
-					"riskcode": "0",
-					"confidence": "2",
-					"riskdesc": "Informational (Medium)",
-					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
-					"instances":[ 
-						{
-							"uri": "https://eva.beta.gouv.fr/pro/admin/login",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "private"
-						}
-					],
-					"count": "1",
-					"solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).   </p>",
-					"otherinfo": "",
-					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
-					"cweid": "524",
-					"wascid": "13",
-					"sourceid": "123"
+					"sourceid": "735"
 				},
 				{
 					"pluginid": "10015",
@@ -1732,6 +1727,13 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, but will not be retrieved directly from the cache, without validating the request upstream, in response to similar requests from other users. </p>",
 					"instances":[ 
 						{
+							"uri": "https://eva.beta.gouv.fr/jeu/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "max-age=0"
+						},
+						{
 							"uri": "https://eva.beta.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -1753,13 +1755,13 @@
 							"evidence": "no-cache"
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "",
 					"otherinfo": "",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "9"
+					"sourceid": "123"
 				},
 				{
 					"pluginid": "10031",
@@ -1855,7 +1857,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "373"
+					"sourceid": "361"
 				}
 			]
 		}
