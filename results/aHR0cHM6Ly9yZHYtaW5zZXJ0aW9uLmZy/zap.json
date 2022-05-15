@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 23:06:05",
+	"@generated": "Sun, 15 May 2022 12:00:09",
 	"site":[ 
 		{
 			"@name": "https://rdv-insertion.fr",
@@ -626,86 +626,86 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FZHZeQ9Y5cvVhB8Y2QvONXfMV1WZNtMTCFLwYzz8LianYgVzXOhnX"
+							"evidence": "PCaTSIVqKXjjl0TI5DifEraubnOtMFV4BndY"
 						},
 						{
 							"uri": "https://rdv-insertion.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "4pXDBHp688cV0YcX6qV0Md4jzvb56B4Ze4"
+							"evidence": "2FhsAJQ1M5MZk0i5jNPzZQKSve2U5CFRh7m6LI3fxFZDmXxEvd66tT7"
 						},
 						{
 							"uri": "https://rdv-insertion.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FLaP58SzQXIc5TipQoC5WX4dsBvEdAgzL0juv2Rl591r65kK3cpZcl4hb"
+							"evidence": "2FkJYXZUYiuBRcXpf9tjUriOH0StW4GWQamtuNKkhPGoerU"
 						},
 						{
 							"uri": "https://rdv-insertion.fr/accessibilite",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "o1gbQLpwa5byGfQAR3vrDFprGv5Mbm"
+							"evidence": "2FKkb0oH5dA6MSVf6b46Gzlg4ZDEXaW"
 						},
 						{
 							"uri": "https://rdv-insertion.fr/invitation",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BRM6DltrPoDFKveLOlZ5v6FmVDRlIOSeM"
+							"evidence": "e2PngOGVI9bbFvHoNqxKYtOLNqzU3G7N"
 						},
 						{
 							"uri": "https://rdv-insertion.fr/invitations/redirect?format=postal&token=ZAP",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "BxnNATig7zahxRLE6gX/5wOv2sfM+8q246Cyzm6fVFqTuyZ24G7q8xzFHxQts0Ye6UnNWuVuoQqnSbaUt80ssg=="
+							"evidence": "iKZcGizEzOtRZc5awODiGIvEe1W43k2LQdFLacEZc64JyXykCIPlMAoMhPFSlma4ue5yhO3NLfd+Pi+L+ocLUA=="
 						},
 						{
 							"uri": "https://rdv-insertion.fr/mentions-legales",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BeMidXzF1e1eTaVhLo8ipV9QknU28o"
+							"evidence": "LM6ZGSxAZpowUh0Cf0WnQDJUBCWRp8mg"
 						},
 						{
 							"uri": "https://rdv-insertion.fr/politique-de-confidentialite",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "YHl8Fa69wwuVLHqiNKHwtK8xiADQqQJyIkmTyvYLShfmJuU"
+							"evidence": "2BYXJ2Oo--ptKuRagWOb30by9pEy8YvQ"
 						},
 						{
 							"uri": "https://rdv-insertion.fr/sign_in",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "xlZcomBULE7stbBvJytL1hvahFx6uo2Seud2dKeJIV0o7Dt13oVop4zyAluIhAHCVyLARYNYVRNswpCpEqNV6Q"
+							"evidence": "2B43lFs1AYjnMfEmJsxL0543FfkGTC5LaKHpYD5Y0JA8v66m2mISjmG"
 						},
 						{
 							"uri": "https://rdv-insertion.fr/stats",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2B6pCpDywGtS8TpjEbG9b16o2kFZ5uYsHk04"
+							"evidence": "2FhIL6q25rEgSzp6On0DU9Y6rVZmkW4znxs"
 						},
 						{
 							"uri": "https://rdv-insertion.fr/sign_in",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "61iDOrLKpyPfRjSzpYT8MH1kwG9vStxUrZC61XlMBVt/+mhNagSi5mJGOWNiMkXJl4LX8kbft+jpeb6PoB59sw=="
+							"evidence": "NOxPtLFUKdnzRrpuiW9XuS1J0hE1c9xJ21AYp66EYme1g28KlRMAAqgv8MUbGdMZH2PbwGBgvDXkv3xFlRoamQ=="
 						}
 					],
 					"count": "11",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFDVGe\uFFFD=c\uFFFD/V\\x0010|cd/8\uFFFD\uFFFD1]Vd\uFFFDLL!K\uFFFD\uFFFD\uFFFD\uD8A1\uDE9D\uFFFD\\x0015\uFFFDs\uFFFD\uFFFD</p>",
+					"otherinfo": "<p><&\uFFFDH\uFFFDj)x\uFFFDD\uFFFD\uFFFD8\uFFFD\\x0012\uFFFD\uFFFDns\uFFFD0Ux\\x0006wX</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10024",
@@ -731,7 +731,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "26"
+					"sourceid": "25"
 				},
 				{
 					"pluginid": "10049",
@@ -798,16 +798,9 @@
 							"param": "",
 							"attack": "",
 							"evidence": "500"
-						},
-						{
-							"uri": "https://rdv-insertion.fr/stats",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "private"
 						}
 					],
-					"count": "9",
+					"count": "8",
 					"solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).   </p>",
 					"otherinfo": "",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
@@ -922,6 +915,13 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users.  If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
+							"uri": "https://rdv-insertion.fr/invitations/redirect?format=postal&token=ZAP",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://rdv-insertion.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -936,13 +936,13 @@
 							"evidence": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information.  If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request. </p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "25"
 				}
 			]
 		}
