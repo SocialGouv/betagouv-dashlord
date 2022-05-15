@@ -353,7 +353,7 @@
               "ip"           : "covoiturage.beta.gouv.fr/185.31.40.11",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "73 >= 30 days"
+              "finding"      : "70 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,14 +549,14 @@
               "ip"           : "covoiturage.beta.gouv.fr/185.31.40.11",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "covoiturage.beta.gouv.fr/185.31.40.11",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1652280522"
+              "finding"      : "1652587337"
           }
 ,         {
               "id"           : "HSTS",
@@ -729,7 +729,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://censys.io/ipv4?q=16958C7F04A8BDBFA5501750C2ACE85108CD402AEF4D605B33B4E1652910A400"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=16958C7F04A8BDBFA5501750C2ACE85108CD402AEF4D605B33B4E1652910A400"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1119,6 +1119,6 @@
               "ip"           : "covoiturage.beta.gouv.fr/185.31.40.11",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93"
+              "finding"      : "110"
           }
 ]
