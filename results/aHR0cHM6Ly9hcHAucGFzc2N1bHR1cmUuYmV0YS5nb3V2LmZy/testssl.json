@@ -353,7 +353,7 @@
               "ip"           : "app.passculture.beta.gouv.fr/109.232.236.90",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "73 >= 30 days"
+              "finding"      : "70 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "app.passculture.beta.gouv.fr/109.232.236.90",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1652289787"
+              "finding"      : "1652595019"
           }
 ,         {
               "id"           : "HSTS",
@@ -729,7 +729,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://censys.io/ipv4?q=139EAFD570676D3E79E25299D4EEACE0D71548510250FFCF2D98A02274F9F0D4"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=139EAFD570676D3E79E25299D4EEACE0D71548510250FFCF2D98A02274F9F0D4"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1468,7 +1468,7 @@
               "ip"           : "app.passculture.beta.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "73 >= 30 days"
+              "finding"      : "70 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1671,7 +1671,7 @@
               "ip"           : "app.passculture.beta.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1652289938"
+              "finding"      : "1652595110"
           }
 ,         {
               "id"           : "HSTS",
@@ -1844,7 +1844,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://censys.io/ipv4?q=139EAFD570676D3E79E25299D4EEACE0D71548510250FFCF2D98A02274F9F0D4"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=139EAFD570676D3E79E25299D4EEACE0D71548510250FFCF2D98A02274F9F0D4"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -2234,6 +2234,6 @@
               "ip"           : "app.passculture.beta.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "304"
+              "finding"      : "198"
           }
 ]
