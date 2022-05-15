@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 22:14:37",
+	"@generated": "Sun, 15 May 2022 11:08:31",
 	"site":[ 
 		{
 			"@name": "https://disinfo.quaidorsay.fr",
@@ -59,7 +59,7 @@
 							"evidence": "<form class=\"form explorerform\" id=\"form_explorer\">"
 						},
 						{
-							"uri": "https://disinfo.quaidorsay.fr/en/open-terms-archive/scripta-manent?form_firstdocumentdate=2022-05-11&form_seconddocumentdate=2022-05-11",
+							"uri": "https://disinfo.quaidorsay.fr/en/open-terms-archive/scripta-manent?form_firstdocumentdate=2022-05-15&form_seconddocumentdate=2022-05-15",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -73,7 +73,7 @@
 							"evidence": "<form class=\"form explorerform\" id=\"form_explorer\">"
 						},
 						{
-							"uri": "https://disinfo.quaidorsay.fr/fr/open-terms-archive/scripta-manent?form_firstdocumentdate=2022-05-11&form_seconddocumentdate=2022-05-11",
+							"uri": "https://disinfo.quaidorsay.fr/fr/open-terms-archive/scripta-manent?form_firstdocumentdate=2022-05-15&form_seconddocumentdate=2022-05-15",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -87,7 +87,7 @@
 							"evidence": "<form class=\"form explorerform\" id=\"form_explorer\">"
 						},
 						{
-							"uri": "https://disinfo.quaidorsay.fr/zh-Hant/open-terms-archive/scripta-manent?form_firstdocumentdate=2022-05-11&form_seconddocumentdate=2022-05-11",
+							"uri": "https://disinfo.quaidorsay.fr/zh-Hant/open-terms-archive/scripta-manent?form_firstdocumentdate=2022-05-15&form_seconddocumentdate=2022-05-15",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -477,7 +477,7 @@
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "307"
+					"sourceid": "311"
 				},
 				{
 					"pluginid": "10017",
@@ -538,7 +538,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "307"
+					"sourceid": "311"
 				},
 				{
 					"pluginid": "10009",
@@ -954,9 +954,16 @@
 							"param": "",
 							"attack": "",
 							"evidence": "20190514"
+						},
+						{
+							"uri": "https://disinfo.quaidorsay.fr/fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "62802566"
 						}
 					],
-					"count": "10",
+					"count": "11",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>1680764666, which evaluates to: 2023-04-06 07:04:26</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
@@ -1476,6 +1483,13 @@
 							"evidence": "HIT"
 						},
 						{
+							"uri": "https://disinfo.quaidorsay.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Age: 0"
+						},
+						{
 							"uri": "https://disinfo.quaidorsay.fr/",
 							"method": "GET",
 							"param": "",
@@ -1546,13 +1560,13 @@
 							"evidence": "Age: 0"
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information.  If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
