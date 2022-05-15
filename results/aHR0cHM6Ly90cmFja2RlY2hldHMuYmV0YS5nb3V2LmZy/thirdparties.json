@@ -4,44 +4,31 @@
   "headers": {
     "server": "GitHub.com",
     "content-type": "text/html; charset=utf-8",
-    "last-modified": "Fri, 22 Apr 2022 08:18:15 GMT",
+    "last-modified": "Thu, 12 May 2022 15:52:23 GMT",
     "access-control-allow-origin": "*",
-    "etag": "W/\"626264c7-1268a\"",
-    "expires": "Wed, 11 May 2022 01:59:39 GMT",
+    "etag": "W/\"627d2d37-126d0\"",
+    "expires": "Sun, 15 May 2022 07:26:03 GMT",
     "cache-control": "max-age=600",
     "content-encoding": "gzip",
     "x-proxy-cache": "MISS",
-    "x-github-request-id": "DB96:9586:81D0F:1334B4:627B1633",
+    "x-github-request-id": "6EF6:83CF:2334C6:2FA1A2:6280A8B3",
     "accept-ranges": "bytes",
-    "date": "Wed, 11 May 2022 18:19:37 GMT",
+    "date": "Sun, 15 May 2022 07:18:54 GMT",
     "via": "1.1 varnish",
-    "age": "209",
-    "x-served-by": "cache-iad-kiad7000140-IAD",
+    "age": "124",
+    "x-served-by": "cache-sjc10057-SJC",
     "x-cache": "HIT",
-    "x-cache-hits": "3",
-    "x-timer": "S1652293178.684773,VS0,VE0",
+    "x-cache-hits": "2",
+    "x-timer": "S1652599134.366833,VS0,VE0",
     "vary": "Accept-Encoding",
-    "x-fastly-request-id": "5a08f38e4b147d237c03e2e935cbcaa0cc6212d5",
-    "content-length": "23008"
+    "x-fastly-request-id": "991698546bcff704fe6d89f1735ebdd30ced15a7",
+    "content-length": "23028"
   },
   "endpoints": [
     {
       "hostname": "trackdechets.beta.gouv.fr",
-      "ip": "185.199.109.153",
+      "ip": "185.199.108.153",
       "geoip": {
-        "city": {
-          "geoname_id": 5391959,
-          "names": {
-            "de": "San Francisco",
-            "en": "San Francisco",
-            "es": "San Francisco",
-            "fr": "San Francisco",
-            "ja": "サンフランシスコ",
-            "pt-BR": "São Francisco",
-            "ru": "Сан-Франциско",
-            "zh-CN": "旧金山"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -71,14 +58,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 20,
-          "latitude": 37.7642,
-          "longitude": -122.3993,
-          "metro_code": 807,
+          "accuracy_radius": 1000,
+          "latitude": 34.0544,
+          "longitude": -118.244,
           "time_zone": "America/Los_Angeles"
-        },
-        "postal": {
-          "code": "94107"
         },
         "registered_country": {
           "geoname_id": 6252001,
