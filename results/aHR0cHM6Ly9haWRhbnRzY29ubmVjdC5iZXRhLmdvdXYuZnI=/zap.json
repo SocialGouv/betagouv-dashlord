@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 13:07:28",
+	"@generated": "Sun, 15 May 2022 02:24:57",
 	"site":[ 
 		{
 			"@name": "https://aidantsconnect.beta.gouv.fr",
@@ -1258,18 +1258,18 @@
 							"evidence": "00390166"
 						},
 						{
-							"uri": "https://aidantsconnect.beta.gouv.fr/static/images/favicons/favicon-32x32.png",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "53729479"
-						},
-						{
 							"uri": "https://aidantsconnect.beta.gouv.fr/static/images/favicons/safari-pinned-tab.svg",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "20010904"
+						},
+						{
+							"uri": "https://aidantsconnect.beta.gouv.fr/static/images/kitinterventionrimage.png",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "97322129"
 						},
 						{
 							"uri": "https://aidantsconnect.beta.gouv.fr/accounts/login/",
@@ -1316,7 +1316,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2LQBd4XTBwo1ilMhxE6QDSWGYwkJlmsgLBf7fSE1wLCqAMisC1Y2FoIb1rdZBQVb"
+							"evidence": "kvBX4EKiTsev5E0itMPslLlRyOVAUwNTXEDZrVr4BWaDUhFCAvDrZSgI9v7VGpgK"
 						},
 						{
 							"uri": "https://aidantsconnect.beta.gouv.fr/faq/mandat/",
@@ -1337,7 +1337,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2LQBd4XTBwo1ilMhxE6QDSWGYwkJlmsgLBf7fSE1wLCqAMisC1Y2FoIb1rdZBQVb"
+							"evidence": "kvBX4EKiTsev5E0itMPslLlRyOVAUwNTXEDZrVr4BWaDUhFCAvDrZSgI9v7VGpgK"
 						},
 						{
 							"uri": "https://aidantsconnect.beta.gouv.fr/static/guides_aidants_connect/Aidants%20Connect%20_%20D%C3%A9marche-administrative%20_%20Impression%20noir%20et%20blanc.pdf",
@@ -1372,7 +1372,7 @@
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "2LQBd4XTBwo1ilMhxE6QDSWGYwkJlmsgLBf7fSE1wLCqAMisC1Y2FoIb1rdZBQVb"
+							"evidence": "kvBX4EKiTsev5E0itMPslLlRyOVAUwNTXEDZrVr4BWaDUhFCAvDrZSgI9v7VGpgK"
 						}
 					],
 					"count": "11",
@@ -1627,7 +1627,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "181"
+					"sourceid": "179"
 				}
 			]
 		}
