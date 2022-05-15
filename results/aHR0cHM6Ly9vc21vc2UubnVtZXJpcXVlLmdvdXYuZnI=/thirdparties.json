@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "JSESSIONID",
-      "value": "2DD52EFEDFD4E2E839CCBF2CCAD8BE1D.n1",
+      "value": "21FFE18DACC0EAC061385E39D8685888.n1",
       "domain": "osmose.numerique.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -31,9 +31,9 @@
     }
   ],
   "headers": {
-    "date": "Wed, 11 May 2022 18:59:49 GMT",
+    "date": "Sun, 15 May 2022 08:00:06 GMT",
     "content-type": "text/html;charset=UTF-8",
-    "content-length": "6476",
+    "content-length": "6480",
     "referrer-policy": "strict-origin",
     "x-content-type-options": "nosniff",
     "permissions-policy": "accelerometer=(), autoplay=(), camera=*, geolocation=(), gyroscope=(), magnetometer=(), microphone=*, midi=(), payment=(), usb=()",
@@ -42,7 +42,7 @@
     "cache-control": "no-cache, no-store, must-revalidate",
     "pragma": "no-cache",
     "expires": "0",
-    "x-jcms-ajax-id": "AjaxCtxt-0-1652295589461",
+    "x-jcms-ajax-id": "AjaxCtxt-0-1652601606502",
     "content-encoding": "gzip",
     "vary": "Accept-Encoding",
     "strict-transport-security": "max-age=31536000; includeSubdomains; preload"
