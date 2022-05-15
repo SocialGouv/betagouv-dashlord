@@ -15,7 +15,7 @@
       "value": "1",
       "domain": "recosante.beta.gouv.fr",
       "path": "/",
-      "expires": 1652293803,
+      "expires": 1652599744,
       "size": 17,
       "httpOnly": false,
       "secure": true,
@@ -27,10 +27,10 @@
     },
     {
       "name": "_pk_id.157.9fe3",
-      "value": "5d2784826ab47cc2.1652292004.",
+      "value": "7a507a7d96d4be85.1652597944.",
       "domain": "recosante.beta.gouv.fr",
       "path": "/",
-      "expires": 1686247204,
+      "expires": 1686553144,
       "size": 43,
       "httpOnly": false,
       "secure": true,
@@ -47,13 +47,13 @@
     "content-type": "text/html; charset=utf-8",
     "content-encoding": "gzip",
     "accept-ranges": "bytes",
-    "date": "Wed, 11 May 2022 18:00:03 GMT",
+    "date": "Sun, 15 May 2022 06:59:03 GMT",
     "via": "1.1 varnish",
-    "age": "45",
-    "x-served-by": "cache-hhn4028-HHN",
+    "age": "12062",
+    "x-served-by": "cache-cdg20753-CDG",
     "x-cache": "HIT",
-    "x-cache-hits": "2",
-    "x-timer": "S1652292003.022508,VS0,VE0",
+    "x-cache-hits": "4",
+    "x-timer": "S1652597943.331969,VS0,VE0",
     "vary": "Accept-Encoding",
     "server": "GatsbyHosting",
     "content-length": "34726"
@@ -61,19 +61,19 @@
   "endpoints": [
     {
       "hostname": "recosante.beta.gouv.fr",
-      "ip": "151.101.114.22",
+      "ip": "151.101.122.22",
       "geoip": {
         "city": {
-          "geoname_id": 2925533,
+          "geoname_id": 2988507,
           "names": {
-            "de": "Frankfurt am Main",
-            "en": "Frankfurt am Main",
-            "es": "Francfort",
-            "fr": "Francfort-sur-le-Main",
-            "ja": "フランクフルト・アム・マイン",
-            "pt-BR": "Frankfurt am Main",
-            "ru": "Франкфурт",
-            "zh-CN": "法兰克福"
+            "de": "Paris",
+            "en": "Paris",
+            "es": "París",
+            "fr": "Paris",
+            "ja": "パリ",
+            "pt-BR": "Paris",
+            "ru": "Париж",
+            "zh-CN": "巴黎"
           }
         },
         "continent": {
@@ -91,28 +91,28 @@
           }
         },
         "country": {
-          "geoname_id": 2921044,
+          "geoname_id": 3017382,
           "is_in_european_union": true,
-          "iso_code": "DE",
+          "iso_code": "FR",
           "names": {
-            "de": "Deutschland",
-            "en": "Germany",
-            "es": "Alemania",
-            "fr": "Allemagne",
-            "ja": "ドイツ連邦共和国",
-            "pt-BR": "Alemanha",
-            "ru": "Германия",
-            "zh-CN": "德国"
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
           }
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 50.1188,
-          "longitude": 8.6843,
-          "time_zone": "Europe/Berlin"
+          "latitude": 48.8323,
+          "longitude": 2.4075,
+          "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "60313"
+          "code": "75001"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -130,14 +130,24 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 2905330,
-            "iso_code": "HE",
+            "geoname_id": 3012874,
+            "iso_code": "IDF",
             "names": {
-              "de": "Hessen",
-              "en": "Hesse",
-              "es": "Hessen",
-              "fr": "Hesse",
-              "ru": "Гессен"
+              "de": "Île-de-France",
+              "en": "Île-de-France",
+              "es": "Isla de Francia",
+              "fr": "Île-de-France",
+              "pt-BR": "Ilha de França"
+            }
+          },
+          {
+            "geoname_id": 2968815,
+            "iso_code": "75",
+            "names": {
+              "de": "Paris",
+              "en": "Paris",
+              "es": "Paris",
+              "fr": "Paris"
             }
           }
         ]
@@ -145,7 +155,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.25.14",
+      "ip": "104.17.24.14",
       "geoip": null
     }
   ]
