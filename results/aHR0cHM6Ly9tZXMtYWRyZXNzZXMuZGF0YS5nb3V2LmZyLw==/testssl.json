@@ -381,7 +381,7 @@
               "ip"           : "mes-adresses.data.gouv.fr/54.38.44.21",
               "port"         : "443",
               "severity"     : "MEDIUM",
-              "finding"      : "expires < 30 days (21)"
+              "finding"      : "expires < 30 days (18)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,14 +542,14 @@
               "ip"           : "mes-adresses.data.gouv.fr/54.38.44.21",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "mes-adresses.data.gouv.fr/54.38.44.21",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1652302575"
+              "finding"      : "1652608340"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -736,7 +736,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://censys.io/ipv4?q=3C05B2E06D6E561261F2261F7F09D56F36E61D76C291733A16D94AE3F1B5B5B4"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3C05B2E06D6E561261F2261F7F09D56F36E61D76C291733A16D94AE3F1B5B5B4"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1119,6 +1119,6 @@
               "ip"           : "mes-adresses.data.gouv.fr/54.38.44.21",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "150"
+              "finding"      : "108"
           }
 ]
