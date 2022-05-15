@@ -32,12 +32,12 @@
   ],
   "headers": {
     "x-frame-options": "DENY",
-    "etag": "\"fec-YrBPSzeCZ/Chj8AK53hLagZkA8Y\"",
+    "etag": "\"fec-6w7vNaVNTvd90U33yfuO7AaHVyU\"",
     "content-type": "text/html; charset=utf-8",
     "accept-ranges": "none",
     "vary": "Accept-Encoding",
     "content-encoding": "gzip",
-    "date": "Wed, 11 May 2022 20:39:35 GMT"
+    "date": "Sun, 15 May 2022 09:37:40 GMT"
   },
   "endpoints": [
     {
@@ -87,7 +87,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
+          "accuracy_radius": 1000,
           "latitude": 48.8323,
           "longitude": 2.4075,
           "time_zone": "Europe/Paris"
