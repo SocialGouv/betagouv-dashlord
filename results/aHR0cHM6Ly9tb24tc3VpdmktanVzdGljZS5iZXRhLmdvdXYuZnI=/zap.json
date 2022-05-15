@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 22:32:23",
+	"@generated": "Sun, 15 May 2022 11:24:37",
 	"site":[ 
 		{
 			"@name": "https://mon-suivi-justice.beta.gouv.fr",
@@ -115,7 +115,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-0a5613bae5761cdec28d.js",
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-57c1c2653025444857e2.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -128,7 +128,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "64"
+					"sourceid": "63"
 				},
 				{
 					"pluginid": "10063",
@@ -183,7 +183,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-0a5613bae5761cdec28d.js",
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-57c1c2653025444857e2.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -272,7 +272,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/mentions_legales",
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/css/application-c597d65d.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -347,28 +347,28 @@
 							"evidence": "97240414"
 						},
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/css/application-4c3f7347.css",
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/css/application-c597d65d.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "23161616"
 						},
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/css/application-4c3f7347.css",
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/css/application-c597d65d.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "64833265"
 						},
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-0a5613bae5761cdec28d.js",
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-57c1c2653025444857e2.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "222789846"
 						},
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-0a5613bae5761cdec28d.js",
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-57c1c2653025444857e2.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -422,14 +422,14 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/css/application-4c3f7347.css",
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/css/application-c597d65d.css",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
 							"evidence": ""
 						},
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-0a5613bae5761cdec28d.js",
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-57c1c2653025444857e2.js",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -512,7 +512,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "62"
+					"sourceid": "57"
 				},
 				{
 					"pluginid": "10094",
@@ -529,59 +529,59 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "XZjM108lJvR5zwuJjb3dhn0jtJRSlVa7We0g0SnFC0jLmEDWA717vrFMpOYXjxPpSswt8RDBMaT"
+							"evidence": "Larq5nyi75OUqHzFJU6WRfLHz9DGIKNfEkb5dzRDEfKZnwok"
 						},
 						{
 							"uri": "https://mon-suivi-justice.beta.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BctD76MQ1cUXi9bSPqHlnlI0aVjBPJNwsXHE46cy2R1sG1xcMiwAQ03amJwdgKMplUQAZTVf2fKHMj1faxc1qMkKhdjiiR7WepdHUfZWJeW1wIZ8LDMqSzRbKsQU7Y7hdnt2RMsuU0mp5xQ7yLnWf00kH4r06RawXHvnvl"
+							"evidence": "2BhR3cERpMGKo5XXqZZ7Eb3qugOr9SwkzIHh2amINirh6Cd6tLFACDTq"
 						},
 						{
 							"uri": "https://mon-suivi-justice.beta.gouv.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BC8s0z3H3ps3TkvTg4aZ5dklVR01Z3XlHV1"
+							"evidence": "VQzU2CxCX4KUB7GWaadyaXFkBbGWhAzI4MGvySCgKD15PG"
 						},
 						{
 							"uri": "https://mon-suivi-justice.beta.gouv.fr/comprendre_ma_peine",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FuPT9L2Mj9CYvUkhzikKResYu2IeUVm0izRrj"
+							"evidence": "2FPvMdj9hwdHIkqsh0rswTM7IuDT1izQ0BKKEhCigf"
 						},
 						{
 							"uri": "https://mon-suivi-justice.beta.gouv.fr/donnees_personnelles",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "szdo2hzDTkV93xmX7pZf5c1MOVBOKNCsfZxZB0cmd77M"
+							"evidence": "2Fq4CBe7hU2O256vQFAAxUglKgJF27k7dWFSu33BnMovmGFFoQHD3rr"
 						},
 						{
 							"uri": "https://mon-suivi-justice.beta.gouv.fr/investir_ma_reinsertion",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FB5ejEWfzDXtaZXacBNDsVjPNaCOorIT0GZse"
+							"evidence": "2B6y5Y3jgm8HXYhulFlEjKaBq7zUhsC"
 						},
 						{
 							"uri": "https://mon-suivi-justice.beta.gouv.fr/mentions_legales",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2B6jyengXndxpNMY1mUsQ724NCjlhpaee2rFHkm1Wj"
+							"evidence": "2BCgNw3CGEmkXDLagauJPWe3QB87Qk4Xcvv6bSfjjvfNTqCGz9YA9rbTIZYk0fauLr0WyaGQYvLN"
 						},
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/css/application-4c3f7347.css",
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/css/application-c597d65d.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "/packs/media/fonts/Marianne-Light-d3bbed24"
 						},
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-0a5613bae5761cdec28d.js",
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-57c1c2653025444857e2.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -592,26 +592,26 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "nMywAEavMLpztrEkDEtogE8IyxRsYB3ucqDRZtjbXW"
-						},
-						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/preparer_spip92",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "2BtnKqEqQIRg6WSl8v9FJwq3RLmBAWsZLbZ"
+							"evidence": "v3P57wUCUu1sHDwoePnJsXrDSepylnqyLHxQSgpHDQgTClGQbD8BoJbkxxyYGtAGy6KijACL1uceR2IF7RK6GdFZx8B9i8ScU8Uj7pBlI8tOvMdK01hd9ynx"
 						},
 						{
 							"uri": "https://mon-suivi-justice.beta.gouv.fr/qui_sommes_nous",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FmPgzDpqHRWU2pst3f78csfWLDcp75vLkf2ecVlkELN2AshuVjexnPQgYpbuX3NyK228pNk"
+							"evidence": "2FoL9CKmnnRV5hFQKTjt6ECyZeY7vdVQc2suwmiRvBn5Dam24EKawz69bKyKPB"
+						},
+						{
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1OAyZOTx5SNYkhmLzu5SSnNkc1ZgnE8Fr1N7Ixejv01fkCW0XGooWFu9ucvTnQbOTponhXaVOoPLkSbZdlxWvUZiCHBvUPvfREOwaI1YJijkZtPKRB"
 						}
 					],
 					"count": "12",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>]\uFFFD\uFFFD\uFFFDO%&\uFFFDy\uFFFD\\x000b\uFFFD\uFFFD\uFFFD\u0746}#\uFFFD\uFFFDR\uFFFDV\uFFFDY\uFFFD \uFFFD)\uFFFD\\x000bH\u02D8@\uFFFD\\x0003\uFFFD{\uFFFD\uFFFDL\uFFFD\uFFFD\\x0017\uFFFD\\x0013\uFFFDJ\uFFFD-\uFFFD\\x0010\uFFFD1\uFFFD</p>",
+					"otherinfo": "<p>-\uFFFD\uFFFD\uFFFD|\uFFFD\uF4D4\uFFFD|\uFFFD%N\uFFFDE\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD \uFFFD_\\x0012F\uFFFDw4C\\x0011\uFFFD</p><p>$</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -628,7 +628,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-0a5613bae5761cdec28d.js",
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-57c1c2653025444857e2.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -641,7 +641,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "64"
+					"sourceid": "63"
 				},
 				{
 					"pluginid": "10109",
@@ -696,7 +696,7 @@
 							"evidence": "<a class=\"fr-footer__bottom-link\" href=\"#\">Accessibilit\u00E9 : non conforme</a>"
 						},
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-0a5613bae5761cdec28d.js",
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/js/application-57c1c2653025444857e2.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -785,13 +785,6 @@
 							"evidence": "private"
 						},
 						{
-							"uri": "https://mon-suivi-justice.beta.gouv.fr/mentions_legales",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "private"
-						},
-						{
 							"uri": "https://mon-suivi-justice.beta.gouv.fr/preparer_mon_rdv",
 							"method": "GET",
 							"param": "",
@@ -820,7 +813,7 @@
 							"evidence": "302"
 						}
 					],
-					"count": "10",
+					"count": "9",
 					"solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).   </p>",
 					"otherinfo": "",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
@@ -935,6 +928,13 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users.  If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
+							"uri": "https://mon-suivi-justice.beta.gouv.fr/packs/css/application-c597d65d.css",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://mon-suivi-justice.beta.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -942,13 +942,13 @@
 							"evidence": ""
 						}
 					],
-					"count": "1",
+					"count": "2",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information.  If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request. </p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "57"
 				}
 			]
 		}
