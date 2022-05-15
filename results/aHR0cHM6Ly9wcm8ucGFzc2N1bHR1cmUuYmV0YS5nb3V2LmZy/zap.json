@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 17:17:48",
+	"@generated": "Sun, 15 May 2022 06:19:54",
 	"site":[ 
 		{
 			"@name": "https://pro.passculture.beta.gouv.fr",
@@ -141,12 +141,12 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "ADPycdsMUcgwZ5xzvsv8Qgku2Ejgvfj7KZpdEqKxKjjKGPDpdOw1iFFBXr-HVtJQwJ-M9U_ZZUvw882oXApxLVL5akqRKQ"
+							"evidence": "ADPycdsUZ4phBDXl-IBKqVE4elE_CGUYHUuAqW3KwNZrZtTHFYRrA7Zem_yPJBjexmJBguzNtMm7jVbVcF5alDX6pBOYmQ"
 						}
 					],
 					"count": "1",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\\x00003\uFFFDq\uFFFD\\x000cQ\uFFFD0g\uFFFDs\uFFFD\uFFFD\uFFFDB\t.\uFFFDH\uFFFD\uFFFD\uFFFD)\uFFFD]\\x0012\uFFFD\uFFFD*8\uFFFD\\x0018\uFFFD\uFFFDt\uFFFD5\uFFFDQA^\uFFFD\uFFFDV\uFFFDP\uFFFD\uFFFD\uFFFD\uFFFDO\uFFFDeK\uFFFD\uFFFD\u0368\\</p><p>q-R\uFFFDjJ\uFFFD)</p>",
+					"otherinfo": "<p>\\x00003\uFFFDq\uFFFD\\x0014g\uFFFDa\\x00045\uFFFD\uFFFD\uFFFDJ\uFFFDQ8zQ?\\x0008e\\x0018\\x001dK\uFFFD\uFFFDm\uFFFD\uFFFD\uFFFDkf\uFFFD\uFFFD\\x0015\uFFFDk\\x0003\uFFFD^\uFFFD\uFFFD\uFFFD$\\x0018\uFFFD\uFFFDbA\uFFFD\uFFFD\u0374\u027B\uFFFDV\uFFFDp^Z\uFFFD5\uFFFD\uFFFD\\x0013\uFFFD\uFFFD</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -219,7 +219,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 102"
+							"evidence": "Age: 110"
 						}
 					],
 					"count": "1",
