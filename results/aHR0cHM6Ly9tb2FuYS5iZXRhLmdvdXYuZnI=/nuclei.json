@@ -28,9 +28,9 @@
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:42 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=JrNnAqaySCx2GxHUTnyvEjWlrzAytDcTNvJazX37J8MDObuC7r5uUcCANbYTUiUp; expires=Wed, 10 May 2023 22:42:42 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: f7c2a1b5-c5d8-4995-bba8-846b5897c2d1\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"PDJXK5XeOYf0RKBPLNADPHWf7SSJe652THFKJCQNFuuBZooxZR7C5ACutug4FLNy\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:43.381717413Z",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:32 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=b8K4pHit0mOWz8YzmH80QtbsTnw0Uf1H3CQvlNNkAFNURheSGZTuc0HyrPGLt4P7; expires=Sun, 14 May 2023 11:35:32 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: 7dead5f0-8378-4380-b5eb-6ed97e06c065\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"OF6pOgeSdm44FM4qWDBhfavBkAVBUVutG9cQKmJJNF32XVkJgVmLBH1HS25mtKiT\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:33.287496878Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -55,46 +55,36 @@
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:42 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=JrNnAqaySCx2GxHUTnyvEjWlrzAytDcTNvJazX37J8MDObuC7r5uUcCANbYTUiUp; expires=Wed, 10 May 2023 22:42:42 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: f7c2a1b5-c5d8-4995-bba8-846b5897c2d1\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"PDJXK5XeOYf0RKBPLNADPHWf7SSJe652THFKJCQNFuuBZooxZR7C5ACutug4FLNy\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:43.408231332Z",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:32 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=b8K4pHit0mOWz8YzmH80QtbsTnw0Uf1H3CQvlNNkAFNURheSGZTuc0HyrPGLt4P7; expires=Sun, 14 May 2023 11:35:32 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: 7dead5f0-8378-4380-b5eb-6ed97e06c065\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"OF6pOgeSdm44FM4qWDBhfavBkAVBUVutG9cQKmJJNF32XVkJgVmLBH1HS25mtKiT\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:33.30998074Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
   },
   {
-    "template": "dns/nameserver-fingerprint.yaml",
-    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/nameserver-fingerprint.yaml",
-    "template-id": "nameserver-fingerprint",
+    "template": "ssl/tls-version.yaml",
+    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/ssl/tls-version.yaml",
+    "template-id": "tls-version",
     "info": {
-      "name": "NS Record Detection",
+      "name": "TLS Version",
       "author": [
         "pdteam"
       ],
       "tags": [
-        "dns",
-        "ns"
+        "ssl"
       ],
-      "description": "An NS record was detected. An NS record delegates a subdomain to a set of name servers.",
       "reference": null,
-      "severity": "info",
-      "classification": {
-        "cve-id": null,
-        "cwe-id": [
-          "cwe-200"
-        ]
-      }
+      "severity": "info"
     },
-    "type": "dns",
+    "type": "ssl",
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "extracted-results": [
-      "dns2.alwaysdata.com.",
-      "dns1.alwaysdata.com."
+      "TLS13"
     ],
-    "request": ";; opcode: QUERY, status: NOERROR, id: 43269\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags: ; udp: 4096\n\n;; QUESTION SECTION:\n;moana.beta.gouv.fr.\tIN\t NS\n",
-    "response": ";; opcode: QUERY, status: NOERROR, id: 43269\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags: ; udp: 1232\n\n;; QUESTION SECTION:\n;moana.beta.gouv.fr.\tIN\t NS\n\n;; ANSWER SECTION:\nmoana.beta.gouv.fr.\t300\tIN\tNS\tdns2.alwaysdata.com.\nmoana.beta.gouv.fr.\t300\tIN\tNS\tdns1.alwaysdata.com.\n",
-    "timestamp": "2022-05-11T22:42:46.266465397Z",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:36.056768368Z",
     "matcher-status": true,
     "matched-line": null
   },
@@ -120,14 +110,14 @@
       "reference": null,
       "severity": "info"
     },
-    "matcher-name": "access-control-allow-credentials",
+    "matcher-name": "access-control-max-age",
     "type": "http",
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=l3QSeP3P3uRTcJKjCZcV5ZovG6x3J061WOq0q2ENv5HoIYVsdzAWS99MvuzDWOqo; expires=Wed, 10 May 2023 22:42:51 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: b0d79c37-1d31-4f1d-a12f-2fc29b2576ae\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"BpVp5ZZC2SJ57zF1R5qgmu5Q8WJmd7l9cavxhcAAutzADOQasFOh9EQ7XkLWqVFw\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.007129471Z",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=Xl6VlRprMhaSnsa4HS1nDjVNLDiOexoijAP537ae8DEtyOIqEb0hi0zfroTYffXE; expires=Sun, 14 May 2023 11:35:40 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: 976fc5b6-4bb6-4584-87eb-3ddd29535dac\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"iFrMGQuChjVLrqrYJswDHFDxl5YUrx6KEUaWo6fpDFpmCMZkGLvxmmhZ1Qz4sfF6\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.381138428Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -159,77 +149,9 @@
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=l3QSeP3P3uRTcJKjCZcV5ZovG6x3J061WOq0q2ENv5HoIYVsdzAWS99MvuzDWOqo; expires=Wed, 10 May 2023 22:42:51 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: b0d79c37-1d31-4f1d-a12f-2fc29b2576ae\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"BpVp5ZZC2SJ57zF1R5qgmu5Q8WJmd7l9cavxhcAAutzADOQasFOh9EQ7XkLWqVFw\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.007244771Z",
-    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
-    "matcher-status": true,
-    "matched-line": null
-  },
-  {
-    "template": "misconfiguration/http-missing-security-headers.yaml",
-    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-    "template-id": "http-missing-security-headers",
-    "info": {
-      "name": "HTTP Missing Security Headers",
-      "author": [
-        "socketz",
-        "geeknik",
-        "g4l1t0",
-        "convisoappsec",
-        "kurohost",
-        "dawid-czarnecki"
-      ],
-      "tags": [
-        "misconfig",
-        "generic"
-      ],
-      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
-      "reference": null,
-      "severity": "info"
-    },
-    "matcher-name": "cross-origin-embedder-policy",
-    "type": "http",
-    "host": "https://moana.beta.gouv.fr",
-    "matched-at": "https://moana.beta.gouv.fr",
-    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=l3QSeP3P3uRTcJKjCZcV5ZovG6x3J061WOq0q2ENv5HoIYVsdzAWS99MvuzDWOqo; expires=Wed, 10 May 2023 22:42:51 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: b0d79c37-1d31-4f1d-a12f-2fc29b2576ae\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"BpVp5ZZC2SJ57zF1R5qgmu5Q8WJmd7l9cavxhcAAutzADOQasFOh9EQ7XkLWqVFw\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.007284771Z",
-    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
-    "matcher-status": true,
-    "matched-line": null
-  },
-  {
-    "template": "misconfiguration/http-missing-security-headers.yaml",
-    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-    "template-id": "http-missing-security-headers",
-    "info": {
-      "name": "HTTP Missing Security Headers",
-      "author": [
-        "socketz",
-        "geeknik",
-        "g4l1t0",
-        "convisoappsec",
-        "kurohost",
-        "dawid-czarnecki"
-      ],
-      "tags": [
-        "misconfig",
-        "generic"
-      ],
-      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
-      "reference": null,
-      "severity": "info"
-    },
-    "matcher-name": "x-permitted-cross-domain-policies",
-    "type": "http",
-    "host": "https://moana.beta.gouv.fr",
-    "matched-at": "https://moana.beta.gouv.fr",
-    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=l3QSeP3P3uRTcJKjCZcV5ZovG6x3J061WOq0q2ENv5HoIYVsdzAWS99MvuzDWOqo; expires=Wed, 10 May 2023 22:42:51 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: b0d79c37-1d31-4f1d-a12f-2fc29b2576ae\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"BpVp5ZZC2SJ57zF1R5qgmu5Q8WJmd7l9cavxhcAAutzADOQasFOh9EQ7XkLWqVFw\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.007319971Z",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=Xl6VlRprMhaSnsa4HS1nDjVNLDiOexoijAP537ae8DEtyOIqEb0hi0zfroTYffXE; expires=Sun, 14 May 2023 11:35:40 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: 976fc5b6-4bb6-4584-87eb-3ddd29535dac\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"iFrMGQuChjVLrqrYJswDHFDxl5YUrx6KEUaWo6fpDFpmCMZkGLvxmmhZ1Qz4sfF6\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.381250329Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -261,9 +183,9 @@
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=l3QSeP3P3uRTcJKjCZcV5ZovG6x3J061WOq0q2ENv5HoIYVsdzAWS99MvuzDWOqo; expires=Wed, 10 May 2023 22:42:51 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: b0d79c37-1d31-4f1d-a12f-2fc29b2576ae\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"BpVp5ZZC2SJ57zF1R5qgmu5Q8WJmd7l9cavxhcAAutzADOQasFOh9EQ7XkLWqVFw\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.007385271Z",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=Xl6VlRprMhaSnsa4HS1nDjVNLDiOexoijAP537ae8DEtyOIqEb0hi0zfroTYffXE; expires=Sun, 14 May 2023 11:35:40 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: 976fc5b6-4bb6-4584-87eb-3ddd29535dac\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"iFrMGQuChjVLrqrYJswDHFDxl5YUrx6KEUaWo6fpDFpmCMZkGLvxmmhZ1Qz4sfF6\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.381287029Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -290,48 +212,14 @@
       "reference": null,
       "severity": "info"
     },
-    "matcher-name": "cross-origin-opener-policy",
+    "matcher-name": "cross-origin-embedder-policy",
     "type": "http",
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=l3QSeP3P3uRTcJKjCZcV5ZovG6x3J061WOq0q2ENv5HoIYVsdzAWS99MvuzDWOqo; expires=Wed, 10 May 2023 22:42:51 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: b0d79c37-1d31-4f1d-a12f-2fc29b2576ae\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"BpVp5ZZC2SJ57zF1R5qgmu5Q8WJmd7l9cavxhcAAutzADOQasFOh9EQ7XkLWqVFw\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.007414071Z",
-    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
-    "matcher-status": true,
-    "matched-line": null
-  },
-  {
-    "template": "misconfiguration/http-missing-security-headers.yaml",
-    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-    "template-id": "http-missing-security-headers",
-    "info": {
-      "name": "HTTP Missing Security Headers",
-      "author": [
-        "socketz",
-        "geeknik",
-        "g4l1t0",
-        "convisoappsec",
-        "kurohost",
-        "dawid-czarnecki"
-      ],
-      "tags": [
-        "misconfig",
-        "generic"
-      ],
-      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
-      "reference": null,
-      "severity": "info"
-    },
-    "matcher-name": "cross-origin-resource-policy",
-    "type": "http",
-    "host": "https://moana.beta.gouv.fr",
-    "matched-at": "https://moana.beta.gouv.fr",
-    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=l3QSeP3P3uRTcJKjCZcV5ZovG6x3J061WOq0q2ENv5HoIYVsdzAWS99MvuzDWOqo; expires=Wed, 10 May 2023 22:42:51 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: b0d79c37-1d31-4f1d-a12f-2fc29b2576ae\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"BpVp5ZZC2SJ57zF1R5qgmu5Q8WJmd7l9cavxhcAAutzADOQasFOh9EQ7XkLWqVFw\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.007442071Z",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=Xl6VlRprMhaSnsa4HS1nDjVNLDiOexoijAP537ae8DEtyOIqEb0hi0zfroTYffXE; expires=Sun, 14 May 2023 11:35:40 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: 976fc5b6-4bb6-4584-87eb-3ddd29535dac\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"iFrMGQuChjVLrqrYJswDHFDxl5YUrx6KEUaWo6fpDFpmCMZkGLvxmmhZ1Qz4sfF6\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.381315929Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -363,9 +251,77 @@
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=l3QSeP3P3uRTcJKjCZcV5ZovG6x3J061WOq0q2ENv5HoIYVsdzAWS99MvuzDWOqo; expires=Wed, 10 May 2023 22:42:51 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: b0d79c37-1d31-4f1d-a12f-2fc29b2576ae\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"BpVp5ZZC2SJ57zF1R5qgmu5Q8WJmd7l9cavxhcAAutzADOQasFOh9EQ7XkLWqVFw\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.007472871Z",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=Xl6VlRprMhaSnsa4HS1nDjVNLDiOexoijAP537ae8DEtyOIqEb0hi0zfroTYffXE; expires=Sun, 14 May 2023 11:35:40 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: 976fc5b6-4bb6-4584-87eb-3ddd29535dac\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"iFrMGQuChjVLrqrYJswDHFDxl5YUrx6KEUaWo6fpDFpmCMZkGLvxmmhZ1Qz4sfF6\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.381342129Z",
+    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
+    "matcher-status": true,
+    "matched-line": null
+  },
+  {
+    "template": "misconfiguration/http-missing-security-headers.yaml",
+    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+    "template-id": "http-missing-security-headers",
+    "info": {
+      "name": "HTTP Missing Security Headers",
+      "author": [
+        "socketz",
+        "geeknik",
+        "g4l1t0",
+        "convisoappsec",
+        "kurohost",
+        "dawid-czarnecki"
+      ],
+      "tags": [
+        "misconfig",
+        "generic"
+      ],
+      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
+      "reference": null,
+      "severity": "info"
+    },
+    "matcher-name": "cross-origin-resource-policy",
+    "type": "http",
+    "host": "https://moana.beta.gouv.fr",
+    "matched-at": "https://moana.beta.gouv.fr",
+    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=Xl6VlRprMhaSnsa4HS1nDjVNLDiOexoijAP537ae8DEtyOIqEb0hi0zfroTYffXE; expires=Sun, 14 May 2023 11:35:40 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: 976fc5b6-4bb6-4584-87eb-3ddd29535dac\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"iFrMGQuChjVLrqrYJswDHFDxl5YUrx6KEUaWo6fpDFpmCMZkGLvxmmhZ1Qz4sfF6\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.38137313Z",
+    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
+    "matcher-status": true,
+    "matched-line": null
+  },
+  {
+    "template": "misconfiguration/http-missing-security-headers.yaml",
+    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+    "template-id": "http-missing-security-headers",
+    "info": {
+      "name": "HTTP Missing Security Headers",
+      "author": [
+        "socketz",
+        "geeknik",
+        "g4l1t0",
+        "convisoappsec",
+        "kurohost",
+        "dawid-czarnecki"
+      ],
+      "tags": [
+        "misconfig",
+        "generic"
+      ],
+      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
+      "reference": null,
+      "severity": "info"
+    },
+    "matcher-name": "access-control-allow-credentials",
+    "type": "http",
+    "host": "https://moana.beta.gouv.fr",
+    "matched-at": "https://moana.beta.gouv.fr",
+    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=Xl6VlRprMhaSnsa4HS1nDjVNLDiOexoijAP537ae8DEtyOIqEb0hi0zfroTYffXE; expires=Sun, 14 May 2023 11:35:40 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: 976fc5b6-4bb6-4584-87eb-3ddd29535dac\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"iFrMGQuChjVLrqrYJswDHFDxl5YUrx6KEUaWo6fpDFpmCMZkGLvxmmhZ1Qz4sfF6\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.38139873Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -397,43 +353,9 @@
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=l3QSeP3P3uRTcJKjCZcV5ZovG6x3J061WOq0q2ENv5HoIYVsdzAWS99MvuzDWOqo; expires=Wed, 10 May 2023 22:42:51 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: b0d79c37-1d31-4f1d-a12f-2fc29b2576ae\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"BpVp5ZZC2SJ57zF1R5qgmu5Q8WJmd7l9cavxhcAAutzADOQasFOh9EQ7XkLWqVFw\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.007502571Z",
-    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
-    "matcher-status": true,
-    "matched-line": null
-  },
-  {
-    "template": "misconfiguration/http-missing-security-headers.yaml",
-    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-    "template-id": "http-missing-security-headers",
-    "info": {
-      "name": "HTTP Missing Security Headers",
-      "author": [
-        "socketz",
-        "geeknik",
-        "g4l1t0",
-        "convisoappsec",
-        "kurohost",
-        "dawid-czarnecki"
-      ],
-      "tags": [
-        "misconfig",
-        "generic"
-      ],
-      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
-      "reference": null,
-      "severity": "info"
-    },
-    "matcher-name": "access-control-max-age",
-    "type": "http",
-    "host": "https://moana.beta.gouv.fr",
-    "matched-at": "https://moana.beta.gouv.fr",
-    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=l3QSeP3P3uRTcJKjCZcV5ZovG6x3J061WOq0q2ENv5HoIYVsdzAWS99MvuzDWOqo; expires=Wed, 10 May 2023 22:42:51 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: b0d79c37-1d31-4f1d-a12f-2fc29b2576ae\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"BpVp5ZZC2SJ57zF1R5qgmu5Q8WJmd7l9cavxhcAAutzADOQasFOh9EQ7XkLWqVFw\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.007528471Z",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=Xl6VlRprMhaSnsa4HS1nDjVNLDiOexoijAP537ae8DEtyOIqEb0hi0zfroTYffXE; expires=Sun, 14 May 2023 11:35:40 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: 976fc5b6-4bb6-4584-87eb-3ddd29535dac\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"iFrMGQuChjVLrqrYJswDHFDxl5YUrx6KEUaWo6fpDFpmCMZkGLvxmmhZ1Qz4sfF6\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.38142423Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -465,9 +387,9 @@
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=l3QSeP3P3uRTcJKjCZcV5ZovG6x3J061WOq0q2ENv5HoIYVsdzAWS99MvuzDWOqo; expires=Wed, 10 May 2023 22:42:51 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: b0d79c37-1d31-4f1d-a12f-2fc29b2576ae\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"BpVp5ZZC2SJ57zF1R5qgmu5Q8WJmd7l9cavxhcAAutzADOQasFOh9EQ7XkLWqVFw\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.009819971Z",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=Xl6VlRprMhaSnsa4HS1nDjVNLDiOexoijAP537ae8DEtyOIqEb0hi0zfroTYffXE; expires=Sun, 14 May 2023 11:35:40 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: 976fc5b6-4bb6-4584-87eb-3ddd29535dac\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"iFrMGQuChjVLrqrYJswDHFDxl5YUrx6KEUaWo6fpDFpmCMZkGLvxmmhZ1Qz4sfF6\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.38145403Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -494,14 +416,48 @@
       "reference": null,
       "severity": "info"
     },
-    "matcher-name": "permission-policy",
+    "matcher-name": "x-permitted-cross-domain-policies",
     "type": "http",
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: df48ba79-e5e3-4120-a84e-2fa265f7e0ed\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.010852971Z",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=Xl6VlRprMhaSnsa4HS1nDjVNLDiOexoijAP537ae8DEtyOIqEb0hi0zfroTYffXE; expires=Sun, 14 May 2023 11:35:40 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: 976fc5b6-4bb6-4584-87eb-3ddd29535dac\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"iFrMGQuChjVLrqrYJswDHFDxl5YUrx6KEUaWo6fpDFpmCMZkGLvxmmhZ1Qz4sfF6\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.38147953Z",
+    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
+    "matcher-status": true,
+    "matched-line": null
+  },
+  {
+    "template": "misconfiguration/http-missing-security-headers.yaml",
+    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+    "template-id": "http-missing-security-headers",
+    "info": {
+      "name": "HTTP Missing Security Headers",
+      "author": [
+        "socketz",
+        "geeknik",
+        "g4l1t0",
+        "convisoappsec",
+        "kurohost",
+        "dawid-czarnecki"
+      ],
+      "tags": [
+        "misconfig",
+        "generic"
+      ],
+      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
+      "reference": null,
+      "severity": "info"
+    },
+    "matcher-name": "cross-origin-opener-policy",
+    "type": "http",
+    "host": "https://moana.beta.gouv.fr",
+    "matched-at": "https://moana.beta.gouv.fr",
+    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nTransfer-Encoding: chunked\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nSet-Cookie: csrftoken=Xl6VlRprMhaSnsa4HS1nDjVNLDiOexoijAP537ae8DEtyOIqEb0hi0zfroTYffXE; expires=Sun, 14 May 2023 11:35:40 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Request-Id: 976fc5b6-4bb6-4584-87eb-3ddd29535dac\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\n<html lang=\"fr-fr\" dir=\"ltr\">\n<head>\n<title> Connexion | Moana SNDV\nMaritime </title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/base.1f418065fc2c.css\">\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/login.c35adf41bb6e.css\">\n\n\n\n\n\n    <meta name=\"viewport\" content=\"user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/admin/css/responsive.b128bdf0edef.css\">\n    \n\n<meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n</head>\n\n\n<body class=\" login\"\n  data-admin-utc-offset=\"7200\">\n\n<!-- Container -->\n<div id=\"container\">\n\n    \n    <!-- Header -->\n    <div id=\"header\">\n        <div id=\"branding\">\n        \n<h1 id=\"site-name\">Moana SNDV Maritime</h1>\n\n        </div>\n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class=\"main shifted\" id=\"main\">\n      \n      <div class=\"content\">\n        \n          \n        \n        <!-- Content -->\n        <div id=\"content\" class=\"colM\">\n          \n          \n          \n          \n<div id=\"content-main\">\n  <form action=\"/login/\" method=\"post\" id=\"login-form\">\n    <input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"iFrMGQuChjVLrqrYJswDHFDxl5YUrx6KEUaWo6fpDFpmCMZkGLvxmmhZ1Qz4sfF6\"> \n\n    <div>\n      <label class=\"text-uppercase form-label\">Se connecter : </label>\n      <input type=\"email\" name=\"email\" placeholder=\"Votre email\" required />\n      \n    </div>\n    <div class=\"submit-row\">\n      <input type=\"submit\" value=\"Recevoir un lien de connexion\" />\n    </div>\n  </form>\n</div>\n\n          \n          <br class=\"clear\">\n        </div>\n        <!-- END Content -->\n        \n<div id=\"footer\">\n  <hr />\n  <div class=\"module\"></div>\n  <p class=\"caption\">\n    Moana version\n    <a href=\"https://gitlab.mim-libre.fr/sndv-maritime/moana/\" target=\"_blank\"\n      >0.16.0</a\n    >\n  </p>\n  <p class=\"caption\">\n    Compatibilité : Mozilla Firefox, à partir de la version 52.9.\n  </p>\n</div>\n\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.383456744Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -533,9 +489,9 @@
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: df48ba79-e5e3-4120-a84e-2fa265f7e0ed\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.010888971Z",
+    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: dcae6760-106b-4cc9-a24f-20b7746e3ca6\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.384894354Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -567,145 +523,9 @@
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: df48ba79-e5e3-4120-a84e-2fa265f7e0ed\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.012232972Z",
-    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
-    "matcher-status": true,
-    "matched-line": null
-  },
-  {
-    "template": "misconfiguration/http-missing-security-headers.yaml",
-    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-    "template-id": "http-missing-security-headers",
-    "info": {
-      "name": "HTTP Missing Security Headers",
-      "author": [
-        "socketz",
-        "geeknik",
-        "g4l1t0",
-        "convisoappsec",
-        "kurohost",
-        "dawid-czarnecki"
-      ],
-      "tags": [
-        "misconfig",
-        "generic"
-      ],
-      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
-      "reference": null,
-      "severity": "info"
-    },
-    "matcher-name": "cross-origin-embedder-policy",
-    "type": "http",
-    "host": "https://moana.beta.gouv.fr",
-    "matched-at": "https://moana.beta.gouv.fr",
-    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: df48ba79-e5e3-4120-a84e-2fa265f7e0ed\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.014598972Z",
-    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
-    "matcher-status": true,
-    "matched-line": null
-  },
-  {
-    "template": "misconfiguration/http-missing-security-headers.yaml",
-    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-    "template-id": "http-missing-security-headers",
-    "info": {
-      "name": "HTTP Missing Security Headers",
-      "author": [
-        "socketz",
-        "geeknik",
-        "g4l1t0",
-        "convisoappsec",
-        "kurohost",
-        "dawid-czarnecki"
-      ],
-      "tags": [
-        "misconfig",
-        "generic"
-      ],
-      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
-      "reference": null,
-      "severity": "info"
-    },
-    "matcher-name": "cross-origin-resource-policy",
-    "type": "http",
-    "host": "https://moana.beta.gouv.fr",
-    "matched-at": "https://moana.beta.gouv.fr",
-    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: df48ba79-e5e3-4120-a84e-2fa265f7e0ed\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.014640972Z",
-    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
-    "matcher-status": true,
-    "matched-line": null
-  },
-  {
-    "template": "misconfiguration/http-missing-security-headers.yaml",
-    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-    "template-id": "http-missing-security-headers",
-    "info": {
-      "name": "HTTP Missing Security Headers",
-      "author": [
-        "socketz",
-        "geeknik",
-        "g4l1t0",
-        "convisoappsec",
-        "kurohost",
-        "dawid-czarnecki"
-      ],
-      "tags": [
-        "misconfig",
-        "generic"
-      ],
-      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
-      "reference": null,
-      "severity": "info"
-    },
-    "matcher-name": "access-control-max-age",
-    "type": "http",
-    "host": "https://moana.beta.gouv.fr",
-    "matched-at": "https://moana.beta.gouv.fr",
-    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: df48ba79-e5e3-4120-a84e-2fa265f7e0ed\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.014659772Z",
-    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
-    "matcher-status": true,
-    "matched-line": null
-  },
-  {
-    "template": "misconfiguration/http-missing-security-headers.yaml",
-    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-    "template-id": "http-missing-security-headers",
-    "info": {
-      "name": "HTTP Missing Security Headers",
-      "author": [
-        "socketz",
-        "geeknik",
-        "g4l1t0",
-        "convisoappsec",
-        "kurohost",
-        "dawid-czarnecki"
-      ],
-      "tags": [
-        "misconfig",
-        "generic"
-      ],
-      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
-      "reference": null,
-      "severity": "info"
-    },
-    "matcher-name": "access-control-allow-methods",
-    "type": "http",
-    "host": "https://moana.beta.gouv.fr",
-    "matched-at": "https://moana.beta.gouv.fr",
-    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: df48ba79-e5e3-4120-a84e-2fa265f7e0ed\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.016756172Z",
+    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: dcae6760-106b-4cc9-a24f-20b7746e3ca6\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.385007655Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -737,9 +557,43 @@
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: df48ba79-e5e3-4120-a84e-2fa265f7e0ed\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.016794472Z",
+    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: dcae6760-106b-4cc9-a24f-20b7746e3ca6\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.385032255Z",
+    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
+    "matcher-status": true,
+    "matched-line": null
+  },
+  {
+    "template": "misconfiguration/http-missing-security-headers.yaml",
+    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+    "template-id": "http-missing-security-headers",
+    "info": {
+      "name": "HTTP Missing Security Headers",
+      "author": [
+        "socketz",
+        "geeknik",
+        "g4l1t0",
+        "convisoappsec",
+        "kurohost",
+        "dawid-czarnecki"
+      ],
+      "tags": [
+        "misconfig",
+        "generic"
+      ],
+      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
+      "reference": null,
+      "severity": "info"
+    },
+    "matcher-name": "cross-origin-embedder-policy",
+    "type": "http",
+    "host": "https://moana.beta.gouv.fr",
+    "matched-at": "https://moana.beta.gouv.fr",
+    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: dcae6760-106b-4cc9-a24f-20b7746e3ca6\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.385047655Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -771,43 +625,9 @@
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: df48ba79-e5e3-4120-a84e-2fa265f7e0ed\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.019366773Z",
-    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
-    "matcher-status": true,
-    "matched-line": null
-  },
-  {
-    "template": "misconfiguration/http-missing-security-headers.yaml",
-    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
-    "template-id": "http-missing-security-headers",
-    "info": {
-      "name": "HTTP Missing Security Headers",
-      "author": [
-        "socketz",
-        "geeknik",
-        "g4l1t0",
-        "convisoappsec",
-        "kurohost",
-        "dawid-czarnecki"
-      ],
-      "tags": [
-        "misconfig",
-        "generic"
-      ],
-      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
-      "reference": null,
-      "severity": "info"
-    },
-    "matcher-name": "access-control-allow-origin",
-    "type": "http",
-    "host": "https://moana.beta.gouv.fr",
-    "matched-at": "https://moana.beta.gouv.fr",
-    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: df48ba79-e5e3-4120-a84e-2fa265f7e0ed\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.021681973Z",
+    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: dcae6760-106b-4cc9-a24f-20b7746e3ca6\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.385074656Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -839,9 +659,9 @@
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: df48ba79-e5e3-4120-a84e-2fa265f7e0ed\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.021709273Z",
+    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: dcae6760-106b-4cc9-a24f-20b7746e3ca6\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.385094056Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
     "matcher-status": true,
     "matched-line": null
@@ -873,10 +693,242 @@
     "host": "https://moana.beta.gouv.fr",
     "matched-at": "https://moana.beta.gouv.fr",
     "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 11 May 2022 22:42:51 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: df48ba79-e5e3-4120-a84e-2fa265f7e0ed\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
-    "ip": "148.253.96.193",
-    "timestamp": "2022-05-11T22:42:52.021733773Z",
+    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: dcae6760-106b-4cc9-a24f-20b7746e3ca6\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.385111256Z",
     "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
+    "matcher-status": true,
+    "matched-line": null
+  },
+  {
+    "template": "misconfiguration/http-missing-security-headers.yaml",
+    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+    "template-id": "http-missing-security-headers",
+    "info": {
+      "name": "HTTP Missing Security Headers",
+      "author": [
+        "socketz",
+        "geeknik",
+        "g4l1t0",
+        "convisoappsec",
+        "kurohost",
+        "dawid-czarnecki"
+      ],
+      "tags": [
+        "misconfig",
+        "generic"
+      ],
+      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
+      "reference": null,
+      "severity": "info"
+    },
+    "matcher-name": "permission-policy",
+    "type": "http",
+    "host": "https://moana.beta.gouv.fr",
+    "matched-at": "https://moana.beta.gouv.fr",
+    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: dcae6760-106b-4cc9-a24f-20b7746e3ca6\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.385125456Z",
+    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
+    "matcher-status": true,
+    "matched-line": null
+  },
+  {
+    "template": "misconfiguration/http-missing-security-headers.yaml",
+    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+    "template-id": "http-missing-security-headers",
+    "info": {
+      "name": "HTTP Missing Security Headers",
+      "author": [
+        "socketz",
+        "geeknik",
+        "g4l1t0",
+        "convisoappsec",
+        "kurohost",
+        "dawid-czarnecki"
+      ],
+      "tags": [
+        "misconfig",
+        "generic"
+      ],
+      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
+      "reference": null,
+      "severity": "info"
+    },
+    "matcher-name": "cross-origin-resource-policy",
+    "type": "http",
+    "host": "https://moana.beta.gouv.fr",
+    "matched-at": "https://moana.beta.gouv.fr",
+    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: dcae6760-106b-4cc9-a24f-20b7746e3ca6\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.385152256Z",
+    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
+    "matcher-status": true,
+    "matched-line": null
+  },
+  {
+    "template": "misconfiguration/http-missing-security-headers.yaml",
+    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+    "template-id": "http-missing-security-headers",
+    "info": {
+      "name": "HTTP Missing Security Headers",
+      "author": [
+        "socketz",
+        "geeknik",
+        "g4l1t0",
+        "convisoappsec",
+        "kurohost",
+        "dawid-czarnecki"
+      ],
+      "tags": [
+        "misconfig",
+        "generic"
+      ],
+      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
+      "reference": null,
+      "severity": "info"
+    },
+    "matcher-name": "access-control-allow-origin",
+    "type": "http",
+    "host": "https://moana.beta.gouv.fr",
+    "matched-at": "https://moana.beta.gouv.fr",
+    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: dcae6760-106b-4cc9-a24f-20b7746e3ca6\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.385171656Z",
+    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
+    "matcher-status": true,
+    "matched-line": null
+  },
+  {
+    "template": "misconfiguration/http-missing-security-headers.yaml",
+    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+    "template-id": "http-missing-security-headers",
+    "info": {
+      "name": "HTTP Missing Security Headers",
+      "author": [
+        "socketz",
+        "geeknik",
+        "g4l1t0",
+        "convisoappsec",
+        "kurohost",
+        "dawid-czarnecki"
+      ],
+      "tags": [
+        "misconfig",
+        "generic"
+      ],
+      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
+      "reference": null,
+      "severity": "info"
+    },
+    "matcher-name": "access-control-max-age",
+    "type": "http",
+    "host": "https://moana.beta.gouv.fr",
+    "matched-at": "https://moana.beta.gouv.fr",
+    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: dcae6760-106b-4cc9-a24f-20b7746e3ca6\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.385186056Z",
+    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
+    "matcher-status": true,
+    "matched-line": null
+  },
+  {
+    "template": "misconfiguration/http-missing-security-headers.yaml",
+    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/misconfiguration/http-missing-security-headers.yaml",
+    "template-id": "http-missing-security-headers",
+    "info": {
+      "name": "HTTP Missing Security Headers",
+      "author": [
+        "socketz",
+        "geeknik",
+        "g4l1t0",
+        "convisoappsec",
+        "kurohost",
+        "dawid-czarnecki"
+      ],
+      "tags": [
+        "misconfig",
+        "generic"
+      ],
+      "description": "It searches for missing security headers, but obviously, could be so less generic and could be useless for Bug Bounty.",
+      "reference": null,
+      "severity": "info"
+    },
+    "matcher-name": "access-control-allow-methods",
+    "type": "http",
+    "host": "https://moana.beta.gouv.fr",
+    "matched-at": "https://moana.beta.gouv.fr",
+    "request": "GET / HTTP/1.1\r\nHost: moana.beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+    "response": "HTTP/1.1 302 Found\r\nConnection: close\r\nContent-Security-Policy: img-src 'self' data:; default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-H0hALk5rjM4aGisbF9hx4t4yVUsKf0ZX1N28nouwAhI=' 'sha256-S8EILBg9kElTQX4TsU8UGhDkBpbl+vIz9MvJL2AnUa4=' 'sha256-UQvDo/Yx+cjjE2fc/uxIdwMls2RC+aWT5akuggeDixo='; base-uri 'self'; font-src 'self' data:; script-src 'self'\r\nContent-Type: text/html; charset=utf-8\r\nDate: Sun, 15 May 2022 11:35:40 GMT\r\nLocation: /login/?next=/\r\nPermissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()\r\nReferrer-Policy: same-origin\r\nStrict-Transport-Security: max-age=31536000\r\nVary: Cookie, Origin\r\nX-Content-Type-Options: nosniff\r\nX-Request-Id: dcae6760-106b-4cc9-a24f-20b7746e3ca6\r\nX-Xss-Protection: 1; mode=block\r\nContent-Length: 0\r\n\r\n",
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:35:40.385203457Z",
+    "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://moana.beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://moana.beta.gouv.fr/login/?next=/'",
+    "matcher-status": true,
+    "matched-line": null
+  },
+  {
+    "template": "dns/nameserver-fingerprint.yaml",
+    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/nameserver-fingerprint.yaml",
+    "template-id": "nameserver-fingerprint",
+    "info": {
+      "name": "NS Record Detection",
+      "author": [
+        "pdteam"
+      ],
+      "tags": [
+        "dns",
+        "ns"
+      ],
+      "description": "An NS record was detected. An NS record delegates a subdomain to a set of name servers.",
+      "reference": null,
+      "severity": "info",
+      "classification": {
+        "cve-id": null,
+        "cwe-id": [
+          "cwe-200"
+        ]
+      }
+    },
+    "type": "dns",
+    "host": "https://moana.beta.gouv.fr",
+    "matched-at": "https://moana.beta.gouv.fr",
+    "extracted-results": [
+      "dns1.alwaysdata.com.",
+      "dns2.alwaysdata.com."
+    ],
+    "request": ";; opcode: QUERY, status: NOERROR, id: 27107\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags: ; udp: 4096\n\n;; QUESTION SECTION:\n;moana.beta.gouv.fr.\tIN\t NS\n",
+    "response": ";; opcode: QUERY, status: NOERROR, id: 27107\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags: ; udp: 512\n\n;; QUESTION SECTION:\n;moana.beta.gouv.fr.\tIN\t NS\n\n;; ANSWER SECTION:\nmoana.beta.gouv.fr.\t300\tIN\tNS\tdns2.alwaysdata.com.\nmoana.beta.gouv.fr.\t300\tIN\tNS\tdns1.alwaysdata.com.\n",
+    "timestamp": "2022-05-15T11:36:15.818741581Z",
+    "matcher-status": true,
+    "matched-line": null
+  },
+  {
+    "template": "ssl/ssl-dns-names.yaml",
+    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/ssl/ssl-dns-names.yaml",
+    "template-id": "ssl-dns-names",
+    "info": {
+      "name": "SSL DNS Names",
+      "author": [
+        "pdteam"
+      ],
+      "tags": [
+        "ssl"
+      ],
+      "reference": null,
+      "severity": "info"
+    },
+    "type": "ssl",
+    "host": "https://moana.beta.gouv.fr",
+    "matched-at": "https://moana.beta.gouv.fr",
+    "extracted-results": [
+      "moana.beta.gouv.fr"
+    ],
+    "ip": "185.21.194.105",
+    "timestamp": "2022-05-15T11:36:21.082203424Z",
     "matcher-status": true,
     "matched-line": null
   }

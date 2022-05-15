@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 22:36:27",
+	"@generated": "Sun, 15 May 2022 11:29:40",
 	"site":[ 
 		{
 			"@name": "https://moana.beta.gouv.fr",
@@ -188,13 +188,6 @@
 							"evidence": "31449600"
 						},
 						{
-							"uri": "https://moana.beta.gouv.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "79507682"
-						},
-						{
 							"uri": "https://moana.beta.gouv.fr/login/?next=/",
 							"method": "GET",
 							"param": "",
@@ -223,7 +216,7 @@
 							"evidence": "31449600"
 						}
 					],
-					"count": "6",
+					"count": "5",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>31449600, which evaluates to: 1970-12-31 00:00:00</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
@@ -246,40 +239,40 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "k4x6VP1UsgHZjvljw0W5ZQAAHSOsH9DTPuDneozsg6GIcKam7mLz7vTHlhYgImgM"
+							"evidence": "sddDWio3WkoTXXKzwNe3fBpxpInqzHUBYzpXeoIF0JFA78njAOQBhYhjbwiQqfdX"
 						},
 						{
 							"uri": "https://moana.beta.gouv.fr/login/?next=/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "fUYAgIjiUxQ9Wr7vnRPNPonNNbOrmwcPjfHPBpkyaOJWdJEq5xIHI2mPdpRejzlo"
+							"evidence": "IgsKv30Juaz84yHjYV0ad9uIL1ye9H6EEDsVOmOpBSdcyDi3CQwV4YONhfAkaMOY"
 						},
 						{
 							"uri": "https://moana.beta.gouv.fr/login/?next=/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "fUYAgIjiUxQ9Wr7vnRPNPonNNbOrmwcPjfHPBpkyaOJWdJEq5xIHI2mPdpRejzlo"
+							"evidence": "IgsKv30Juaz84yHjYV0ad9uIL1ye9H6EEDsVOmOpBSdcyDi3CQwV4YONhfAkaMOY"
 						},
 						{
 							"uri": "https://moana.beta.gouv.fr/login/?next=/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "fUYAgIjiUxQ9Wr7vnRPNPonNNbOrmwcPjfHPBpkyaOJWdJEq5xIHI2mPdpRejzlo"
+							"evidence": "IgsKv30Juaz84yHjYV0ad9uIL1ye9H6EEDsVOmOpBSdcyDi3CQwV4YONhfAkaMOY"
 						},
 						{
 							"uri": "https://moana.beta.gouv.fr/login/",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "fUYAgIjiUxQ9Wr7vnRPNPonNNbOrmwcPjfHPBpkyaOJWdJEq5xIHI2mPdpRejzlo"
+							"evidence": "IgsKv30Juaz84yHjYV0ad9uIL1ye9H6EEDsVOmOpBSdcyDi3CQwV4YONhfAkaMOY"
 						}
 					],
 					"count": "5",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFDzT\uFFFDT\uFFFD\\x0001\u064E\uFFFDc\uFFFDE\uFFFDe\\x0000\\x0000\\x001d#\uFFFD\\x001f\uFFFD\uFFFD>\uFFFD\uFFFDz\uFFFD\uC0E1\uFFFDp\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFD\u01D6\\x0016 \"h\\x000c</p>",
+					"otherinfo": "<p>\uFFFD\uFFFDCZ*7ZJ\\x0013]r\uFFFD\uFFFD\u05F7|\\x001aq\uFFFD\uFFFD\uFFFD\uFFFDu\\x0001c:Wz\uFFFD\\x0005\u0411@\uFFFD\uFFFD\uFFFD\\x0000\uFFFD\\x0001\uFFFD\uFFFDco\\x0008\uFFFD\uFFFD\uFFFDW</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -323,7 +316,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10015",
