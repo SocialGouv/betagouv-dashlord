@@ -1,17 +1,12 @@
 {
-  "trackers": [
-    {
-      "type": "unknown",
-      "url": "https://cdn.ravenjs.com/3.19.1/raven.min.js"
-    }
-  ],
+  "trackers": [],
   "cookies": [
     {
       "name": "_pk_ses.22.382f",
       "value": "1",
       "domain": "api.gouv.fr",
       "path": "/",
-      "expires": 1652275217,
+      "expires": 1652582282,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -23,10 +18,10 @@
     },
     {
       "name": "_pk_id.22.382f",
-      "value": "dd05d91fab50718e.1652273418.",
+      "value": "c5d2eb7b3efe4162.1652580483.",
       "domain": "api.gouv.fr",
       "path": "/",
-      "expires": 1686228618,
+      "expires": 1686535683,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -39,10 +34,11 @@
   ],
   "headers": {
     "server": "nginx/1.18.0 (Ubuntu)",
-    "date": "Wed, 11 May 2022 12:50:17 GMT",
+    "date": "Sun, 15 May 2022 02:08:01 GMT",
     "content-type": "text/html; charset=utf-8",
+    "x-nextjs-cache": "HIT",
     "x-powered-by": "Next.js",
-    "etag": "\"dfb3-hk7EQ4acobuSD3NIGrEl4kpNpDI\"",
+    "etag": "\"ee4f-LekKoM7UmKDMQ469ATvZJYXOmk0\"",
     "cache-control": "s-maxage=31536000, stale-while-revalidate",
     "vary": "Accept-Encoding",
     "content-encoding": "gzip"
@@ -100,60 +96,6 @@
             "pt-BR": "França",
             "ru": "Франция",
             "zh-CN": "法国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "cdn.ravenjs.com",
-      "ip": "151.101.194.217",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
           }
         }
       }
