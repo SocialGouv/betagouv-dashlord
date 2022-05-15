@@ -143,7 +143,7 @@
               "ip"           : "anais.beta.gouv.fr/51.210.1.8",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "server -- TLS 1.3 client determined"
+              "finding"      : "server"
           }
 ,         {
               "id"           : "protocol_negotiated",
@@ -353,7 +353,7 @@
               "ip"           : "anais.beta.gouv.fr/51.210.1.8",
               "port"         : "443",
               "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (54)"
+              "finding"      : "expires < 60 days (50)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "anais.beta.gouv.fr/51.210.1.8",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1652295965"
+              "finding"      : "1652602281"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -771,7 +771,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://censys.io/ipv4?q=0E469BBB1AC36921C10C18AF079874D30A43EAFA386F9A27CAF1F1530BD93057"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0E469BBB1AC36921C10C18AF079874D30A43EAFA386F9A27CAF1F1530BD93057"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1154,6 +1154,6 @@
               "ip"           : "anais.beta.gouv.fr/51.210.1.8",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "165"
+              "finding"      : "114"
           }
 ]
