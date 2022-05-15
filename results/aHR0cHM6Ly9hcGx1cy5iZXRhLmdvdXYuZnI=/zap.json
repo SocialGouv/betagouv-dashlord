@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 13:17:38",
+	"@generated": "Sun, 15 May 2022 02:30:47",
 	"site":[ 
 		{
 			"@name": "https://aplus.beta.gouv.fr",
@@ -113,7 +113,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://aplus.beta.gouv.fr/assets/generated-js/6c47d07fcd16c4db49d51af21ce1198f-index.js",
+							"uri": "https://aplus.beta.gouv.fr/assets/generated-js/4c89969f7b7eeb27e9813a49fe1443a3-index.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -174,21 +174,21 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server - Unix</p>",
 					"instances":[ 
 						{
-							"uri": "https://aplus.beta.gouv.fr/assets/generated-js/6c47d07fcd16c4db49d51af21ce1198f-index.js",
+							"uri": "https://aplus.beta.gouv.fr/assets/generated-js/4c89969f7b7eeb27e9813a49fe1443a3-index.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "2147483647"
 						},
 						{
-							"uri": "https://aplus.beta.gouv.fr/assets/generated-js/6c47d07fcd16c4db49d51af21ce1198f-index.js",
+							"uri": "https://aplus.beta.gouv.fr/assets/generated-js/4c89969f7b7eeb27e9813a49fe1443a3-index.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "62425156"
 						},
 						{
-							"uri": "https://aplus.beta.gouv.fr/assets/generated-js/6c47d07fcd16c4db49d51af21ce1198f-index.js",
+							"uri": "https://aplus.beta.gouv.fr/assets/generated-js/4c89969f7b7eeb27e9813a49fe1443a3-index.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -201,7 +201,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "63"
+					"sourceid": "60"
 				},
 				{
 					"pluginid": "10094",
@@ -218,14 +218,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "eyJkYXRhIjp7ImNzcmZUb2tlbiI6IjE1YjQ2MGQ2ZjIzODRhYjg0YWQ0MWRjY2RkY2I0NzYwMWM1NDk5NTMtMTY1MjI3NTA0NzAxMi02YmRlYmIyYTEwN2MwODU5MDBhNmY3NzYifSwiZXhwIjoxNjU0ODY3MDQ3LCJuYmYiOjE2NTIyNzUwNDcsImlhdCI6MTY1MjI3NTA0N30"
+							"evidence": "eyJkYXRhIjp7ImNzcmZUb2tlbiI6Ijc2NWYwYmM5NWJmZWQ0ZWNhNjdjZWY2OTU1M2JkZmMyMzI0ZDQwMTEtMTY1MjU4MTgzNzYxOC1kMDdiOTExNDhkNGM0YWUyMzNmNWYyMGIifSwiZXhwIjoxNjU1MTczODM3LCJuYmYiOjE2NTI1ODE4MzcsImlhdCI6MTY1MjU4MTgzN30"
 						},
 						{
 							"uri": "https://aplus.beta.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "eyJkYXRhIjp7ImNzcmZUb2tlbiI6ImEyZTEyM2Y1OGYxOTM1MjYwZTg2MjI4NzdlNjJjNjkzZDI0NTU5YjktMTY1MjI3NTA0ODAwMy0xYWRhNDkyZWFkNDdhMGU1ZjdmMWIxZTQifSwiZXhwIjoxNjU0ODY3MDQ4LCJuYmYiOjE2NTIyNzUwNDgsImlhdCI6MTY1MjI3NTA0OH0"
+							"evidence": "eyJkYXRhIjp7ImNzcmZUb2tlbiI6ImNiMGFkNTM4YzQ5MjI0NDcyYWU4Yjk4NjI0OWI2ODc4ZmFiODQ3MjYtMTY1MjU4MTgzNjE4Mi1iMTNlY2Y1YWYwOWYwZGFhNzA1NTMxNjEifSwiZXhwIjoxNjU1MTczODM2LCJuYmYiOjE2NTI1ODE4MzYsImlhdCI6MTY1MjU4MTgzNn0"
 						},
 						{
 							"uri": "https://aplus.beta.gouv.fr/",
@@ -253,23 +253,23 @@
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "eyJkYXRhIjp7ImVycm9yIjoiQXVjdW4gY29tcHRlIGFjdGlmIG7igJllc3QgYXNzb2Npw6kgw6AgY2V0dGUgYWRyZXNzZSBlLW1haWwuXG5NZXJjaSBkZSB2w6lyaWZpZXIgcXXigJlpbCBz4oCZYWdpdCBiaWVuIGRlIHZvdHJlIGFkcmVzc2UgcHJvZmVzc2lvbm5lbGxlIGV0IG5vbWluYXRpdmUuIiwiZW1haWwtdmFsdWUiOiJmb28tYmFyQGV4YW1wbGUuY29tIn0sIm5iZiI6MTY1MjI3NTA1MSwiaWF0IjoxNjUyMjc1MDUxfQ"
+							"evidence": "eyJkYXRhIjp7ImVycm9yIjoiQXVjdW4gY29tcHRlIGFjdGlmIG7igJllc3QgYXNzb2Npw6kgw6AgY2V0dGUgYWRyZXNzZSBlLW1haWwuXG5NZXJjaSBkZSB2w6lyaWZpZXIgcXXigJlpbCBz4oCZYWdpdCBiaWVuIGRlIHZvdHJlIGFkcmVzc2UgcHJvZmVzc2lvbm5lbGxlIGV0IG5vbWluYXRpdmUuIiwiZW1haWwtdmFsdWUiOiJmb28tYmFyQGV4YW1wbGUuY29tIn0sIm5iZiI6MTY1MjU4MTg0MCwiaWF0IjoxNjUyNTgxODQwfQ"
 						},
 						{
 							"uri": "https://aplus.beta.gouv.fr/login",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "eyJkYXRhIjp7ImVycm9yIjoiQXVjdW4gY29tcHRlIGFjdGlmIG7igJllc3QgYXNzb2Npw6kgw6AgY2V0dGUgYWRyZXNzZSBlLW1haWwuXG5NZXJjaSBkZSB2w6lyaWZpZXIgcXXigJlpbCBz4oCZYWdpdCBiaWVuIGRlIHZvdHJlIGFkcmVzc2UgcHJvZmVzc2lvbm5lbGxlIGV0IG5vbWluYXRpdmUuIiwiZW1haWwtdmFsdWUiOiJmb28tYmFyQGV4YW1wbGUuY29tIn0sIm5iZiI6MTY1MjI3NTA1MiwiaWF0IjoxNjUyMjc1MDUyfQ"
+							"evidence": "eyJkYXRhIjp7ImVycm9yIjoiQXVjdW4gY29tcHRlIGFjdGlmIG7igJllc3QgYXNzb2Npw6kgw6AgY2V0dGUgYWRyZXNzZSBlLW1haWwuXG5NZXJjaSBkZSB2w6lyaWZpZXIgcXXigJlpbCBz4oCZYWdpdCBiaWVuIGRlIHZvdHJlIGFkcmVzc2UgcHJvZmVzc2lvbm5lbGxlIGV0IG5vbWluYXRpdmUuIiwiZW1haWwtdmFsdWUiOiJmb28tYmFyQGV4YW1wbGUuY29tIn0sIm5iZiI6MTY1MjU4MTg0MSwiaWF0IjoxNjUyNTgxODQxfQ"
 						}
 					],
 					"count": "7",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>{\"data\":{\"csrfToken\":\"15b460d6f2384ab84ad41dccddcb47601c549953-1652275047012-6bdebb2a107c085900a6f776\"},\"exp\":1654867047,\"nbf\":1652275047,\"iat\":1652275047}</p>",
+					"otherinfo": "<p>{\"data\":{\"csrfToken\":\"765f0bc95bfed4eca67cef69553bdfc2324d4011-1652581837618-d07b91148d4c4ae233f5f20b\"},\"exp\":1655173837,\"nbf\":1652581837,\"iat\":1652581837}</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10027",
@@ -282,7 +282,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://aplus.beta.gouv.fr/assets/generated-js/6c47d07fcd16c4db49d51af21ce1198f-index.js",
+							"uri": "https://aplus.beta.gouv.fr/assets/generated-js/4c89969f7b7eeb27e9813a49fe1443a3-index.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -295,7 +295,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "63"
+					"sourceid": "60"
 				},
 				{
 					"pluginid": "10109",
@@ -322,7 +322,7 @@
 							"evidence": "<noscript><p><img src=\"//stats.data.gouv.fr/piwik.php?idsite=42\" style=\"border:0;\" alt=\"\" /></p></noscript>"
 						},
 						{
-							"uri": "https://aplus.beta.gouv.fr/assets/generated-js/6c47d07fcd16c4db49d51af21ce1198f-index.js",
+							"uri": "https://aplus.beta.gouv.fr/assets/generated-js/4c89969f7b7eeb27e9813a49fe1443a3-index.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -409,13 +409,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://aplus.beta.gouv.fr/assets/generated-js/841d6c5f60cc6ea8e5d4331f0f1c4264-index.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "max-age=31536000"
-						},
-						{
 							"uri": "https://aplus.beta.gouv.fr/assets/images/bb24f2cd5ff2ee1dbcb59efcd02c83a8-favicon.png",
 							"method": "GET",
 							"param": "",
@@ -459,6 +452,13 @@
 						},
 						{
 							"uri": "https://aplus.beta.gouv.fr/webjars/material-design-icons/4.0.0/material-icons.css",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "max-age=3600"
+						},
+						{
+							"uri": "https://aplus.beta.gouv.fr/webjars/material-design-lite/1.3.0/material.min.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
