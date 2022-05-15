@@ -70,18 +70,18 @@
     "x-xss-protection": "0",
     "accept-ranges": "bytes",
     "cache-control": "public, max-age=0",
-    "last-modified": "Wed, 11 May 2022 09:16:30 GMT",
-    "etag": "W/\"6a6-180b267d316\"",
+    "last-modified": "Fri, 13 May 2022 12:14:40 GMT",
+    "etag": "W/\"6a6-180bd57a8dc\"",
     "content-type": "text/html; charset=UTF-8",
     "content-length": "1702",
-    "date": "Wed, 11 May 2022 19:28:16 GMT",
+    "date": "Sun, 15 May 2022 08:25:08 GMT",
     "keep-alive": "timeout=5",
-    "sozu-id": "01G2T9FSZJVJNRYTPWM9QVM8KX"
+    "sozu-id": "01G33D4F40QSCXTR8XR77PFZ7S"
   },
   "endpoints": [
     {
       "hostname": "inscription.snu.gouv.fr",
-      "ip": "46.252.181.104",
+      "ip": "185.42.117.108",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -191,18 +191,17 @@
     },
     {
       "hostname": "plausible.io",
-      "ip": "212.102.40.114",
+      "ip": "37.19.216.129",
       "geoip": {
         "city": {
-          "geoname_id": 4684888,
+          "geoname_id": 4699066,
           "names": {
-            "de": "Dallas",
-            "en": "Dallas",
-            "es": "Dallas",
-            "fr": "Dallas",
-            "ja": "ダラス",
-            "pt-BR": "Dallas",
-            "ru": "Даллас"
+            "en": "Houston",
+            "fr": "Houston",
+            "ja": "ヒューストン",
+            "pt-BR": "Houston",
+            "ru": "Хьюстон",
+            "zh-CN": "休斯敦"
           }
         },
         "continent": {
@@ -235,13 +234,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 32.7908,
-          "longitude": -96.8336,
-          "metro_code": 623,
+          "latitude": 29.7646,
+          "longitude": -95.3657,
+          "metro_code": 618,
           "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "75207"
+          "code": "77002"
         },
         "registered_country": {
           "geoname_id": 2635167,
@@ -275,7 +274,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.68.170",
+      "ip": "142.251.32.234",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -414,7 +413,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.138.94",
+      "ip": "142.251.32.131",
       "geoip": {
         "continent": {
           "code": "NA",
