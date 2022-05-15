@@ -353,7 +353,7 @@
               "ip"           : "echauffeur.fabnum.fr/195.154.70.159",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "45 >= 30 days"
+              "finding"      : "42 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "echauffeur.fabnum.fr/195.154.70.159",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1652299067"
+              "finding"      : "1652604977"
           }
 ,         {
               "id"           : "HSTS",
@@ -743,7 +743,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://censys.io/ipv4?q=B78ECAAB9269B1805FD14212B45D06EA9A5BD23A3C271BA14515BE5C1FCDE550"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=B78ECAAB9269B1805FD14212B45D06EA9A5BD23A3C271BA14515BE5C1FCDE550"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1133,6 +1133,6 @@
               "ip"           : "echauffeur.fabnum.fr/195.154.70.159",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "155"
+              "finding"      : "144"
           }
 ]
