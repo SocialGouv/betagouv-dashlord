@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 19:51:03",
+	"@generated": "Sun, 15 May 2022 08:36:42",
 	"site":[ 
 		{
 			"@name": "https://www.monstagedetroisieme.fr",
@@ -39,7 +39,7 @@
 					"reference": "",
 					"cweid": "359",
 					"wascid": "13",
-					"sourceid": "102"
+					"sourceid": "90"
 				},
 				{
 					"pluginid": "10202",
@@ -278,7 +278,7 @@
 					"reference": "<p>http://blogs.wsj.com/cio/2013/10/08/adobe-source-code-leak-is-bad-news-for-u-s-government/</p>",
 					"cweid": "540",
 					"wascid": "13",
-					"sourceid": "169"
+					"sourceid": "145"
 				},
 				{
 					"pluginid": "90003",
@@ -789,7 +789,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>http://caniuse.com/stricttransportsecurity</p><p>http://tools.ietf.org/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "169"
+					"sourceid": "145"
 				},
 				{
 					"pluginid": "10096",
@@ -806,21 +806,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "39519705"
-						},
-						{
-							"uri": "https://www.monstagedetroisieme.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
 							"evidence": "654158859"
-						},
-						{
-							"uri": "https://www.monstagedetroisieme.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "81614441"
 						},
 						{
 							"uri": "https://www.monstagedetroisieme.fr/",
@@ -3434,9 +3420,9 @@
 							"evidence": "0001753026"
 						}
 					],
-					"count": "376",
+					"count": "374",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
-					"otherinfo": "<p>39519705, which evaluates to: 1971-04-03 09:41:45</p>",
+					"otherinfo": "<p>654158859, which evaluates to: 1990-09-24 06:47:39</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -3543,7 +3529,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "169"
+					"sourceid": "145"
 				},
 				{
 					"pluginid": "10094",
@@ -3560,42 +3546,49 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "xgfOEXtAYiaCguboZHr05NMLVNx46M"
+							"evidence": "ToKx3fhyUwQ5lvEjMZFYHLFOBq5iKRCbuL4kBI2954XDYIEi68T8EMFms1DUsY9"
 						},
 						{
 							"uri": "https://www.monstagedetroisieme.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BY6YTFsaVCxGyTcq2jrvqKrrWuuxLUQKDjDeSsWxqT1"
+							"evidence": "2FATLSVkHJoGA5u9e3IlUR5M56q2kZNDMjcYFbSVCIAmwSovHc7ldXOidVats9P6QhO4I2de9Fz4vE"
 						},
 						{
 							"uri": "https://www.monstagedetroisieme.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2Fssajh6jPUS9vAff1Bkl4kNIcXUCO0yvFqtLWRt5hIrJzZQl9Qg3ic8IM"
+							"evidence": "2Bnqg2gBqkNjqczCMpMEB05Uf5E0XQISVFqlwAGmdPXCvcyFMbHtbrTte4a"
 						},
 						{
 							"uri": "https://www.monstagedetroisieme.fr/documents-utiles",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FXOO5vGCNCdMwzETybGeDixcpqzgnXzrHY"
+							"evidence": "zYHmqc41w8pCy1KvB9vh4Nd88tIdPYL"
 						},
 						{
 							"uri": "https://www.monstagedetroisieme.fr/internship_offers",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BAv1SD3VuWlAiTw17lb3HR949KvAX"
+							"evidence": "2BI8yatArmzoklr9pbQGkDiuo9pZpI0U"
 						},
 						{
 							"uri": "https://www.monstagedetroisieme.fr/internship_offers/search",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2Bf8NqVPyRK3UTFOQxgmvX6NRrdLZFubZ10v"
+							"evidence": "2F916Jiw0kGd32gJTb8nzDo4Hmkww40NbHSijZLRS4QkJoa"
+						},
+						{
+							"uri": "https://www.monstagedetroisieme.fr/mentions-legales",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "2FSgI2Lj7vjpuf60XW8QmqyoZAdM58dfGvHfzCE6mf"
 						},
 						{
 							"uri": "https://www.monstagedetroisieme.fr/modes_d_emploi/MS3_Mode-d-emploi-eleves.pdf",
@@ -3619,34 +3612,27 @@
 							"evidence": "/BaseFont/BAGUPV+TuskerGrotesk-5600Semibold/FontDescriptor"
 						},
 						{
-							"uri": "https://www.monstagedetroisieme.fr/modes_d_emploi/MS3_Mode-d-emploi-referents-departementaux.pdf",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "fr/documents_utiles/MS3_Programme-a-remplir"
-						},
-						{
 							"uri": "https://www.monstagedetroisieme.fr/users/sign_in",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2Fx7yQhGJh3odGst3QItOOn1U6GpzJMxp7HR3TodJx"
+							"evidence": "3D--DPkpeHszFKOlQfLA--S0vbysMFfEyX"
 						},
 						{
 							"uri": "https://www.monstagedetroisieme.fr/users/sign_up",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FSPO4yJbKTJJcqoQfxYvLOpxMJ0jqIJchUrc0y"
+							"evidence": "MiL1mrlMxZaGi7wYjn7PbIiofujWZNqPm6Kdh61vawMNjtvOZUXQB2EfnoYkMvXbNu"
 						}
 					],
 					"count": "12",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\\x0007\uFFFD\\x0011{@b&\uFFFD\uFFFD\uFFFD\uFFFDdz\uFFFD\uFFFD\uFFFD\\x000bT\uFFFDx\uFFFD</p>",
+					"otherinfo": "<p>N\uFFFD\uFFFD\uFFFD\uFFFDrS\\x00049\uFFFD\uFFFD#1\uFFFDX\\x001c\uFFFDN\\x0006\uFFFDb)\\x0010\uFFFD\uFFFD\uFFFD$\\x0004\uFFFD\uFFFD\uFFFD\uFFFD`\uFFFD\"\uFFFD\uFFFD\uFFFD\\x0010\uFFFDf\uFFFDP\u0531\uFFFD</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10024",
@@ -3659,84 +3645,84 @@
 					"desc": "<p>The request appeared to contain sensitive information leaked in the URL. This can violate PCI and most organizational compliance policies. You can configure the list of strings for this check to add or remove values specific to your environment.</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.monstagedetroisieme.fr/users/sign_in?user%5Btargeted_offer_id%5D=25987",
+							"uri": "https://www.monstagedetroisieme.fr/users/sign_in?user%5Btargeted_offer_id%5D=26011",
 							"method": "GET",
 							"param": "user[targeted_offer_id]",
 							"attack": "",
 							"evidence": "user[targeted_offer_id]"
 						},
 						{
-							"uri": "https://www.monstagedetroisieme.fr/users/sign_in?user%5Btargeted_offer_id%5D=25988",
+							"uri": "https://www.monstagedetroisieme.fr/users/sign_in?user%5Btargeted_offer_id%5D=26012",
 							"method": "GET",
 							"param": "user[targeted_offer_id]",
 							"attack": "",
 							"evidence": "user[targeted_offer_id]"
 						},
 						{
-							"uri": "https://www.monstagedetroisieme.fr/users/sign_in?user%5Btargeted_offer_id%5D=25989",
+							"uri": "https://www.monstagedetroisieme.fr/users/sign_in?user%5Btargeted_offer_id%5D=26013",
 							"method": "GET",
 							"param": "user[targeted_offer_id]",
 							"attack": "",
 							"evidence": "user[targeted_offer_id]"
 						},
 						{
-							"uri": "https://www.monstagedetroisieme.fr/users/sign_in?user%5Btargeted_offer_id%5D=25990",
+							"uri": "https://www.monstagedetroisieme.fr/users/sign_in?user%5Btargeted_offer_id%5D=26014",
 							"method": "GET",
 							"param": "user[targeted_offer_id]",
 							"attack": "",
 							"evidence": "user[targeted_offer_id]"
 						},
 						{
-							"uri": "https://www.monstagedetroisieme.fr/users/sign_in?user%5Btargeted_offer_id%5D=25991",
+							"uri": "https://www.monstagedetroisieme.fr/users/sign_in?user%5Btargeted_offer_id%5D=26015",
 							"method": "GET",
 							"param": "user[targeted_offer_id]",
 							"attack": "",
 							"evidence": "user[targeted_offer_id]"
 						},
 						{
-							"uri": "https://www.monstagedetroisieme.fr/users/sign_in?user%5Btargeted_offer_id%5D=25992",
+							"uri": "https://www.monstagedetroisieme.fr/users/sign_in?user%5Btargeted_offer_id%5D=26016",
 							"method": "GET",
 							"param": "user[targeted_offer_id]",
 							"attack": "",
 							"evidence": "user[targeted_offer_id]"
 						},
 						{
-							"uri": "https://www.monstagedetroisieme.fr/users/sign_up?as=Student&user%5Btargeted_offer_id%5D=25987",
+							"uri": "https://www.monstagedetroisieme.fr/users/sign_up?as=Student&user%5Btargeted_offer_id%5D=26011",
 							"method": "GET",
 							"param": "user[targeted_offer_id]",
 							"attack": "",
 							"evidence": "user[targeted_offer_id]"
 						},
 						{
-							"uri": "https://www.monstagedetroisieme.fr/users/sign_up?as=Student&user%5Btargeted_offer_id%5D=25988",
+							"uri": "https://www.monstagedetroisieme.fr/users/sign_up?as=Student&user%5Btargeted_offer_id%5D=26012",
 							"method": "GET",
 							"param": "user[targeted_offer_id]",
 							"attack": "",
 							"evidence": "user[targeted_offer_id]"
 						},
 						{
-							"uri": "https://www.monstagedetroisieme.fr/users/sign_up?as=Student&user%5Btargeted_offer_id%5D=25989",
+							"uri": "https://www.monstagedetroisieme.fr/users/sign_up?as=Student&user%5Btargeted_offer_id%5D=26013",
 							"method": "GET",
 							"param": "user[targeted_offer_id]",
 							"attack": "",
 							"evidence": "user[targeted_offer_id]"
 						},
 						{
-							"uri": "https://www.monstagedetroisieme.fr/users/sign_up?as=Student&user%5Btargeted_offer_id%5D=25990",
+							"uri": "https://www.monstagedetroisieme.fr/users/sign_up?as=Student&user%5Btargeted_offer_id%5D=26014",
 							"method": "GET",
 							"param": "user[targeted_offer_id]",
 							"attack": "",
 							"evidence": "user[targeted_offer_id]"
 						},
 						{
-							"uri": "https://www.monstagedetroisieme.fr/users/sign_up?as=Student&user%5Btargeted_offer_id%5D=25991",
+							"uri": "https://www.monstagedetroisieme.fr/users/sign_up?as=Student&user%5Btargeted_offer_id%5D=26015",
 							"method": "GET",
 							"param": "user[targeted_offer_id]",
 							"attack": "",
 							"evidence": "user[targeted_offer_id]"
 						},
 						{
-							"uri": "https://www.monstagedetroisieme.fr/users/sign_up?as=Student&user%5Btargeted_offer_id%5D=25992",
+							"uri": "https://www.monstagedetroisieme.fr/users/sign_up?as=Student&user%5Btargeted_offer_id%5D=26016",
 							"method": "GET",
 							"param": "user[targeted_offer_id]",
 							"attack": "",
@@ -3749,7 +3735,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1046"
+					"sourceid": "1028"
 				},
 				{
 					"pluginid": "10027",
@@ -4152,7 +4138,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "91"
+					"sourceid": "79"
 				},
 				{
 					"pluginid": "10031",
@@ -4262,7 +4248,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "401"
+					"sourceid": "372"
 				}
 			]
 		}
