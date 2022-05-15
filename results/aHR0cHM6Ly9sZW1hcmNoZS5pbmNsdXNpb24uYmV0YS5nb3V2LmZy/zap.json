@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 16:01:15",
+	"@generated": "Sun, 15 May 2022 05:06:49",
 	"site":[ 
 		{
 			"@name": "https://lemarche.inclusion.beta.gouv.fr",
@@ -19,11 +19,60 @@
 					"desc": "<p>The response contains Personally Identifiable Information, such as CC number, SSN and similar sensitive data.</p>",
 					"instances":[ 
 						{
-							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/entraide-partage-et-travail-31/",
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/alternatri-53/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "38358014900011"
+							"evidence": "50131221900030"
+						},
+						{
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/ars-95-95/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "30470797900064"
+						},
+						{
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/assoc-atre-61/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "38030724900025"
+						},
+						{
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/assoc-coup-de-main-51/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "38073003600056"
+						},
+						{
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/assoc-mp-2-environnement-le-marchepied-11/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "38393256300034"
+						},
+						{
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/assoc-rivages-propres-62/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "38322126400054"
+						},
+						{
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/drome-insertion-26/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "38863514600029"
+						},
+						{
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/ea-tilly-entreprise-service-27/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "50951123400015"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/ethicofil-21/",
@@ -33,34 +82,34 @@
 							"evidence": "50224428800044"
 						},
 						{
-							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/idees-interim-f-toulouse-31/",
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/le-chene-92/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "50937775000047"
+							"evidence": "38504202300031"
 						},
 						{
-							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/imm-pact-douaisis-59/",
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/quemmerais-80/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "50829034300021"
+							"evidence": "50829650600068"
 						},
 						{
-							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/ovalie-sas-67/",
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/prestataires/vinci-facilities-entreprise-adaptee-92/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "50088443200054"
+							"evidence": "50093644800025"
 						}
 					],
-					"count": "5",
+					"count": "12",
 					"solution": "",
-					"otherinfo": "<p>Credit Card Type detected: DinersClub</p><p>Bank Identification Number: 383580</p><p>Brand: DISCOVER</p><p>Category: BUSINESS CARD</p><p>Issuer: </p>",
+					"otherinfo": "<p>Credit Card Type detected: Maestro</p><p>Bank Identification Number: 501312</p><p>Brand: MAESTRO</p><p>Category: </p><p>Issuer: </p>",
 					"reference": "",
 					"cweid": "359",
 					"wascid": "13",
-					"sourceid": "1352"
+					"sourceid": "1242"
 				},
 				{
 					"pluginid": "10202",
@@ -163,7 +212,7 @@
 					"reference": "<p>http://projects.webappsec.org/Cross-Site-Request-Forgery</p><p>http://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "133"
+					"sourceid": "129"
 				},
 				{
 					"pluginid": "10038",
@@ -272,7 +321,7 @@
 					"desc": "<p>Web browser data loading may be possible, due to a Cross Origin Resource Sharing (CORS) misconfiguration on the web server</p>",
 					"instances":[ 
 						{
-							"uri": "https://lemarche.inclusion.beta.gouv.fr/static/CACHE/css/output.1c9459e02a91.css",
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/static/CACHE/css/output.abeb82fee554.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -307,7 +356,7 @@
 							"evidence": "Access-Control-Allow-Origin: *"
 						},
 						{
-							"uri": "https://lemarche.inclusion.beta.gouv.fr/static/js/utils.cbb7e563dbf1.js",
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/static/js/utils.f21d1e21fc7a.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -362,7 +411,7 @@
 					"reference": "<p>https://vulncat.fortify.com/en/detail?id=desc.config.dotnet.html5_overly_permissive_cors_policy</p>",
 					"cweid": "264",
 					"wascid": "14",
-					"sourceid": "205"
+					"sourceid": "206"
 				},
 				{
 					"pluginid": "90003",
@@ -646,33 +695,40 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "http://c4-prod.cellar-c2.services.clever-cloud.com/images/pNAD.2e16d0ba.fill-655x388.png?Signature=rggbOFQYUL6VObvv7xTOo3sdd%2B0%3D&Expires=1652288407&AWSAccessKeyId=C8DR0288Y589EJK17A22"
+							"evidence": "http://c4-prod.cellar-c2.services.clever-cloud.com/images/pexels-ketut-subiyanto-4623470_1.2e16d0ba.fill-655x388.jpg?Signature=PopfbfkVLQeuZMpxp24OvFBfcmc%3D&Expires=1652594740&AWSAccessKeyId=C8DR0288Y589EJK17A22"
+						},
+						{
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/ressources/14-agences-de-communication-inclusives-pour-une-comm-responsable/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "http://c4-prod.cellar-c2.services.clever-cloud.com/images/pexels-ketut-subiyanto-4623470_1.width-960.jpg?Signature=5IrXyy%2B%2FRtii%2BU4naT5HaC6SoL8%3D&Expires=1652594753&AWSAccessKeyId=C8DR0288Y589EJK17A22"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/ressources/categories/acheteurs/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "http://c4-prod.cellar-c2.services.clever-cloud.com/images/pNAD.2e16d0ba.fill-655x388.png?Signature=xskAfluwbPU5%2F%2Bsttz638N0%2F8ks%3D&Expires=1652288423&AWSAccessKeyId=C8DR0288Y589EJK17A22"
+							"evidence": "http://c4-prod.cellar-c2.services.clever-cloud.com/images/pexels-ketut-subiyanto-4623470_1.2e16d0ba.fill-655x388.jpg?Signature=1HTgv5ucBF5yeveaBnEgcuQvGGs%3D&Expires=1652594752&AWSAccessKeyId=C8DR0288Y589EJK17A22"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/ressources/le-plan-national-pour-des-achats-durables-pnad-2022/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "http://c4-prod.cellar-c2.services.clever-cloud.com/images/pNAD.width-960.png?Signature=L3e0U2L8SLUSHUE5OD4mqjFyJDI%3D&Expires=1652288424&AWSAccessKeyId=C8DR0288Y589EJK17A22"
+							"evidence": "http://c4-prod.cellar-c2.services.clever-cloud.com/images/pNAD.width-960.png?Signature=0hyEkrUSZ5ew6MRpIZJcL5qFEpk%3D&Expires=1652594753&AWSAccessKeyId=C8DR0288Y589EJK17A22"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/ressources/quest-ce-que-linclusion/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "http://c4-prod.cellar-c2.services.clever-cloud.com/images/Banniere_Blog_Inclusion.width-960.jpg?Signature=c7EMAa%2FW7i8Z0lTKV%2F9s6UA2SzA%3D&Expires=1652288424&AWSAccessKeyId=C8DR0288Y589EJK17A22"
+							"evidence": "http://c4-prod.cellar-c2.services.clever-cloud.com/images/Banniere_Blog_Inclusion.width-960.jpg?Signature=z1cMuA6QUF5EprfHWvlC7rXUOR4%3D&Expires=1652594753&AWSAccessKeyId=C8DR0288Y589EJK17A22"
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"solution": "<p>A page that is available over SSL/TLS must be comprised completely of content which is transmitted over SSL/TLS.</p><p>The page must not contain any content that is transmitted over unencrypted HTTP.</p><p> This includes content from third party sites.</p>",
-					"otherinfo": "<p>tag=img src=http://c4-prod.cellar-c2.services.clever-cloud.com/images/pNAD.2e16d0ba.fill-655x388.png?Signature=rggbOFQYUL6VObvv7xTOo3sdd%2B0%3D&Expires=1652288407&AWSAccessKeyId=C8DR0288Y589EJK17A22</p><p>tag=img src=http://c4-prod.cellar-c2.services.clever-cloud.com/images/Banniere_Blog_Inclusion.2e16d0ba.fill-655x388.jpg?Signature=7m57YcNWFn1ww5IOht0Pgvd4U8E%3D&Expires=1652288407&AWSAccessKeyId=C8DR0288Y589EJK17A22</p><p></p>",
+					"otherinfo": "<p>tag=img src=http://c4-prod.cellar-c2.services.clever-cloud.com/images/pexels-ketut-subiyanto-4623470_1.2e16d0ba.fill-655x388.jpg?Signature=PopfbfkVLQeuZMpxp24OvFBfcmc%3D&Expires=1652594740&AWSAccessKeyId=C8DR0288Y589EJK17A22</p><p>tag=img src=http://c4-prod.cellar-c2.services.clever-cloud.com/images/pNAD.2e16d0ba.fill-655x388.png?Signature=KEwWZi3vpKt3FhJtrIRlqBRlZ0k%3D&Expires=1652594740&AWSAccessKeyId=C8DR0288Y589EJK17A22</p><p>tag=img src=http://c4-prod.cellar-c2.services.clever-cloud.com/images/Banniere_Blog_Inclusion.2e16d0ba.fill-655x388.jpg?Signature=LBY5fBzpENurGShIXtRsxi%2FKe0w%3D&Expires=1652594740&AWSAccessKeyId=C8DR0288Y589EJK17A22</p><p></p>",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html</p>",
 					"cweid": "311",
 					"wascid": "4",
@@ -847,6 +903,13 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
+							"evidence": "0749480444"
+						},
+						{
+							"uri": "https://lemarche.inclusion.beta.gouv.fr/groupements/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
 							"evidence": "0769237958"
 						},
 						{
@@ -878,7 +941,7 @@
 							"evidence": "31449600"
 						}
 					],
-					"count": "27",
+					"count": "28",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>31449600, which evaluates to: 1970-12-31 00:00:00</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
@@ -901,89 +964,89 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "3xHJ7tX6NzZUAh4sLXiHmOVhuXJKc8DnMieONhupOP7otS2yZmb1Xr2gycsHVGyo"
+							"evidence": "EVSBtwnghJirmDcyq0Ye6FKh1nSBjh4Lv7JaCTxyliY5OvSb7AzCC1v2xlFV46ok"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "qErM6QwwpojPGeSC4bFnHdhyvsg4JcPTxYE4sfoQh32rf8t8IPOHDNRAsCbgXX4a"
+							"evidence": "iE1NvUVR5asbospXZAFOdnEkSYfLN5J714lFdkhQzibtXHlZUCcvxMySbWsrAsM4"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "ceZtvZozhBVbBRoo2qUrTYNk6cfLZDJKNMayMmCDVahGuIz8n0kcjzZwvv7cvUs7"
+							"evidence": "iE1NvUVR5asbospXZAFOdnEkSYfLN5J714lFdkhQzibtXHlZUCcvxMySbWsrAsM4"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/accounts/login/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "qErM6QwwpojPGeSC4bFnHdhyvsg4JcPTxYE4sfoQh32rf8t8IPOHDNRAsCbgXX4a"
+							"evidence": "iE1NvUVR5asbospXZAFOdnEkSYfLN5J714lFdkhQzibtXHlZUCcvxMySbWsrAsM4"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/accounts/signup/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "qErM6QwwpojPGeSC4bFnHdhyvsg4JcPTxYE4sfoQh32rf8t8IPOHDNRAsCbgXX4a"
+							"evidence": "iE1NvUVR5asbospXZAFOdnEkSYfLN5J714lFdkhQzibtXHlZUCcvxMySbWsrAsM4"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/decouvrir-inclusion/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "qErM6QwwpojPGeSC4bFnHdhyvsg4JcPTxYE4sfoQh32rf8t8IPOHDNRAsCbgXX4a"
+							"evidence": "iE1NvUVR5asbospXZAFOdnEkSYfLN5J714lFdkhQzibtXHlZUCcvxMySbWsrAsM4"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/filiere/recyclage/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "qErM6QwwpojPGeSC4bFnHdhyvsg4JcPTxYE4sfoQh32rf8t8IPOHDNRAsCbgXX4a"
+							"evidence": "iE1NvUVR5asbospXZAFOdnEkSYfLN5J714lFdkhQzibtXHlZUCcvxMySbWsrAsM4"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/groupements/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "qErM6QwwpojPGeSC4bFnHdhyvsg4JcPTxYE4sfoQh32rf8t8IPOHDNRAsCbgXX4a"
+							"evidence": "iE1NvUVR5asbospXZAFOdnEkSYfLN5J714lFdkhQzibtXHlZUCcvxMySbWsrAsM4"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/partenaires/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "qErM6QwwpojPGeSC4bFnHdhyvsg4JcPTxYE4sfoQh32rf8t8IPOHDNRAsCbgXX4a"
+							"evidence": "iE1NvUVR5asbospXZAFOdnEkSYfLN5J714lFdkhQzibtXHlZUCcvxMySbWsrAsM4"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/robots.txt/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "ceZtvZozhBVbBRoo2qUrTYNk6cfLZDJKNMayMmCDVahGuIz8n0kcjzZwvv7cvUs7"
+							"evidence": "iE1NvUVR5asbospXZAFOdnEkSYfLN5J714lFdkhQzibtXHlZUCcvxMySbWsrAsM4"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/sitemap.xml/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "qErM6QwwpojPGeSC4bFnHdhyvsg4JcPTxYE4sfoQh32rf8t8IPOHDNRAsCbgXX4a"
+							"evidence": "iE1NvUVR5asbospXZAFOdnEkSYfLN5J714lFdkhQzibtXHlZUCcvxMySbWsrAsM4"
 						},
 						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/valoriser-achats/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "qErM6QwwpojPGeSC4bFnHdhyvsg4JcPTxYE4sfoQh32rf8t8IPOHDNRAsCbgXX4a"
+							"evidence": "iE1NvUVR5asbospXZAFOdnEkSYfLN5J714lFdkhQzibtXHlZUCcvxMySbWsrAsM4"
 						}
 					],
 					"count": "12",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\\x0011\uFFFD\uFFFD\uFFFD\uFFFD76T\\x0002\\x001e,-x\uFFFD\uFFFD\uFFFDa\uFFFDrJs\uFFFD\uFFFD2'\uFFFD6\\x001b\uFFFD8\uFFFD\uFFFD-\uFFFDff\uFFFD^\uFFFD\uFFFD\uFFFD\uFFFD\\x0007Tl\uFFFD</p>",
+					"otherinfo": "<p>\\x0011T\uFFFD\uFFFD\t\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD72\uFFFDF\\x001e\uFFFDR\uFFFD\uFFFDt\uFFFD\uFFFD\\x001e\\x000b\uFFFD\uFFFDZ\t<r\uFFFD&9:\uFFFD\uFFFD\uFFFD\\x000c\uFFFD\\x000b[\uFFFD\uFFFDQU\uFFFD$</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -1013,7 +1076,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "982"
+					"sourceid": "1056"
 				},
 				{
 					"pluginid": "10027",
@@ -1422,20 +1485,6 @@
 					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
 					"instances":[ 
 						{
-							"uri": "https://lemarche.inclusion.beta.gouv.fr/accounts/login/",
-							"method": "POST",
-							"param": "password",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://lemarche.inclusion.beta.gouv.fr/accounts/login/",
-							"method": "POST",
-							"param": "username",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://lemarche.inclusion.beta.gouv.fr/accounts/signup/",
 							"method": "POST",
 							"param": "company_name",
@@ -1506,13 +1555,13 @@
 							"evidence": ""
 						}
 					],
-					"count": "12",
+					"count": "10",
 					"solution": "<p>Validate all input and sanitize output it before writing to any HTML attributes.</p>",
-					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>https://lemarche.inclusion.beta.gouv.fr/accounts/login/</p><p></p><p>appears to include user input in: </p><p></p><p>a(n) [input] tag [value] attribute </p><p></p><p>The user input found was:</p><p>password=ZAP</p><p></p><p>The user-controlled value was:</p><p>zap</p>",
+					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>https://lemarche.inclusion.beta.gouv.fr/accounts/signup/</p><p></p><p>appears to include user input in: </p><p></p><p>a(n) [input] tag [value] attribute </p><p></p><p>The user input found was:</p><p>company_name=ZAP</p><p></p><p>The user-controlled value was:</p><p>zap</p>",
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "254"
+					"sourceid": "255"
 				}
 			]
 		}
