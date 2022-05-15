@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 12:40:15",
+	"@generated": "Sun, 15 May 2022 01:57:18",
 	"site":[ 
 		{
 			"@name": "https://annuaire-entreprises.data.gouv.fr",
@@ -1310,33 +1310,33 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "dB-SKbU9m0shQ9QLu-G5ulQUwuItp8qI-o3eE13EWuBEpjlkspRGf8dKNNrXWVac3zrtEW-QfVd3ai2ePKodko5M4sF9lBYR5nwC3Y3BTcTt6nR1jP3Gr2OLRGo1fJO6T5-O5vJRZCvTbqrs340-U3I3DuOkjIC1FT03sYcNxh_PzE4ejsq7Rs0S0vWv9chK"
+							"evidence": "dB-SKbU9m0shQ9QLu-G5uibf3ZWsPlch_-eAnPU6xOB-93p_2VRIk30vsTLGFCsXcWQkp5yGGjM-yVNTuNUIYUN-bfQQcFH3kQIeMIYMuLOhK3YjCoyAsNw7e3UIB3NeDf3pSll43IzPzAd8RDWGPCaYQZc6bhmIkbjCnNF0d-gajpVr_L0lIC8SuDcPeioY"
 						},
 						{
 							"uri": "https://annuaire-entreprises.data.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "dB-SKbU9m0shQ9QLu-G5utBwT5qCuFXbHFNY1i-vK_x3Rl7oRPNHkm-OjZWITc0M0JaBxDfA1GZsm0arwH5H3Hxpbydb6qsqlrL2L9KFJKCHcovziXoRTBmHl6MrdMR0wqV2ffTc1Xcsd1M-6-sJaNrqPQbiyxyj_WrLNmxaLeUEkYIMHHJzTdKv51NrjieP"
+							"evidence": "dB-SKbU9m0shQ9QLu-G5uqxfmhqGiDKwFr6vJ1cBi0SlqIgscAOyKVSZEmc1DqIWtCGGabIS9md01OPWPY0ked7WlyOau56Sn5P2hCF0SMgSKgYnxgakv7dIKhl-ZH9oEbQ4_AFzsND9DDEi7si5k99uApQXJbMlNCm4_wPbvoVPlMQCGGPgZnvenvK4EndH"
 						},
 						{
 							"uri": "https://annuaire-entreprises.data.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "dB-SKbU9m0shQ9QLu-G5ulQUwuItp8qI-o3eE13EWuBEpjlkspRGf8dKNNrXWVac3zrtEW-QfVd3ai2ePKodko5M4sF9lBYR5nwC3Y3BTcTt6nR1jP3Gr2OLRGo1fJO6T5-O5vJRZCvTbqrs340-U3I3DuOkjIC1FT03sYcNxh_PzE4ejsq7Rs0S0vWv9chK"
+							"evidence": "dB-SKbU9m0shQ9QLu-G5uibf3ZWsPlch_-eAnPU6xOB-93p_2VRIk30vsTLGFCsXcWQkp5yGGjM-yVNTuNUIYUN-bfQQcFH3kQIeMIYMuLOhK3YjCoyAsNw7e3UIB3NeDf3pSll43IzPzAd8RDWGPCaYQZc6bhmIkbjCnNF0d-gajpVr_L0lIC8SuDcPeioY"
 						},
 						{
 							"uri": "https://annuaire-entreprises.data.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "dB-SKbU9m0shQ9QLu-G5uiEOS7dvdnDBmz3Lyt3M7-OZjtHkJgmE5rPqFQKTJFlul5AnChtSpnC0NJENaL2XxuldPMC7wu8Xud49Wi_vQOHnPB1_T-iUT4Mkq7goUFnOGyzKxWrbz0lcVRkuRWvW6mmrM1HngBJIZpWkD4xLyWxQP26Vz7667d3jbHM9p_sL"
+							"evidence": "dB-SKbU9m0shQ9QLu-G5uibf3ZWsPlch_-eAnPU6xOB-93p_2VRIk30vsTLGFCsXcWQkp5yGGjM-yVNTuNUIYUN-bfQQcFH3kQIeMIYMuLOhK3YjCoyAsNw7e3UIB3NeDf3pSll43IzPzAd8RDWGPCaYQZc6bhmIkbjCnNF0d-gajpVr_L0lIC8SuDcPeioY"
 						}
 					],
 					"count": "4",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>t\\x001f\uFFFD)\uFFFD=\uFFFDK!C\uFFFD\\x000b\uFFFD\u1E7AT\\x0014\uFFFD\uFFFD-\uFFFD\u0288\uFFFD\uFFFD\uFFFD\\x0013]\uFFFDZ\uFFFDD\uFFFD9d\uFFFD\uFFFDF\uFFFDJ4\uFFFD\uFFFDYV\uFFFD\uFFFD:\uFFFD\\x0011o\uFFFD}Wwj-\uFFFD<\uFFFD\\x001d\uFFFD\uFFFDL\uFFFD\uFFFD}\uFFFD\\x0016\\x0011\uFFFD|\\x0002\u074D\uFFFDM\uFFFD\uFFFD\uFFFDtu\uFFFD\uFFFD\u01AFc\uFFFDDj5|\uFFFD\uFFFDO\uFFFD\uFFFD\uFFFD\uFFFDQd+\uFFFDn\uFFFD\uFFFD\u07CD>Sr7\\x000e\u390C\uFFFD\uFFFD\\x0015=7\uFFFD\uFFFD\r\uFFFD\\x001f\uFFFD\uFFFDN\\x001e\uFFFD\u02BBF\uFFFD\\x0012\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDJ</p>",
+					"otherinfo": "<p>t\\x001f\uFFFD)\uFFFD=\uFFFDK!C\uFFFD\\x000b\uFFFD\u1E7A&\uFFFD\u0755\uFFFD>W!\uFFFD\u701C\uFFFD:\uFFFD\uFFFD~\uFFFDz\uFFFDTH\uFFFD}/\uFFFD2\uFFFD\\x0014+\\x0017qd$\uFFFD\uFFFD\uFFFD\\x001a3>\uFFFDSS\uFFFD\uFFFD\\x0008aC~m\uFFFD\\x0010pQ\uFFFD\uFFFD\\x0002\\x001e0\uFFFD\\x000c\uFFFD\uFFFD\uFFFD+v#</p><p>\uFFFD\uFFFD\uFFFD\uFFFD;{u\\x0008\\x0007s^\r\uFFFD\uFFFDJYx\u070C\uFFFD\uFFFD\\x0007|D5\uFFFD<&\uFFFDA\uFFFD:n\\x0019\uFFFD\uFFFD\uFFFD\u009C\uFFFDtw\uFFFD\\x001a\uFFFD\uFFFDk\uFFFD\uFFFD% /\\x0012\uFFFD7\\x000fz*\\x0018</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
