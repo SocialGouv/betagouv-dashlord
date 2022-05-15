@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 11 May 2022 13:30:40",
+	"@generated": "Sun, 15 May 2022 02:44:35",
 	"site":[ 
 		{
 			"@name": "https://audioconf.numerique.gouv.fr",
@@ -535,34 +535,20 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server - Unix</p>",
 					"instances":[ 
 						{
-							"uri": "https://audioconf.numerique.gouv.fr/static/css/custom.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "46597790"
-						},
-						{
 							"uri": "https://audioconf.numerique.gouv.fr/static/gouvfr/css/dsfr.min.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "23000091"
-						},
-						{
-							"uri": "https://audioconf.numerique.gouv.fr/static/images/favicon/favicon-32x32.png",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "93168247"
 						}
 					],
-					"count": "3",
+					"count": "1",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
-					"otherinfo": "<p>46597790, which evaluates to: 1971-06-24 07:49:50</p>",
+					"otherinfo": "<p>23000091, which evaluates to: 1970-09-24 04:54:51</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "29"
+					"sourceid": "32"
 				},
 				{
 					"pluginid": "10021",
@@ -675,14 +661,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "315c-yWgEM7m4LE3pdUOAmq/eaH4On2c"
+							"evidence": "3156-2sYb4t7s2TIKqH6O9VPEmG8BlqY"
 						},
 						{
 							"uri": "https://audioconf.numerique.gouv.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "315c-yWgEM7m4LE3pdUOAmq/eaH4On2c"
+							"evidence": "3156-2sYb4t7s2TIKqH6O9VPEmG8BlqY"
 						},
 						{
 							"uri": "https://audioconf.numerique.gouv.fr/contact",
@@ -710,47 +696,47 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "3AmkLyJW6I10tfg-5Srrx1dTPyRX7HaFvC"
+							"evidence": "3AZaefXK7pw_-Cj0OsWKW4CBXfFv8QxoXJ"
 						},
 						{
 							"uri": "https://audioconf.numerique.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "UmIrpvdUmhVowwHA+IEG2tqIgualytzo5xrbyO00nZ5Dl0pkLNOq8rcm7CqIJeUSj6I4mpCqxs2XNsAk2bEIEA=="
+							"evidence": "BNK8qrJB73BKuUjqkTgD1CC6xDAEGfXlr4WyIx78EwIY9u/q99eTJ7UTrAPdnm2AbsvORVGkYhR6XPm3x0NZUw=="
 						},
 						{
 							"uri": "https://audioconf.numerique.gouv.fr/static/css/custom.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "UmIrpvdUmhVowwHA+IEG2tqIgualytzo5xrbyO00nZ5Dl0pkLNOq8rcm7CqIJeUSj6I4mpCqxs2XNsAk2bEIEA=="
+							"evidence": "BNK8qrJB73BKuUjqkTgD1CC6xDAEGfXlr4WyIx78EwIY9u/q99eTJ7UTrAPdnm2AbsvORVGkYhR6XPm3x0NZUw=="
 						},
 						{
 							"uri": "https://audioconf.numerique.gouv.fr/static/gouvfr/css/dsfr.min.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "UmIrpvdUmhVowwHA+IEG2tqIgualytzo5xrbyO00nZ5Dl0pkLNOq8rcm7CqIJeUSj6I4mpCqxs2XNsAk2bEIEA=="
+							"evidence": "BNK8qrJB73BKuUjqkTgD1CC6xDAEGfXlr4WyIx78EwIY9u/q99eTJ7UTrAPdnm2AbsvORVGkYhR6XPm3x0NZUw=="
 						},
 						{
 							"uri": "https://audioconf.numerique.gouv.fr/static/remixicon/remixicon.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "UmIrpvdUmhVowwHA+IEG2tqIgualytzo5xrbyO00nZ5Dl0pkLNOq8rcm7CqIJeUSj6I4mpCqxs2XNsAk2bEIEA=="
+							"evidence": "BNK8qrJB73BKuUjqkTgD1CC6xDAEGfXlr4WyIx78EwIY9u/q99eTJ7UTrAPdnm2AbsvORVGkYhR6XPm3x0NZUw=="
 						},
 						{
 							"uri": "https://audioconf.numerique.gouv.fr/stats",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "d0ef-xXcl4eep9Zn9UiIQki7AhpnhbLs"
+							"evidence": "ca98-p/dZ9LHSltVz2LlvTZbk5XjD8fA"
 						}
 					],
 					"count": "11",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD^\\\uFFFD%\uFFFD\\x0010\uFFFD\uFFFD\uFFFD7\uFFFD\uFFFD\\x000e\\x0002j\uFFFDy\uFFFD\uFFFD:}\uFFFD</p>",
+					"otherinfo": "<p>\uFFFD^z\uFFFDk\\x0018o\uFFFD{\uFFFDd\uFFFD*\uFFFD\uFFFD;\uFFFDO\\x0012a\uFFFD\\x0006Z\uFFFD</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
